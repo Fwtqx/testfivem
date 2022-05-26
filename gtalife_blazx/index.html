@@ -1,0 +1,77 @@
+<!doctype html>
+	
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>GTALife-Blazx</title>
+		<link href="https://vjs.zencdn.net/7.6.0/video-js.css" rel="stylesheet">
+		<style type="text/css">
+			html, body, div {
+				height: 100%;
+				text-align: center;
+				overflow: hidden;
+				margin: 0;
+				padding:0;
+			}
+			#videoContainer {
+                display: none;
+				width: 100vw;
+				height: 100vh;
+			}
+			.video-js.vjs-paused .vjs-poster {
+				display: block !important;
+			}
+			.video-js.vjs-ended .vjs-poster {
+				display: inline-block;
+			}
+		</style>
+	</head>
+
+	<body>
+		<video id="videoContainer" class='video-js vjs-fluid' preload='none' data-setup='{"techOrder": ["html5", "youtube" ]}'>
+		</video>
+		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/7.6.0/video.js" integrity="sha256-7lzgCgLtTkrv/wfhKOA51KlXkKCZfysuQHF5Vh711Ew=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-youtube/2.6.0/Youtube.min.js" integrity="sha256-YJbYbf82My5W9mjSfNyUOnnhafQPNI/3b0wt3rFL/es=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+		
+		<script>
+			const player = videojs("videoContainer");
+			let audioObject
+
+			function clearVideo() {
+				player.currentTime(0);
+				player.controlBar.hide();
+				$("#videoContainer").fadeOut(400);
+				
+				if (audioObject) {
+					audioObject.pause();
+				}
+			}
+
+			player.on('ended', function () {
+				clearVideo()
+			});
+
+			$(window).on('message', function($event) {
+				const eventData = event.data;
+				if (event.data.showVideo) {
+					$("#videoContainer").fadeIn(400);
+
+					player.src({type: "video/youtube", src: "https://www.youtube.com/watch?v=Zpc1t0BUmGk" })
+					player.requestFullscreen();
+					player.play();
+
+					audioObject = new Audio("son.ogg");
+					audioObject.volume = 0.5;
+
+					setTimeout(() => {
+						audioObject.play();
+					}, 3000)
+                } else if (event.data.stopVideo) {
+					clearVideo()
+                }
+			});
+		</script>
+	</body>
+</html>

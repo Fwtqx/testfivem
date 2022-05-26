@@ -1,0 +1,445 @@
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+    <link href="https://vjs.zencdn.net/7.6.0/video-js.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="background">
+      <div id="log" class="log">Erreur</div>
+      <div id="debug" class="log log-top-right"></div>
+      <div class="video-container">
+        <video
+          id="videoContainer"
+          class="video-js vjs-fluid"
+          preload="none"
+          data-setup='{"techOrder": ["html5", "youtube" ]}'
+        />
+      </div>
+      <div class="loading-container">
+          <div class ="loading-labels">
+              <div id="INIT_BEFORE_MAP_LOADED-label" class="color-first">Pré-chargement</div>
+              <div id="MAP-label" class="color-second">Map</div>
+              <div id="INIT_AFTER_MAP_LOADED-label" class="color-third">Initialisation</div>
+              <div id="INIT_SESSION-label" class="color-fourth">Session</div>
+          </div>
+          <div class="loading-bar-container">
+              <div id="INIT_BEFORE_MAP_LOADED-bar" class="loading-bar bgcolor-first"></div>
+              <div id="MAP-bar" class="loading-bar bgcolor-second"></div>
+              <div id="INIT_AFTER_MAP_LOADED-bar" class="loading-bar bgcolor-third"></div>
+              <div id="INIT_SESSION-bar" class="loading-bar bgcolor-fourth"></div>
+		  </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/video.js/7.6.0/video.js"
+      integrity="sha256-7lzgCgLtTkrv/wfhKOA51KlXkKCZfysuQHF5Vh711Ew="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/videojs-youtube/2.6.0/Youtube.min.js"
+      integrity="sha256-YJbYbf82My5W9mjSfNyUOnnhafQPNI/3b0wt3rFL/es="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+
+    <script type="text/javascript">
+      if (!String.format) {
+        String.format = function (format) {
+          var args = Array.prototype.slice.call(arguments, 1);
+          return format.replace(/{(\d+)}/g, function (match, number) {
+            return typeof args[number] != "undefined" ? args[number] : match;
+          });
+        };
+      }
+
+      function add(a, b) {
+        return a + b;
+      }
+
+      const youtubeSongs = [
+        "https://www.youtube.com/watch?v=GoU1CiTHhvc",
+        "https://www.youtube.com/watch?v=ReBR0x0c_qo",
+        "https://www.youtube.com/watch?v=0DPJHD-Ky0s",
+        "https://www.youtube.com/watch?v=fqd3w2MVOH4",
+        "https://www.youtube.com/watch?v=A6fJL9KVHaA",
+        "https://www.youtube.com/watch?v=acE_CMKfWFY",
+        "https://www.youtube.com/watch?v=_FN4PVxBz-M",
+        "https://www.youtube.com/watch?v=19MEsRmSZdI",
+        "https://www.youtube.com/watch?v=O3hP5vueJG8",
+        "https://www.youtube.com/watch?v=2MsLTWGNY58",
+        "https://www.youtube.com/watch?v=bgubSQNHQi4",
+        "https://www.youtube.com/watch?v=oRKE1W1qG6Y&feature=youtu.be&t=15",
+        "https://www.youtube.com/watch?v=JmZGCxPSNbQ",
+        "https://www.youtube.com/watch?v=UY1rdMUnziA",
+        // "https://www.youtube.com/watch?v=bviRd_VGWLY",
+        "https://www.youtube.com/watch?v=NNuddmzaGy8&feature=youtu.be&t=20",
+        "https://www.youtube.com/watch?v=Lntev2y2T-s",
+        "https://www.youtube.com/watch?v=IrUCrMpTCOw",
+        "https://www.youtube.com/watch?v=34GG2at8XIM",
+        "https://www.youtube.com/watch?v=-Cz1u7fsjcw",
+        "https://www.youtube.com/watch?v=C6XWO03DlcY",
+        "https://www.youtube.com/watch?v=JoRQgcKawjk",
+        "https://www.youtube.com/watch?v=15C2jP0lKBY",
+        "https://www.youtube.com/watch?v=R4AHRRFa1kg",
+        "https://www.youtube.com/watch?v=xXz7kkAb7YY",
+        "https://www.youtube.com/watch?v=KZNRDE9YwG0",
+        "https://www.youtube.com/watch?v=RXMza7PplAw",
+        "https://www.youtube.com/watch?v=yQSrh1FsYkE",
+        "https://www.youtube.com/watch?v=tpeEbIBDoQ8",
+        "https://www.youtube.com/watch?v=LaofABYI-Eo",
+        "https://www.youtube.com/watch?v=CFGRRdYNoJg",
+        "https://www.youtube.com/watch?v=IgYFoEaI1j0",
+        "https://www.youtube.com/watch?v=GewKi66nwfI",
+        "https://www.youtube.com/watch?v=Mk0OO35kIgU",
+        "https://www.youtube.com/watch?v=RVOFVMnRxYY",
+        "https://www.youtube.com/watch?v=6BFenP2JLqA",
+        "https://www.youtube.com/watch?v=-52FAN3WsmY",
+        "https://www.youtube.com/watch?v=02lm8K_BxgY",
+        "https://www.youtube.com/watch?v=VL_KhNYpRSc",
+        "https://www.youtube.com/watch?v=dKKQSVHHmTg",
+        "https://www.youtube.com/watch?v=pHH94YAZxiU",
+        "https://www.youtube.com/watch?v=ThnePwi8wDg",
+        "https://www.youtube.com/watch?v=qC_V28TrxqY",
+        "https://www.youtube.com/watch?v=RltrQn2Scw4",
+        "https://www.youtube.com/watch?v=5C4vKcf6YUg",
+        "https://www.youtube.com/watch?v=e46tJFedxOE",
+        "https://www.youtube.com/watch?v=guoFg3nndsQ",
+        "https://www.youtube.com/watch?v=Ro55EQUhnj8",
+        "https://www.youtube.com/watch?v=__UVh9DPI7Y",
+        // "https://www.youtube.com/watch?v=WPpkiXBK8Fs",
+        "https://www.youtube.com/watch?v=P6Tykody8iw",
+        "https://www.youtube.com/watch?v=y8epSGnj8xg",
+        "https://www.youtube.com/watch?v=2SkjaCYqrVg",
+        "https://www.youtube.com/watch?v=yZ1masMZTD4",
+        "https://www.youtube.com/watch?v=XnDhR3k_yz4",
+        "https://www.youtube.com/watch?v=jFxfhB0vp18",
+        "https://www.youtube.com/watch?v=LWV--0dYfYI",
+        "https://www.youtube.com/watch?v=tY0a9VFgWTg",
+        "https://www.youtube.com/watch?v=r98TT4neIr4",
+        "https://www.youtube.com/watch?v=PWV5acd8yXs",
+        "https://www.youtube.com/watch?v=Y0Hjdr-hVC8",
+        "https://www.youtube.com/watch?v=JH8bI4LSgco",
+        "https://www.youtube.com/watch?v=giY2XZcAfkM",
+        "https://www.youtube.com/watch?v=KyFwGrXjZ9w",
+        "https://www.youtube.com/watch?v=u0s7HLRHGwk",
+        "https://www.youtube.com/watch?v=d-qLo5Uh4hs",
+        "https://www.youtube.com/watch?v=K17gVCdLNxo",
+        "https://www.youtube.com/watch?v=ZkT7kt6hYpQ",
+	"https://www.youtube.com/watch?v=dbzjLSRuE0s",
+	"https://www.youtube.com/watch?v=PKtGIU4qLoY",
+	"https://www.youtube.com/watch?v=OqPLaBShhDo",
+	"https://www.youtube.com/watch?v=fFaA324T1RI"
+      ];
+
+      const backgroundsList = [
+        "bg/1.png",
+        "bg/2.png",
+        "bg/3.png",
+        "bg/4.png",
+        "bg/5.png",
+        "bg/6.png",
+        "bg/7.png",
+        "bg/8.png",
+        "bg/9.png",
+      ];
+
+      const loadingStages = [
+        "Pré-chargement",
+        "Map",
+        "Initialisation",
+        "Session",
+      ];
+
+      const technicalNames = [
+        "INIT_BEFORE_MAP_LOADED",
+        "MAP",
+        "INIT_AFTER_MAP_LOADED",
+        "INIT_SESSION",
+      ];
+
+      const steamHex = localStorage.getItem("steam");
+      const musicID = localStorage.getItem("musicID") || 0;
+      var currentLoadingStage = 0;
+      var loadingWeights = [1.5 / 10, 4 / 10, 1.5 / 10, 3 / 10];
+      // These are hardcoded but can be changed easily
+      // If # changes it's not the biggest deal; most important is which of the bars you are on (and that is unaffected by these numbers)
+      // Make #debug window visible and you can quickly see #s of each
+      // Just make sure you do it after restarting your FiveM client as client caches a lot in memory after first join
+      var loadingTotals = [70, 70, 70, 300];
+      var registeredTotals = [0, 0, 0, 0];
+      var stageVisible = [false, false, false, false];
+
+      var currentProgress = [0.0, 0.0, 0.0, 0.0];
+      var currentProgressSum = 0.0;
+      var currentLoadingCount = 0;
+
+      function doProgress(stage) {
+        var idx = technicalNames.indexOf(stage);
+        if (idx >= 0) {
+          registeredTotals[idx]++;
+          if (idx > currentLoadingStage) {
+            while (currentLoadingStage < idx) {
+              currentProgress[currentLoadingStage] = 1.0;
+              currentLoadingStage++;
+            }
+            currentLoadingCount = 1;
+          } else currentLoadingCount++;
+          currentProgress[currentLoadingStage] = Math.min(
+            currentLoadingCount / loadingTotals[idx],
+            1.0
+          );
+          updateProgress();
+        }
+      }
+
+      const totalWidth = 99.1;
+      var progressMaxLengths = [];
+
+      var i = 0;
+      while (i < currentProgress.length) {
+        progressMaxLengths[i] = loadingWeights[i] * totalWidth;
+        i++;
+      }
+
+      function updateProgress()
+      {
+          document.querySelector('#debug').innerHTML = '';
+        var i = 0;
+        while(i <= currentLoadingStage)
+        {
+          if((currentProgress[i] > 0 || !currentProgress[i-1]) && !stageVisible[i])
+          {
+            document.querySelector("#" + technicalNames[i]+"-label").style.display = 'inline-block';
+
+            document.querySelector("#" + technicalNames[i]+"-bar").style.display = 'inline-block';
+            stageVisible[i] = true;
+          }
+              document.querySelector("#" + technicalNames[i]+"-bar").style.width = currentProgress[i]*progressMaxLengths[i] + '%';
+              document.querySelector("#" + technicalNames[i]+"-label").style.width = progressMaxLengths[i] + '%';
+          document.querySelector('#debug').innerHTML += String.format('{0}: {1}<br />', technicalNames[i], currentProgress[i]);
+              i++;
+        }
+      }
+      updateProgress();
+
+      var currentBg = 9;
+      function InitLoadingScreen() {
+        window.setInterval(function () {
+          if (currentBg + 1 >= backgroundsList.length) currentBg = 0;
+          else currentBg = currentBg + 1;
+
+          $("#background").css({
+            "background-image": "url(" + backgroundsList[currentBg] + ")",
+          });
+        }, 4000);
+      }
+
+      const player = videojs("videoContainer", {});
+
+      InitLoadingScreen();
+
+      var count = 0;
+      const gstate = {
+        elems: [],
+        log: [],
+      };
+
+      function printLog(type, str) {
+        gstate.log.push({ type: type, str: str });
+      }
+
+      Array.prototype.last = function () {
+        return this[this.length - 1];
+      };
+
+      function getRandomInt(max) {
+        return Math.floor(Math.random() * Math.floor(max));
+      }
+
+      let audioInit = true;
+      const handlers = {
+        startInitFunction(data) {
+          gstate.elems.push({
+            name: data.type,
+            orders: [],
+          });
+
+          printLog(1, String.format("Running {0} init functions", data.type));
+          if (data.type) doProgress(data.type);
+        },
+        startInitFunctionOrder(data) {
+          if (audioInit && musicID != 1) {
+            const youtubeLink = youtubeSongs[getRandomInt(youtubeSongs.length)];
+            console.log(youtubeLink);
+            if (youtubeLink) {
+              player.src({ type: "video/youtube", src: youtubeLink });
+              player.requestFullscreen();
+              player.volume(0.35);
+              player.play();
+
+              audioInit = undefined;
+            }
+          }
+
+          count = data.count;
+          printLog(
+            1,
+            String.format(
+              "[{0}] Running functions of order {1} ({2} total)",
+              data.type,
+              data.order,
+              data.count
+            )
+          );
+          if (data.type) doProgress(data.type);
+        },
+
+        initFunctionInvoking(data) {
+          printLog(
+            3,
+            String.format(
+              "Invoking {0} {1} init ({2} of {3})",
+              data.name,
+              data.type,
+              data.idx,
+              count
+            )
+          );
+          if (data.type) doProgress(data.type);
+        },
+
+        initFunctionInvoked(data) {
+          if (data.type) doProgress(data.type);
+        },
+
+        endInitFunction(data) {
+          printLog(
+            1,
+            String.format("Done running {0} init functions", data.type)
+          );
+          if (data.type) doProgress(data.type);
+        },
+
+        startDataFileEntries(data) {
+          count = data.count;
+
+          printLog(1, "Loading map");
+          if (data.type) doProgress(data.type);
+        },
+
+        onDataFileEntry(data) {
+          printLog(3, String.format("Loading {0}", data.name));
+          doProgress(data.type);
+          if (data.type) doProgress(data.type);
+        },
+
+        endDataFileEntries() {
+          printLog(1, "Done loading map");
+        },
+
+        performMapLoadFunction(data) {
+          doProgress("MAP");
+        },
+
+        onLogLine(data) {
+          printLog(3, data.message);
+        },
+      };
+
+      setInterval(function () {
+        document.querySelector("#log").innerHTML = gstate.log
+          .slice(-10)
+          .map(function (e) {
+            return String.format("[{0}] {1}", e.type, e.str);
+          })
+          .join("<br />");
+      }, 100);
+
+      window.addEventListener("message", function (e) {
+        const data = e.data;
+        if (handlers[data.eventName]) handlers[data.eventName](data);
+      });
+
+      if (!window.invokeNative) {
+        var newType = function newType(name) {
+          return function () {
+            return handlers.startInitFunction({ type: name });
+          };
+        };
+        var newOrder = function newOrder(name, idx, count) {
+          return function () {
+            return handlers.startInitFunctionOrder({
+              type: name,
+              order: idx,
+              count: count,
+            });
+          };
+        };
+        var newInvoke = function newInvoke(name, func, i) {
+          return function () {
+            handlers.initFunctionInvoking({ type: name, name: func, idx: i });
+            handlers.initFunctionInvoked({ type: name });
+          };
+        };
+        var startEntries = function startEntries(count) {
+          return function () {
+            return handlers.startDataFileEntries({ count: count });
+          };
+        };
+        var addEntry = function addEntry() {
+          return function () {
+            return handlers.onDataFileEntry({ name: "meow", isNew: true });
+          };
+        };
+        var stopEntries = function stopEntries() {
+          return function () {
+            return handlers.endDataFileEntries({});
+          };
+        };
+
+        var newTypeWithOrder = function newTypeWithOrder(name, count) {
+          return function () {
+            newType(name)();
+            newOrder(name, 1, count)();
+          };
+        };
+
+        const demoFuncs = [
+          newTypeWithOrder("MAP", 5),
+          newInvoke("MAP", "meow1", 1),
+          newInvoke("MAP", "meow2", 2),
+          newInvoke("MAP", "meow3", 3),
+          newInvoke("MAP", "meow4", 4),
+          newInvoke("MAP", "meow5", 5),
+          newOrder("MAP", 2, 2),
+          newInvoke("MAP", "meow1", 1),
+          newInvoke("MAP", "meow2", 2),
+          startEntries(6),
+          addEntry(),
+          addEntry(),
+          addEntry(),
+          addEntry(),
+          addEntry(),
+          addEntry(),
+          stopEntries(),
+          newTypeWithOrder("INIT_SESSION", 4),
+          newInvoke("INIT_SESSION", "meow1", 1),
+          newInvoke("INIT_SESSION", "meow2", 2),
+          newInvoke("INIT_SESSION", "meow3", 3),
+          newInvoke("INIT_SESSION", "meow4", 4),
+        ];
+
+        setInterval(function () {
+          demoFuncs.length && demoFuncs.shift()();
+        }, 350);
+      }
+    </script>
+  </body>
+</html>

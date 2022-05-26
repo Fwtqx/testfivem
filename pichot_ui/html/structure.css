@@ -1,0 +1,877 @@
+
+body {
+	overflow: hidden;
+}
+
+.focus {
+	position: fixed;
+	background-color: rgba(0, 0, 0, .8);
+	width: 100%;
+	height: 100%;
+	display: none;
+	overflow: hidden;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.internet-container {
+	align-items: center;
+	display: none;
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	min-width: 20em;
+	min-height: 40em;
+	width: 80%;
+	height: 85%;
+
+	margin: auto;
+}
+
+.web-header {
+	overflow:hidden;
+	background-color: #f4f5f6;
+	width: 100%;
+	height: 42;
+	display: flex;
+	align-items: center;
+}
+
+.web-container {
+	background-color: #f4f5f6;
+	border-style: solid;
+	border-color: #e6e7e8;
+	border-width: 1px;
+	border-radius: 0px;
+}
+
+/* lets margin for potential border */
+.web-site {
+	height: 94.5%;
+}
+
+.input-search {
+	position: relative;
+	margin: 0 3px;
+	width: 100%;
+	height: 24px;
+	border-style: solid;
+	border-color: #e6e7e8;
+	border-width: 1px;
+	border-radius: 4px;
+	font-family: "Roboto", sans-serif;
+	padding-left: 10px;
+	color: rgba(90, 90, 90, .8);
+}
+
+button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+.browser-button {
+	background-position: center;
+	background-size: cover;
+	width: 16px;
+	height: 16px;
+	margin: 0 8px;
+}
+
+.browser-button:hover {
+	opacity: .5;
+	border-width: 0;
+	outline: none;
+}
+
+.browser-button:active {
+	border-width: 0;
+	outline: none;
+}
+
+.settings-button {
+	background-image : url("img/close.png");
+}
+
+.settings-button:hover {
+	opacity: .5;
+	border-width: 0;
+	outline: none;
+}
+
+.back-button {
+	background-image : url("img/arrowback.png");
+}
+
+.next-button {
+	background-image : url("img/arrownext.png");
+}
+
+.refresh-button {
+	background-image : url("img/refresh.png");
+}
+
+.lifeinvader {
+	display: none;
+	width: 100%;
+	height: 100%;
+}
+
+.gouv-web {
+	display: none;
+	overflow:hidden;
+	background-image : url("img/wallpaper_gov.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+}
+
+.gouv-center-container {
+	width: 50%;
+	height: 100%;
+	display: inline-block;
+}
+
+.gouv-logo {
+	display: inline-block;
+	background-image : url("img/taxes.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 300px;
+	height: 300px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.gouv-center-menu {
+	display: inline-block;
+	background-color: white;
+	background-image : url("img/spinner.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 80%;
+	height: 47%;
+	border-radius: 0;
+    border: 1px solid #D0D0D0;
+}
+
+.gouv-button-container {
+	background-color: white;
+	display: inline-block;
+	padding-top: 14px;
+	width: 100%;
+	height: auto;
+}
+
+.gouv-button {
+	-moz-box-shadow:inset 0 1px 0 0 #54a3f7;
+	-webkit-box-shadow:inset 0 1px 0 0 #54a3f7;
+	box-shadow:inset 0 1px 0 0 #54a3f7;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #007dc1), color-stop(1, #0061a7));
+	background:-moz-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+	background:-webkit-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+	background:-o-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+	background:-ms-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#007dc1', endColorstr='#0061a7',GradientType=0);
+	background-color:#007dc1;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	border:1px solid #124d77;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: Arial, sans-serif;
+	font-size:16px;
+	width: 94%;
+	height: 16%;
+	text-decoration:none;
+	text-shadow:0 1px 0 #154682;
+	margin: 5px;
+}
+.gouv-button:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0061a7), color-stop(1, #007dc1));
+	background:-moz-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+	background:-webkit-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+	background:-o-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+	background:-ms-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+	background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0061a7', endColorstr='#007dc1',GradientType=0);
+	background-color:#0061a7;
+}
+.gouv-button:active {
+	position:relative;
+	top:1px;
+}
+
+.label-gouv{
+	font-family: Helvetica, sans-serif;
+	display: block;
+	text-align: left;
+	padding-left: 35px;
+}
+
+.input-gouv, select, textarea {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+	resize: vertical;
+	height: 40px;
+}
+
+.baseCard {
+	position: absolute;
+	color: white;
+	right: 40;
+	bottom: 100;
+	width: 420px;
+	height: 250px;
+	font-family: 'Circula Medium', sans-serif;
+}
+
+.idPhoto {
+	position: absolute;
+	width: 118px;
+	height: 142px;
+	top: 63px;
+	left: 9px;
+	background-image: url("id/photo.png");
+	background-repeat: no-repeat;
+	background-size: 118px 142px;
+}
+
+.idInfo {
+	position: absolute;
+	height: 100px;
+	left: 140px;
+	top: 76px;
+	color: black;
+	float: left;
+}
+
+.idInfo p {
+	margin-bottom: -5px;
+}
+
+.idDate {
+	position: absolute;
+	color: white;
+	top: 232px;
+	left: 175px;
+	font-size: 15px;
+	text-align: left;
+}
+
+.idNumber {
+	position: absolute;
+	text-align: right;
+	top: 235px;
+	right: 10px;
+	font-size: 10px;
+	color: rgb(220, 220, 220);
+}
+
+.permisCell {
+	position: absolute;
+	margin: 0; padding: 0;
+	left: 190px;
+	top: 69px;
+	color: black;
+	width: 300px;
+	overflow:hidden;
+}
+.permisCell li {
+	line-height:1.8em;
+	width: 150px;
+	display:inline-block;
+	float:left;
+}
+
+.permisName {
+	position: absolute;
+	color: white;
+	top: 207px;
+	font-size: 15px;
+	width: 33%;
+	text-align: center;
+}
+
+.cardNumber {
+	position: absolute;
+	top: 142px;
+	font-size: 22px;
+	width: 90%;
+	padding-left: 15px;
+	text-align: center;
+}
+
+.ownerCard {
+	position: absolute;
+	top: 195px;
+	left: 15px;
+	font-size: 24px;
+}
+
+.cardDate {
+	position: absolute;
+	bottom: 59;
+	right: 45;
+	font-size: 16px;
+}
+
+.radioUI {
+	position: absolute;
+	min-width: 250px;
+	min-height: 665px;
+	background-image: url("radio/radio.png");
+	background-size: cover;
+	font-family: 'DS-Digital', sans-serif;
+	right: 40;
+	top: 50;
+	user-select: none;
+}
+
+.radioState {
+	position: absolute;
+	color: white;
+	top: 345px;
+	left: 50px;
+	font-size: 42px;
+	min-width: 150px;
+	text-align: center;
+}
+
+.radioPanel {
+	position: relative;
+	display: block;
+	top: 340px;
+	left: 108px;
+	width: 34px;
+	z-index: 1;
+}
+
+.buttonRadio {
+	display: inline-block;
+	opacity: .0;
+	width: 34px;
+	height: 28px;
+}
+
+.radioSmallPanel {
+	position: relative;
+	display: block;
+	top: 290px;
+	left: 78px;
+	width: 200px;
+	height: 26px;
+}
+
+.buttonSmallRadio {
+	display: inline-block;
+	opacity: .0;
+	width: 20px;
+	height: 20px;
+	margin-right: 50px;
+}
+
+.radioScreen {
+	position: relative;
+	display: block;
+	width: 130px;
+	height: 70px;
+	top: 320px;
+	left: 60px;
+}
+
+.radioRec {
+	display: none;
+	width: 10px;
+	height: 10px;
+}
+
+
+@font-face{
+	font-family: 'Circula Medium';
+	src: url(id/circula-medium.otf);
+}
+
+@font-face{
+	font-family: 'DS-Digital';
+	src: url(id/DS-DIGIB.ttf);
+}
+
+@font-face{
+	font-family: 'The Blacklist';
+	src: url(id/The-Blacklist.ttf);
+}
+
+@font-face{
+	font-family: 'advanced_dot_digital';
+	src: url('id/advanced_dot_digital-7.ttf');
+}
+
+.radioIndicator {
+	display: none;
+	position: absolute;
+	right: 20;
+	bottom: 7%;
+	background-image: url("radio/radio2.png");
+	background-size: cover;
+	width: 40px;
+	height: 40px;
+	opacity: .7;
+}
+
+/* darknet */
+.darknet {
+	display: none;
+	background-color: #151515;
+	color: white;
+	font-family: monospace;
+	width: 100%;
+	height: 100%;
+}
+
+.darknetNav {
+	height: 30px;
+	width: 100%;
+	background-color: white;
+	color: #151515;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.darknetNavUsername {
+	padding-top: 5px;
+	padding-right: 5px;
+}
+
+.darknetNavButtons, .darknetNavText {
+	padding-top: 5px;
+	padding-left: 5px;
+}
+
+.darknetNavButton {
+	transition-duration: 0.4s;
+	padding: 5px 5px 5px 5px;
+}
+
+.darknetNavButton:hover {
+	color: white;
+	background-color: #151515;
+	cursor: pointer;
+}
+
+.darknetBar {
+	position: absolute;
+	display: flex;
+	bottom: 0;
+	padding-bottom: 10px;
+    height: 20px;
+	width: 100%;
+}
+
+.darknetChat {
+	display: flex;
+	height: 90%;
+	background-color: #151515;
+	overflow: auto;
+	padding-left: 4px;
+	flex-direction: column-reverse;
+}
+
+.darknetChatEntry {
+	background-color: #151515;
+	width: 100%;
+	height: auto;
+	white-space: pre-wrap;
+	word-break: break-word;
+}
+
+.darknetChat::-webkit-scrollbar {
+	width: 10px;
+}
+
+.darknetChat::-webkit-scrollbar-track {
+	background: #151515;
+}
+
+.darknetChat::-webkit-scrollbar-thumb {
+	background: #888;
+}
+
+.darknetChat::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+
+.darknetInput, select, textarea {
+	display: inline-block;
+	border: 0;
+	background-color: #151515;
+	color: white;
+	width: inherit;
+	outline: none;
+	font-family: monospace;
+	margin-right: 2px;
+}
+
+.darknetImage {
+	display: flex;
+	max-height: 300px;
+}
+
+#dnet_spoiler {
+	display: inline;
+}
+
+.darknetUsername  {
+	display: inline-block;
+	width: auto;
+	background-color: #151515;
+	white-space: nowrap;
+	padding: 1px 4px;
+}
+.darknetWindows {
+	display: block;
+	height: 100%;
+	background-color: #151515;
+	overflow: hidden;
+}
+
+#darknetShop {
+	display: none;
+	height: 96%;
+	overflow: auto;
+}
+
+#darknetMarket {
+	position: relative;
+	margin: auto;
+	top: 55px;
+	width: 50%;
+	user-select: none;
+	font-family: 'advanced_dot_digital', sans-serif;
+	font-size: 60px;
+	text-align: center;
+	font-weight: 300;
+}
+
+#darknetItemPanel {
+	position: relative;
+	margin: auto;
+	background-color: white;
+	width: 95%;
+	height: 560px;
+	top: 100px;
+	user-select: none;
+	color: white;
+	border-collapse: collapse;
+}
+
+#darknetItemPanel td {
+	position: relative;
+	border: 2px white solid;
+	user-select: none;
+	background-image: url("img/shop_panel.png");
+	background-size: cover;
+	height: 187px;
+	margin: 0;
+	width: 33%;
+	padding: 5px;
+	vertical-align: top;
+	background-size: 100% 100%;
+}
+
+.darknetShopItemDesc {
+	font-size: 8pt;
+	color: grey;
+	width: 65%;
+	padding-left: 10px;
+	padding-top: 5px;
+	text-align: justify;
+}
+
+.darknetShopBtn {
+	background-color: black;
+	font-size: 8pt;
+	position: absolute;
+	color: green;
+	padding: 5px;
+	bottom: 10px;
+	left: 10px;
+	cursor: pointer;
+	z-index: 10;
+}
+
+.darknetShopBtn:hover {
+	color: white;
+	background-color: #040404;
+}
+
+/*#darknetLogin {
+  margin: 250px auto;
+  font-size: 20px;
+  width: 290px;
+  text-align: center;
+}
+
+#darknetLogin form {
+  margin: auto;
+  padding: 22px 22px 22px 22px;
+  width: 100%;
+  border-radius: 5px;
+  background: #282e33;
+  border-top: 3px solid #434a52;
+  border-bottom: 3px solid #434a52;
+}
+
+#darknetLogin form span {
+  background-color: #363b41;
+  border-radius: 3px 0px 0px 3px;
+  border-right: 3px solid #434a52;
+  color: #606468;
+  display: block;
+  float: left;
+  line-height: 50px;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+}
+
+#darknetLogin form input[type="text"] {
+  background-color: #3b4148;
+  border-radius: 0px 3px 3px 0px;
+  color: #a9a9a9;
+  margin-bottom: 1em;
+  padding: 0 16px;
+  width: 235px;
+  height: 50px;
+}
+
+#darknetLogin form input[type="password"] {
+  background-color: #3b4148;
+  border-radius: 0px 3px 3px 0px;
+  color: #a9a9a9;
+  margin-bottom: 1em;
+  padding: 0 16px;
+  width: 235px;
+  height: 50px;
+}
+
+#darknetLogin form input[type="submit"] {
+  background: #848484;
+  border: 0;
+  width: 100%;
+  height: 40px;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+#darknetLogin form input[type="submit"]:hover {
+  background: #424242;
+}*/
+
+/* input */
+.inputBox {
+	background-color: #E6E6E6;
+	border-radius: 4px;
+	border: 1px solid #BDBDBD;
+	width: 40em;
+	height: auto;
+}
+
+.inputBox-title {
+	color: black;
+	font-family: Roboto, sans-serif;
+	font-size: 30px;
+	font-weight: 300;
+	padding: 10px 0 0 10px;
+}
+
+.inputBox hr {
+	width: 96%;
+}
+
+.input-entryPanel {
+	display: flex;
+	justify-content: center;
+	background-color: white;
+}
+
+.input-entryPanel input {
+	width: 90%;
+	height: 30px;
+	padding-left: 4px;
+}
+
+.inputButtons {
+	width: 95%;
+	height: 40px;
+	padding-bottom: 10px;
+}
+
+.inputButtons button {
+	background-color: black;
+	margin-left: 10px;
+	height: 40px;
+	width: 45%;
+}
+
+/* Casino */
+.ticketContainer {
+	border: 2px solid black;
+	position: relative;
+	width: 256px;
+	height: 175px;
+	margin: 0 auto;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.canvas {
+	position: absolute;
+	top: 0;
+}
+
+.ticketResult {
+	background-image: url('https://cdn.pixabay.com/photo/2013/07/18/10/56/smiley-163510_960_720.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+	width: 256px;
+	height: 175px;
+}
+/* Event alert */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+#eventContainer {
+	display: none;
+    font-family: 'Montserrat', sans-serif;
+    float: right;
+    width: 400px;
+	border-radius: 5px;
+	background-color: whitesmoke;
+}
+
+#idUserParameters {
+    background-color: white;
+}
+
+#idDiscordNick {
+    font-weight: bold;
+    padding: 30px 0 0 20px;
+}
+
+#idDiscordTag, #idTimestamp {
+    color: grey;
+    padding: 0 0 0 20px;
+}
+
+#idLogoLifevent {
+    float: right;
+    width: 90px;
+    height: 90px;
+    padding: 10px 10px 0 0;
+}
+
+#idMessage {
+    padding: 20px 10px 20px 20px;
+	font-size: 13px;
+	white-space: pre-wrap;
+}
+
+#idAttachment {
+	display: none;
+    margin: 0 20px 20px 20px;
+	border-radius: 10px;
+	max-height: 400px;
+	max-width: 360px;
+}
+
+#eventImageContainer {
+	width: inherit;
+	text-align: center;
+}
+
+.note-container {
+	display: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+#note-content {
+    width: 500px;
+    height: 400px;
+    overflow: none;
+    color: #222222;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 23px 5px 34px 35px;
+    background-image: url("img/lines.png");
+    background-size: 495px 20px;
+    background-color: white;
+    background-repeat: repeat-y;
+    resize: none;
+    box-shadow: 0px 2px 14px #000000;
+    outline: 0;
+}
+
+.note-buttons {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    user-select: none;
+}
+
+.note-button {
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+    background:linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#e9e9e9',GradientType=0);
+    background-color:#f9f9f9;
+    border-radius:6px;
+    border:1px solid #dcdcdc;
+    display:inline-block;
+    cursor:pointer;
+    color:#666666;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+}
+.note-button:hover {
+    background:linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e9e9e9', endColorstr='#f9f9f9',GradientType=0);
+    background-color:#e9e9e9;
+    outline: none;
+}
+.note-button:active {
+    position:relative;
+    top:1px;
+}
+.note-button:focus {
+    outline: 0;
+}

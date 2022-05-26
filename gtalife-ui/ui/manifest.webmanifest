@@ -1,0 +1,23 @@
+
+{
+	"name": "GTALife-UI",
+	"short_name": "gtalife-ui",
+	"start_url": ".",
+	"display": "standalone",
+	"orientation": "portrait",
+	"background_color": "#2196f3",
+	"theme_color": "#2196f3",
+	"description": "ui for extinction",
+	"icons": [
+	  {
+		"src": "icons/",
+		"sizes": "192x192",
+		"type": "image/png"
+	  },
+	  {
+		"src": "icons/android-chrome-512x512.png",
+		"sizes": "512x512",
+		"type": "image/png"
+	  }
+	]
+  }

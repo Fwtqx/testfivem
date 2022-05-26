@@ -1,0 +1,168 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <title>GLife Voice</title>
+    <meta charset='UTF-8'>
+    <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+    <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no'>
+    <meta name='description' content='GLife | Voice Chat'>
+    <!-- UIkit CSS
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.20/dist/css/uikit.min.css" />
+
+    <!-- UIkit JS
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.20/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.20/dist/js/uikit-icons.min.js"></script> -->
+
+
+    <style>
+        .tokovoipInfo {
+            position: absolute;
+            padding: 5px;
+            font-family: Arial;
+            font-weight: bold;
+            color: white;
+        }
+        
+        .voiceIndicator {
+            display: none;
+            position: fixed;
+            bottom: 2%;
+            background-image: url("radio/2.png");
+            background-size: cover;
+            width: 40px;
+            height: 40px;
+            right: 1%;
+        }
+    </style>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" type="text/javascript"></script>
+    <script async src='/dist/voicechat.js?v=foo2'></script>
+
+    <script>
+        window.localStorage.setItem('debug', '* -engine* -socket* -RIE* *WARN* *ERROR*');
+        const format = (s, ...args) => {
+
+            let index = 0;
+
+            return s.replace(/%[cdeEufgosixX]/g, (match, literal, _key, xf) => {
+
+                let result = ''
+
+                switch (match) {
+                    case '%s':
+                    case '%f':
+                    case '%d':
+                    case '%i':
+                        {
+                            result = args[index];
+                            break;
+                        }
+
+                    default:
+                        {
+                            result = '';
+                            break;
+                        }
+                }
+
+                index++;
+                return result;
+            });
+        };
+
+        const oldConsole = {
+            log: console.log,
+            debug: console.debug,
+            info: console.info,
+            warn: console.warn,
+            error: console.error
+        }
+
+        const generateConsole = (name, _args) => {
+            const [str, ...args] = _args;
+            //return oldConsole[name](format(str, ...args), ...args);
+        };
+
+        // console.log = (...args) => {};//generateConsole('log', args);
+        // console.debug = (...args) => {};//generateConsole('debug', args);
+        // console.info = (...args) => {};//generateConsole('info', args);
+        // console.warn = (...args) => {};//generateConsole('warn', args);
+        // // console.error = (...args) => {};//generateConsole('error', args);
+
+        /*console.log = (...args) => {
+            generateConsole('log', args);
+        }; //generateConsole('log', args);*/
+        console.debug = (...args) => {
+            generateConsole('debug', args);
+        }; //generateConsole('debug', args);
+        console.info = (...args) => {
+            generateConsole('info', args);
+        }; //generateConsole('info', args);
+        console.warn = (...args) => {
+            generateConsole('warn', args);
+        }; //generateConsole('warn', args);
+        console.error = (...args) => {
+            generateConsole('error', args);
+        }; //generateConsole('error', args);
+    </script>
+</head>
+
+<body>
+    <div class="voiceIndicator"></div>
+
+    <div class="voice-settings uk-container" id="rtcSettingsPage" style="display: none">
+        <h1>Chat vocal</h1>
+        <hr />
+
+        <div class="single-option">
+            <div class="option left-option">
+                <span class="uk-title option-title" href="#">Haut-parleur</span>
+
+                <select class="uk-select" id="outputDevices">
+					<option>A</option>
+					<option>B</option>
+				</select>
+            </div>
+            <div class="option">
+                <span class="uk-title option-title" href="#">Microphone</span>
+
+                <select class="uk-select" id="inputDevices">
+					<option>A</option>
+					<option>B</option>
+				</select>
+            </div>
+        </div>
+
+        <div class="single-option option-checkbox">
+            <span class="uk-title option-title" href="#">Echo cancellation</span>
+            <div class="checkbox-container">
+                <input class="uk-checkbox checkbox" type="checkbox" id="echoCancellation">
+            </div>
+        </div>
+
+        <div class="single-option option-checkbox">
+            <span class="uk-title option-title" href="#">Noise suppression</span>
+            <div class="checkbox-container">
+                <input class="uk-checkbox checkbox" type="checkbox" id="noiseSuppression">
+            </div>
+        </div>
+
+        <div class="single-option option-checkbox">
+            <span class="uk-title option-title" href="#">Auto-gain</span>
+            <div class="checkbox-container">
+                <input class="uk-checkbox checkbox" type="checkbox" id="autoGainControl">
+            </div>
+        </div>
+
+        <hr />
+        <button class="uk-button uk-button-default uk-button-large button uk-button-primary">Fermer</button>
+        <button class="uk-button uk-button-default uk-button-large">Reinitialiser</button>
+    </div>
+
+    <div class="bg" />
+</body>
+
+</html>

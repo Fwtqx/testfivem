@@ -1,0 +1,2875 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CVehicleModelInfo__InitDataList>
+    <residentTxd>vehshare</residentTxd>
+    <residentAnims />
+    <InitDatas>
+        <Item>
+            <modelName>RANGERalamoK9</modelName>
+            <txdName>RANGERalamoK9</txdName>
+            <handlingId>PRANGERALAMO</handlingId>
+            <gameName>RANGERalamoK9</gameName>
+            <vehicleMakeName />
+            <expressionDictName>null</expressionDictName>
+            <expressionName>null</expressionName>
+            <animConvRoofDictName>null</animConvRoofDictName>
+            <animConvRoofName>null</animConvRoofName>
+            <animConvRoofWindowsAffected />
+            <ptfxAssetName>null</ptfxAssetName>
+            <audioNameHash>PRANGER</audioNameHash>
+            <layout>LAYOUT_RANGER_SWAT</layout>
+            <coverBoundOffsets>SHERIFF2_COVER_OFFSET_INFO</coverBoundOffsets>
+            <explosionInfo>EXPLOSION_INFO_DEFAULT</explosionInfo>
+            <scenarioLayout />
+            <cameraName>DEFAULT_FOLLOW_VEHICLE_CAMERA</cameraName>
+            <aimCameraName>BOX_VEHICLE_AIM_CAMERA</aimCameraName>
+            <bonnetCameraName>VEHICLE_BONNET_CAMERA_STANDARD</bonnetCameraName>
+            <povCameraName>DEFAULT_POV_CAMERA_LOOKAROUND</povCameraName>
+            <FirstPersonDriveByIKOffset x="0.000000" y="-0.050000" z="-0.028000" />
+            <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
+            <FirstPersonProjectileDriveByIKOffset x="0.028000" y="-0.040000" z="0.075000" />
+            <FirstPersonProjectileDriveByPassengerIKOffset x="0.020000" y="0.060000" z="-0.090000" />
+            <FirstPersonProjectileDriveByRearLeftIKOffset x="0.000000" y="0.000000" z="-0.055000" />
+            <FirstPersonProjectileDriveByRearRightIKOffset x="0.000000" y="0.000000" z="-0.055000" />
+            <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="0.000000" z="-0.040000" />
+            <FirstPersonDriveByRightPassengerIKOffset x="-0.045000" y="-0.048000" z="-0.040000" />
+            <FirstPersonDriveByRightRearPassengerIKOffset x="0.000000" y="0.000000" z="-0.040000" />
+            <FirstPersonDriveByLeftPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
+            <FirstPersonDriveByRightPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
+            <FirstPersonMobilePhoneOffset x="0.143000" y="0.245000" z="0.521000" />
+            <FirstPersonPassengerMobilePhoneOffset x="0.136000" y="0.223000" z="0.435000" />
+            <PovCameraOffset x="0.000000" y="-0.125000" z="0.640000" />
+            <PovCameraVerticalAdjustmentForRollCage value="0.000000" />
+            <PovPassengerCameraOffset x="0.000000" y="0.000000" z="0.030000" />
+            <PovRearPassengerCameraOffset x="0.000000" y="0.000000" z="0.070000" />
+            <vfxInfoName>VFXVEHICLEINFO_CAR_GENERIC</vfxInfoName>
+            <shouldUseCinematicViewMode value="true" />
+            <shouldCameraTransitionOnClimbUpDown value="false" />
+            <shouldCameraIgnoreExiting value="false" />
+            <AllowPretendOccupants value="true" />
+            <AllowJoyriding value="false" />
+            <AllowSundayDriving value="false" />
+            <AllowBodyColorMapping value="true" />
+            <wheelScale value="0.268600" />
+            <wheelScaleRear value="0.268600" />
+            <dirtLevelMin value="0.300000" />
+            <dirtLevelMax value="0.850000" />
+            <envEffScaleMin value="0.000000" />
+            <envEffScaleMax value="1.000000" />
+            <envEffScaleMin2 value="0.000000" />
+            <envEffScaleMax2 value="1.000000" />
+            <damageMapScale value="0.600000" />
+            <damageOffsetScale value="1.000000" />
+            <diffuseTint value="0xAA0A0A0A" />
+            <steerWheelMult value="1.000000" />
+            <HDTextureDist value="5.000000" />
+            <lodDistances content="float_array">20.000000
+        40.000000
+        80.000000
+        120.000000
+        500.000000
+        500.000000</lodDistances>
+            <minSeatHeight value="0.966" />
+            <identicalModelSpawnDistance value="140" />
+            <maxNumOfSameColor value="1" />
+            <defaultBodyHealth value="1000.000000" />
+            <pretendOccupantsScale value="1.000000" />
+            <visibleSpawnDistScale value="1.000000" />
+            <trackerPathWidth value="2.000000" />
+            <weaponForceMult value="1.000000" />
+            <frequency value="75" />
+            <swankness>SWANKNESS_1</swankness>
+            <maxNum value="1" />
+            <flags>FLAG_HAS_INTERIOR_EXTRAS FLAG_EXTRAS_REQUIRE FLAG_HAS_LIVERY FLAG_LAW_ENFORCEMENT FLAG_DONT_SPAWN_IN_CARGEN FLAG_IS_OFFROAD_VEHICLE FLAG_HAS_INTERIOR_EXTRAS FLAG_REPORT_CRIME_IF_STANDING_ON</flags>
+            <type>VEHICLE_TYPE_CAR</type>
+            <plateType>VPT_FRONT_AND_BACK_PLATES</plateType>
+            <dashboardType>VDT_CAVALCADE</dashboardType>
+            <vehicleClass>VC_EMERGENCY</vehicleClass>
+            <wheelType>VWT_OFFROAD</wheelType>
+            <trailers />
+            <additionalTrailers />
+            <drivers>
+                <Item>
+                    <driverName>S_F_Y_Ranger_01</driverName>
+                    <npcName />
+                </Item>
+                <Item>
+                    <driverName>S_M_Y_Ranger_01</driverName>
+                    <npcName />
+                </Item>
+            </drivers>
+            <extraIncludes />
+            <doorsWithCollisionWhenClosed />
+            <driveableDoors />
+            <bumpersNeedToCollideWithMap value="false" />
+            <needsRopeTexture value="false" />
+            <requiredExtras />
+            <rewards>
+                <Item>REWARD_WEAPON_PISTOL</Item>
+                <Item>REWARD_AMMO_PISTOL</Item>
+                <Item>REWARD_WEAPON_STUNGUN</Item>
+                <Item>REWARD_AMMO_STUNGUN</Item>
+                <Item>REWARD_STAT_WEAPON</Item>
+            </rewards>
+            <cinematicPartCamera>
+                <Item>WHEEL_FRONT_RIGHT_CAMERA</Item>
+                <Item>WHEEL_FRONT_LEFT_CAMERA</Item>
+                <Item>WHEEL_REAR_RIGHT_CAMERA</Item>
+                <Item>WHEEL_REAR_LEFT_CAMERA</Item>
+            </cinematicPartCamera>
+            <NmBraceOverrideSet />
+            <buoyancySphereOffset x="0.000000" y="0.000000" z="0.000000" />
+            <buoyancySphereSizeScale value="1.000000" />
+            <pOverrideRagdollThreshold type="NULL" />
+            <firstPersonDrivebyData>
+                <Item>RANGER_CAVALCADE_FRONT_LEFT</Item>
+                <Item>RANGER_FRONT_RIGHT</Item>
+                <Item>RANGER_PRANGER_REAR_LEFT</Item>
+                <Item>RANGER_PRANGER_REAR_RIGHT</Item>
+            </firstPersonDrivebyData>
+        </Item>
+        <Item>
+            <modelName>RANGERyosemiteK9</modelName>
+            <txdName>RANGERyosemiteK9</txdName>
+            <handlingId>pranger</handlingId>
+            <gameName>RANGERyosemiteK9</gameName>
+            <vehicleMakeName />
+            <expressionDictName>null</expressionDictName>
+            <expressionName>null</expressionName>
+            <animConvRoofDictName>null</animConvRoofDictName>
+            <animConvRoofName>null</animConvRoofName>
+            <animConvRoofWindowsAffected />
+            <ptfxAssetName>null</ptfxAssetName>
+            <audioNameHash>pranger</audioNameHash>
+            <layout>LAYOUT_RANGER</layout>
+            <coverBoundOffsets>GRANGER_COVER_OFFSET_INFO</coverBoundOffsets>
+            <explosionInfo>EXPLOSION_INFO_DEFAULT</explosionInfo>
+            <scenarioLayout />
+            <cameraName>DEFAULT_FOLLOW_VEHICLE_CAMERA</cameraName>
+            <aimCameraName>BOX_VEHICLE_AIM_CAMERA</aimCameraName>
+            <bonnetCameraName>VEHICLE_BONNET_CAMERA_STANDARD</bonnetCameraName>
+            <povCameraName>DEFAULT_POV_CAMERA_LOOKAROUND</povCameraName>
+            <FirstPersonDriveByIKOffset x="0.000000" y="-0.050000" z="-0.030000" />
+            <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
+            <FirstPersonProjectileDriveByIKOffset x="0.000000" y="-0.088000" z="0.093000" />
+            <FirstPersonProjectileDriveByPassengerIKOffset x="0.020000" y="0.060000" z="-0.090000" />
+            <FirstPersonProjectileDriveByRearLeftIKOffset x="0.000000" y="0.000000" z="-0.055000" />
+            <FirstPersonProjectileDriveByRearRightIKOffset x="0.000000" y="0.000000" z="-0.055000" />
+            <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="0.000000" z="-0.040000" />
+            <FirstPersonDriveByRightPassengerIKOffset x="-0.045000" y="-0.048000" z="-0.040000" />
+            <FirstPersonDriveByRightRearPassengerIKOffset x="0.000000" y="0.000000" z="-0.040000" />
+            <FirstPersonDriveByLeftPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
+            <FirstPersonDriveByRightPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
+            <FirstPersonMobilePhoneOffset x="0.150000" y="0.268000" z="0.503000" />
+            <FirstPersonPassengerMobilePhoneOffset x="0.136000" y="0.223000" z="0.425000" />
+            <FirstPersonMobilePhoneSeatIKOffset>
+                <Item>
+                    <Offset x="0.156000" y="0.223000" z="0.493000" />
+                    <SeatIndex value="2" />
+                </Item>
+                <Item>
+                    <Offset x="0.156000" y="0.223000" z="0.493000" />
+                    <SeatIndex value="3" />
+                </Item>
+            </FirstPersonMobilePhoneSeatIKOffset>
+            <PovCameraOffset x="0.000000" y="-0.135000" z="0.635000" />
+            <PovCameraVerticalAdjustmentForRollCage value="0.000000" />
+            <PovPassengerCameraOffset x="0.000000" y="0.000000" z="0.030000" />
+            <PovRearPassengerCameraOffset x="0.000000" y="0.000000" z="0.070000" />
+            <vfxInfoName>VFXVEHICLEINFO_CAR_GENERIC</vfxInfoName>
+            <shouldUseCinematicViewMode value="true" />
+            <shouldCameraTransitionOnClimbUpDown value="false" />
+            <shouldCameraIgnoreExiting value="false" />
+            <AllowPretendOccupants value="true" />
+            <AllowJoyriding value="true" />
+            <AllowSundayDriving value="true" />
+            <AllowBodyColorMapping value="true" />
+            <wheelScale value="0.456300" />
+            <wheelScaleRear value="0.45630" />
+            <dirtLevelMin value="0.000000" />
+            <dirtLevelMax value="0.850000" />
+            <envEffScaleMin value="0.000000" />
+            <envEffScaleMax value="1.000000" />
+            <envEffScaleMin2 value="0.000000" />
+            <envEffScaleMax2 value="1.000000" />
+            <damageMapScale value="0.600000" />
+            <damageOffsetScale value="1.000000" />
+            <diffuseTint value="0xAA0A0A0A" />
+            <steerWheelMult value="1.000000" />
+            <HDTextureDist value="5.000000" />
+            <lodDistances content="float_array">15.000000   
+        35.000000   
+        80.000000   
+        160.000000  
+        500.000000  
+        500.000000</lodDistances>
+            <minSeatHeight value="0.966" />
+            <identicalModelSpawnDistance value="20" />
+            <maxNumOfSameColor value="10" />
+            <defaultBodyHealth value="1000.000000" />
+            <pretendOccupantsScale value="1.000000" />
+            <visibleSpawnDistScale value="1.000000" />
+            <trackerPathWidth value="2.000000" />
+            <weaponForceMult value="1.000000" />
+            <frequency value="100" />
+            <swankness>SWANKNESS_1</swankness>
+            <maxNum value="999" />
+            <flags>FLAG_EXTRAS_REQUIRE FLAG_HAS_LIVERY FLAG_LAW_ENFORCEMENT FLAG_EMERGENCY_SERVICE FLAG_NO_RESPRAY FLAG_IS_OFFROAD_VEHICLE FLAG_RECESSED_HEADLIGHT_CORONAS FLAG_EXTRAS_STRONG FLAG_HAS_INTERIOR_EXTRAS</flags>
+            <type>VEHICLE_TYPE_CAR</type>
+            <plateType>VPT_FRONT_AND_BACK_PLATES</plateType>
+            <dashboardType>VDT_CAVALCADE</dashboardType>
+            <vehicleClass>VC_EMERGENCY</vehicleClass>
+            <wheelType>VWT_OFFROAD</wheelType>
+            <trailers />
+            <additionalTrailers />
+            <drivers>
+                <Item>
+                    <driverName>S_F_Y_Ranger_01</driverName>
+                    <npcName />
+                </Item>
+                <Item>
+                    <driverName>S_M_Y_Ranger_01</driverName>
+                    <npcName />
+                </Item>
+            </drivers>
+            <extraIncludes />
+            <doorsWithCollisionWhenClosed>
+                <Item>VEH_EXT_BOOT</Item>
+            </doorsWithCollisionWhenClosed>
+            <driveableDoors />
+            <bumpersNeedToCollideWithMap value="false" />
+            <needsRopeTexture value="false" />
+            <requiredExtras />
+            <rewards />
+            <cinematicPartCamera>
+                <Item>WHEEL_FRONT_RIGHT_CAMERA</Item>
+                <Item>WHEEL_FRONT_LEFT_CAMERA</Item>
+                <Item>WHEEL_REAR_RIGHT_CAMERA</Item>
+                <Item>WHEEL_REAR_LEFT_CAMERA</Item>
+            </cinematicPartCamera>
+            <NmBraceOverrideSet />
+            <buoyancySphereOffset x="0.000000" y="0.000000" z="0.000000" />
+            <buoyancySphereSizeScale value="1.000000" />
+            <pOverrideRagdollThreshold type="NULL" />
+            <firstPersonDrivebyData>
+                <Item>RANGER_CAVALCADE_FRONT_LEFT</Item>
+                <Item>RANGER_FRONT_RIGHT</Item>
+                <Item>RANGER_PRANGER_REAR_LEFT</Item>
+                <Item>RANGER_PRANGER_REAR_RIGHT</Item>
+            </firstPersonDrivebyData>
+        </Item>
+        <Item>
+            <modelName>RANGERlandroamerK9</modelName>
+            <txdName>RANGERlandroamerK9</txdName>
+            <handlingId>PRANGERLANDROAMER</handlingId>
+            <gameName>RANGERlandroamerK9</gameName>
+            <vehicleMakeName />
+            <expressionDictName>null</expressionDictName>
+            <expressionName>null</expressionName>
+            <animConvRoofDictName>null</animConvRoofDictName>
+            <animConvRoofName>null</animConvRoofName>
+            <animConvRoofWindowsAffected />
+            <ptfxAssetName>null</ptfxAssetName>
+            <audioNameHash>PRANGER</audioNameHash>
+            <layout>LAYOUT_RANGER</layout>
+            <coverBoundOffsets>LANDSTALKER_COVER_OFFSET_INFO</coverBoundOffsets>
+            <explosionInfo>EXPLOSION_INFO_DEFAULT</explosionInfo>
+            <scenarioLayout />
+            <cameraName>DEFAULT_FOLLOW_VEHICLE_CAMERA</cameraName>
+            <aimCameraName>DEFAULT_THIRD_PERSON_VEHICLE_AIM_CAMERA</aimCameraName>
+            <bonnetCameraName>VEHICLE_BONNET_CAMERA_MID_NEAR</bonnetCameraName>
+            <povCameraName>DEFAULT_POV_CAMERA</povCameraName>
+            <FirstPersonDriveByIKOffset x="0.023000" y="-0.050000" z="-0.030000" />
+            <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="0.000000" z="-0.020000" />
+            <FirstPersonProjectileDriveByIKOffset x="0.113000" y="-0.088000" z="0.050000" />
+            <FirstPersonProjectileDriveByPassengerIKOffset x="0.020000" y="0.060000" z="-0.090000" />
+            <FirstPersonProjectileDriveByRearLeftIKOffset x="0.000000" y="0.000000" z="-0.055000" />
+            <FirstPersonProjectileDriveByRearRightIKOffset x="0.000000" y="0.000000" z="-0.055000" />
+            <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="0.000000" z="-0.040000" />
+            <FirstPersonDriveByRightPassengerIKOffset x="0.000000" y="0.000000" z="-0.040000" />
+            <FirstPersonDriveByRightRearPassengerIKOffset x="0.000000" y="0.000000" z="-0.040000" />
+            <FirstPersonDriveByLeftPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="-0.020000" />
+            <FirstPersonDriveByRightPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="-0.020000" />
+            <FirstPersonMobilePhoneOffset x="0.150000" y="0.268000" z="0.553000" />
+            <FirstPersonPassengerMobilePhoneOffset x="0.174000" y="0.196000" z="0.478000" />
+            <FirstPersonMobilePhoneSeatIKOffset>
+                <Item>
+                    <Offset x="0.174000" y="0.156000" z="0.513000" />
+                    <SeatIndex value="2" />
+                </Item>
+                <Item>
+                    <Offset x="0.174000" y="0.156000" z="0.513000" />
+                    <SeatIndex value="3" />
+                </Item>
+            </FirstPersonMobilePhoneSeatIKOffset>
+            <PovCameraOffset x="0.000000" y="-0.210000" z="0.710000" />
+            <PovCameraVerticalAdjustmentForRollCage value="0.000000" />
+            <PovPassengerCameraOffset x="0.000000" y="0.000000" z="0.000000" />
+            <PovRearPassengerCameraOffset x="0.000000" y="0.000000" z="0.040000" />
+            <vfxInfoName>VFXVEHICLEINFO_CAR_GENERIC</vfxInfoName>
+            <shouldUseCinematicViewMode value="true" />
+            <shouldCameraTransitionOnClimbUpDown value="false" />
+            <shouldCameraIgnoreExiting value="false" />
+            <AllowPretendOccupants value="true" />
+            <AllowJoyriding value="true" />
+            <AllowSundayDriving value="true" />
+            <AllowBodyColorMapping value="true" />
+            <wheelScale value="0.299200" />
+            <wheelScaleRear value="0.299200" />
+            <dirtLevelMin value="0.000000" />
+            <dirtLevelMax value="0.550000" />
+            <envEffScaleMin value="0.000000" />
+            <envEffScaleMax value="1.000000" />
+            <envEffScaleMin2 value="0.000000" />
+            <envEffScaleMax2 value="1.000000" />
+            <damageMapScale value="0.600000" />
+            <damageOffsetScale value="1.000000" />
+            <diffuseTint value="0x00FFFFFF" />
+            <steerWheelMult value="1.000000" />
+            <HDTextureDist value="5.000000" />
+            <lodDistances content="float_array">15.000000   
+        30.000000
+        70.000000   
+        140.000000  
+        500.000000  
+        500.000000</lodDistances>
+            <minSeatHeight value="0.976" />
+            <identicalModelSpawnDistance value="20" />
+            <maxNumOfSameColor value="10" />
+            <defaultBodyHealth value="1000.000000" />
+            <pretendOccupantsScale value="1.000000" />
+            <visibleSpawnDistScale value="1.000000" />
+            <trackerPathWidth value="2.000000" />
+            <weaponForceMult value="1.000000" />
+            <frequency value="100" />
+            <swankness>SWANKNESS_3</swankness>
+            <maxNum value="10" />
+            <flags>FLAG_HAS_LIVERY FLAG_EXTRAS_STRONG FLAG_LAW_ENFORCEMENT FLAG_EMERGENCY_SERVICE FLAG_NO_RESPRAY FLAG_DONT_SPAWN_IN_CARGEN FLAG_REPORT_CRIME_IF_STANDING_ON FLAG_HAS_INTERIOR_EXTRAS FLAG_IS_OFFROAD_VEHICLE FLAG_IS_BULKY</flags>
+            <type>VEHICLE_TYPE_CAR</type>
+            <plateType>VPT_FRONT_AND_BACK_PLATES</plateType>
+            <dashboardType>VDT_CAVALCADE</dashboardType>
+            <vehicleClass>VC_EMERGENCY</vehicleClass>
+            <wheelType>VWT_OFFROAD</wheelType>
+            <trailers />
+            <additionalTrailers />
+            <drivers>
+                <Item>
+                    <driverName>S_F_Y_Ranger_01</driverName>
+                    <npcName />
+                </Item>
+                <Item>
+                    <driverName>S_M_Y_Ranger_01</driverName>
+                    <npcName />
+                </Item>
+            </drivers>
+            <extraIncludes />
+            <doorsWithCollisionWhenClosed />
+            <driveableDoors />
+            <bumpersNeedToCollideWithMap value="false" />
+            <needsRopeTexture value="false" />
+            <requiredExtras />
+            <rewards />
+            <cinematicPartCamera>
+                <Item>WHEEL_FRONT_RIGHT_CAMERA</Item>
+                <Item>WHEEL_FRONT_LEFT_CAMERA</Item>
+                <Item>WHEEL_REAR_RIGHT_CAMERA</Item>
+                <Item>WHEEL_REAR_LEFT_CAMERA</Item>
+            </cinematicPartCamera>
+            <NmBraceOverrideSet />
+            <buoyancySphereOffset x="0.000000" y="0.000000" z="0.000000" />
+            <buoyancySphereSizeScale value="1.000000" />
+            <pOverrideRagdollThreshold type="NULL" />
+            <firstPersonDrivebyData>
+                <Item>VAN_SPEEDO_FRONT_LEFT</Item>
+                <Item>VAN_SPEEDO_FRONT_RIGHT</Item>
+                <Item>RANGER_RANCHERXL2_REAR_LEFT</Item>
+                <Item>RANGER_RANCHERXL2_REAR_RIGHT</Item>
+            </firstPersonDrivebyData>
+        </Item>
+        <Item>
+            <modelName>RANGERseminole</modelName>
+            <txdName>RANGERseminole</txdName>
+            <handlingId>PRANGERSM</handlingId>
+            <gameName>RANGERseminole</gameName>
+            <vehicleMakeName />
+            <expressionDictName>null</expressionDictName>
+            <expressionName>null</expressionName>
+            <animConvRoofDictName>null</animConvRoofDictName>
+            <animConvRoofName>null</animConvRoofName>
+            <animConvRoofWindowsAffected />
+            <ptfxAssetName>null</ptfxAssetName>
+            <audioNameHash>PRANGER</audioNameHash>
+            <layout>LAYOUT_RANGER</layout>
+            <coverBoundOffsets>SEMINOLE_COVER_OFFSET_INFO</coverBoundOffsets>
+            <explosionInfo>EXPLOSION_INFO_DEFAULT</explosionInfo>
+            <scenarioLayout />
+            <cameraName>DEFAULT_FOLLOW_VEHICLE_CAMERA</cameraName>
+            <aimCameraName>DEFAULT_THIRD_PERSON_VEHICLE_AIM_CAMERA</aimCameraName>
+            <bonnetCameraName>VEHICLE_BONNET_CAMERA_MID_NEAR</bonnetCameraName>
+            <povCameraName>DEFAULT_POV_CAMERA</povCameraName>
+            <FirstPersonDriveByIKOffset x="-0.033000" y="-0.050000" z="-0.055000" />
+            <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="0.000000" z="-0.020000" />
+            <FirstPersonProjectileDriveByIKOffset x="0.000000" y="0.000000" z="0.038000" />
+            <FirstPersonProjectileDriveByPassengerIKOffset x="0.020000" y="0.060000" z="-0.090000" />
+            <FirstPersonProjectileDriveByRearLeftIKOffset x="0.000000" y="0.000000" z="-0.055000" />
+            <FirstPersonProjectileDriveByRearRightIKOffset x="0.000000" y="0.000000" z="-0.055000" />
+            <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="0.000000" z="-0.040000" />
+            <FirstPersonDriveByRightPassengerIKOffset x="0.000000" y="-0.048000" z="-0.040000" />
+            <FirstPersonDriveByRightRearPassengerIKOffset x="0.000000" y="0.000000" z="-0.040000" />
+            <FirstPersonDriveByLeftPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="-0.020000" />
+            <FirstPersonDriveByRightPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="-0.020000" />
+            <FirstPersonMobilePhoneOffset x="0.155000" y="0.270000" z="0.508000" />
+            <FirstPersonPassengerMobilePhoneOffset x="0.136000" y="0.223000" z="0.425000" />
+            <FirstPersonMobilePhoneSeatIKOffset>
+                <Item>
+                    <Offset x="0.136000" y="0.183000" z="0.475000" />
+                    <SeatIndex value="2" />
+                </Item>
+                <Item>
+                    <Offset x="0.136000" y="0.183000" z="0.475000" />
+                    <SeatIndex value="3" />
+                </Item>
+            </FirstPersonMobilePhoneSeatIKOffset>
+            <PovCameraOffset x="0.000000" y="-0.140000" z="0.640000" />
+            <PovCameraVerticalAdjustmentForRollCage value="0.000000" />
+            <PovPassengerCameraOffset x="0.000000" y="0.000000" z="0.000000" />
+            <PovRearPassengerCameraOffset x="0.000000" y="0.000000" z="0.060000" />
+            <vfxInfoName>VFXVEHICLEINFO_CAR_GENERIC</vfxInfoName>
+            <shouldUseCinematicViewMode value="true" />
+            <shouldCameraTransitionOnClimbUpDown value="false" />
+            <shouldCameraIgnoreExiting value="false" />
+            <AllowPretendOccupants value="true" />
+            <AllowJoyriding value="true" />
+            <AllowSundayDriving value="true" />
+            <AllowBodyColorMapping value="true" />
+            <wheelScale value="0.257600" />
+            <wheelScaleRear value="0.257600" />
+            <dirtLevelMin value="0.000000" />
+            <dirtLevelMax value="0.700000" />
+            <envEffScaleMin value="0.000000" />
+            <envEffScaleMax value="1.000000" />
+            <envEffScaleMin2 value="0.000000" />
+            <envEffScaleMax2 value="1.000000" />
+            <damageMapScale value="0.600000" />
+            <damageOffsetScale value="1.000000" />
+            <diffuseTint value="0xAA0A0A0A" />
+            <steerWheelMult value="1.000000" />
+            <HDTextureDist value="5.000000" />
+            <lodDistances content="float_array">15.000000
+        30.000000
+        70.000000
+        140.000000
+        500.000000
+        500.000000</lodDistances>
+            <minSeatHeight value="0.929" />
+            <identicalModelSpawnDistance value="20" />
+            <maxNumOfSameColor value="10" />
+            <defaultBodyHealth value="1000.000000" />
+            <pretendOccupantsScale value="1.000000" />
+            <visibleSpawnDistScale value="1.000000" />
+            <trackerPathWidth value="2.000000" />
+            <weaponForceMult value="1.000000" />
+            <frequency value="100" />
+            <swankness>SWANKNESS_2</swankness>
+            <maxNum value="999" />
+            <flags>FLAG_HAS_LIVERY FLAG_AVERAGE_CAR FLAG_IS_OFFROAD_VEHICLE FLAG_IS_BULKY FLAG_LAW_ENFORCEMENT FLAG_REPORT_CRIME_IF_STANDING_ON</flags>
+            <type>VEHICLE_TYPE_CAR</type>
+            <plateType>VPT_BACK_PLATES</plateType>
+            <dashboardType>VDT_CAVALCADE</dashboardType>
+            <vehicleClass>VC_EMERGENCY</vehicleClass>
+            <wheelType>VWT_OFFROAD</wheelType>
+            <trailers>
+                <Item>boattrailer</Item>
+                <Item>trailersmall</Item>
+            </trailers>
+            <additionalTrailers>
+                <Item>trailersmall2</Item>
+            </additionalTrailers>
+            <drivers>
+                <Item>
+                    <driverName>S_F_Y_Ranger_01</driverName>
+                    <npcName />
+                </Item>
+                <Item>
+                    <driverName>S_M_Y_Ranger_01</driverName>
+                    <npcName />
+                </Item>
+            </drivers>
+            <extraIncludes />
+            <doorsWithCollisionWhenClosed />
+            <driveableDoors />
+            <bumpersNeedToCollideWithMap value="false" />
+            <needsRopeTexture value="false" />
+            <requiredExtras />
+            <rewards>
+                <Item>REWARD_WEAPON_PISTOL</Item>
+                <Item>REWARD_AMMO_PISTOL</Item>
+                <Item>REWARD_WEAPON_CARBINERIFLE</Item>
+                <Item>REWARD_AMMO_CARBINERIFLE</Item>
+                <Item>REWARD_STAT_WEAPON</Item>
+            </rewards>
+            <cinematicPartCamera>
+                <Item>WHEEL_FRONT_RIGHT_CAMERA</Item>
+                <Item>WHEEL_FRONT_LEFT_CAMERA</Item>
+                <Item>WHEEL_REAR_RIGHT_CAMERA</Item>
+                <Item>WHEEL_REAR_LEFT_CAMERA</Item>
+            </cinematicPartCamera>
+            <NmBraceOverrideSet />
+            <buoyancySphereOffset x="0.000000" y="0.000000" z="0.000000" />
+            <buoyancySphereSizeScale value="1.000000" />
+            <pOverrideRagdollThreshold type="NULL" />
+            <firstPersonDrivebyData>
+                <Item>VAN_RUMPO_FRONT_LEFT</Item>
+                <Item>RANGER_FRONT_RIGHT</Item>
+                <Item>RANGER_PRANGER_REAR_LEFT</Item>
+                <Item>RANGER_PRANGER_REAR_RIGHT</Item>
+            </firstPersonDrivebyData>
+        </Item>
+        <Item>
+            <modelName>RANGERgranger</modelName>
+            <txdName>RANGERgranger</txdName>
+            <handlingId>PRANGER</handlingId>
+            <gameName>RANGERgranger</gameName>
+            <vehicleMakeName />
+            <expressionDictName>null</expressionDictName>
+            <expressionName>null</expressionName>
+            <animConvRoofDictName>null</animConvRoofDictName>
+            <animConvRoofName>null</animConvRoofName>
+            <animConvRoofWindowsAffected />
+            <ptfxAssetName>null</ptfxAssetName>
+            <audioNameHash>PRANGER</audioNameHash>
+            <layout>LAYOUT_RANGER_SWAT</layout>
+            <coverBoundOffsets>PRANGER_COVER_OFFSET_INFO</coverBoundOffsets>
+            <explosionInfo>EXPLOSION_INFO_DEFAULT</explosionInfo>
+            <scenarioLayout />
+            <cameraName>DEFAULT_FOLLOW_VEHICLE_CAMERA</cameraName>
+            <aimCameraName>MID_BOX_VEHICLE_AIM_CAMERA</aimCameraName>
+            <bonnetCameraName>VEHICLE_BONNET_CAMERA_STANDARD</bonnetCameraName>
+            <povCameraName>DEFAULT_POV_CAMERA_LOOKAROUND_MID</povCameraName>
+            <FirstPersonDriveByIKOffset x="0.000000" y="-0.055000" z="-0.025000" />
+            <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="0.000000" z="-0.020000" />
+            <FirstPersonProjectileDriveByIKOffset x="0.000000" y="-0.085000" z="0.003000" />
+            <FirstPersonProjectileDriveByPassengerIKOffset x="0.020000" y="0.060000" z="-0.090000" />
+            <FirstPersonProjectileDriveByRearLeftIKOffset x="0.000000" y="0.000000" z="-0.058000" />
+            <FirstPersonProjectileDriveByRearRightIKOffset x="0.000000" y="0.000000" z="-0.058000" />
+            <FirstPersonDriveByLeftPassengerIKOffset x="-0.015000" y="0.010000" z="-0.050000" />
+            <FirstPersonDriveByRightPassengerIKOffset x="0.000000" y="0.000000" z="-0.040000" />
+            <FirstPersonDriveByRightRearPassengerIKOffset x="-0.015000" y="0.010000" z="-0.050000" />
+            <FirstPersonDriveByLeftPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="-0.020000" />
+            <FirstPersonDriveByRightPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="-0.020000" />
+            <FirstPersonMobilePhoneOffset x="0.155000" y="0.260000" z="0.49300" />
+            <FirstPersonPassengerMobilePhoneOffset x="0.136000" y="0.223000" z="0.425000" />
+            <FirstPersonMobilePhoneSeatIKOffset>
+                <Item>
+                    <Offset x="0.156000" y="0.223000" z="0.493000" />
+                    <SeatIndex value="2" />
+                </Item>
+                <Item>
+                    <Offset x="0.156000" y="0.223000" z="0.493000" />
+                    <SeatIndex value="3" />
+                </Item>
+            </FirstPersonMobilePhoneSeatIKOffset>
+            <PovCameraOffset x="0.000000" y="-0.148000" z="0.610000" />
+            <PovCameraVerticalAdjustmentForRollCage value="0.000000" />
+            <PovPassengerCameraOffset x="0.000000" y="0.010000" z="0.070000" />
+            <PovRearPassengerCameraOffset x="0.000000" y="0.010000" z="0.110000" />
+            <vfxInfoName>VFXVEHICLEINFO_CAR_OFFROAD</vfxInfoName>
+            <shouldUseCinematicViewMode value="true" />
+            <shouldCameraTransitionOnClimbUpDown value="false" />
+            <shouldCameraIgnoreExiting value="false" />
+            <AllowPretendOccupants value="true" />
+            <AllowJoyriding value="false" />
+            <AllowSundayDriving value="false" />
+            <AllowBodyColorMapping value="true" />
+            <wheelScale value="0.268600" />
+            <wheelScaleRear value="0.268600" />
+            <dirtLevelMin value="0.000000" />
+            <dirtLevelMax value="0.850000" />
+            <envEffScaleMin value="0.000000" />
+            <envEffScaleMax value="1.000000" />
+            <envEffScaleMin2 value="0.000000" />
+            <envEffScaleMax2 value="1.000000" />
+            <damageMapScale value="0.800000" />
+            <damageOffsetScale value="0.500000" />
+            <diffuseTint value="0xAA0A0A0A" />
+            <steerWheelMult value="1.000000" />
+            <HDTextureDist value="5.000000" />
+            <lodDistances content="float_array">15.000000
+        35.000000
+        70.000000
+        140.000000
+        500.000000
+        500.000000</lodDistances>
+            <minSeatHeight value="0.966" />
+            <identicalModelSpawnDistance value="20" />
+            <maxNumOfSameColor value="10" />
+            <defaultBodyHealth value="1000.000000" />
+            <pretendOccupantsScale value="1.000000" />
+            <visibleSpawnDistScale value="1.000000" />
+            <trackerPathWidth value="2.000000" />
+            <weaponForceMult value="1.000000" />
+            <frequency value="100" />
+            <swankness>SWANKNESS_1</swankness>
+            <maxNum value="1" />
+            <flags>FLAG_LAW_ENFORCEMENT FLAG_DONT_SPAWN_IN_CARGEN FLAG_IS_OFFROAD_VEHICLE FLAG_HAS_INTERIOR_EXTRAS FLAG_REPORT_CRIME_IF_STANDING_ON</flags>
+            <type>VEHICLE_TYPE_CAR</type>
+            <plateType>VPT_BACK_PLATES</plateType>
+            <dashboardType>VDT_CAVALCADE</dashboardType>
+            <vehicleClass>VC_EMERGENCY</vehicleClass>
+            <wheelType>VWT_OFFROAD</wheelType>
+            <trailers />
+            <additionalTrailers />
+            <drivers>
+                <Item>
+                    <driverName>S_F_Y_Ranger_01</driverName>
+                    <npcName />
+                </Item>
+                <Item>
+                    <driverName>S_M_Y_Ranger_01</driverName>
+                    <npcName />
+                </Item>
+            </drivers>
+            <extraIncludes />
+            <doorsWithCollisionWhenClosed />
+            <driveableDoors />
+            <bumpersNeedToCollideWithMap value="false" />
+            <needsRopeTexture value="false" />
+            <requiredExtras />
+            <rewards>
+                <Item>REWARD_WEAPON_CARBINERIFLE</Item>
+                <Item>REWARD_AMMO_CARBINERIFLE</Item>
+                <Item>REWARD_STAT_WEAPON</Item>
+            </rewards>
+            <cinematicPartCamera>
+                <Item>WHEEL_WIDE_REAR_RIGHT_CAMERA</Item>
+                <Item>WHEEL_WIDE_REAR_LEFT_CAMERA</Item>
+            </cinematicPartCamera>
+            <NmBraceOverrideSet />
+            <buoyancySphereOffset x="0.000000" y="0.000000" z="0.000000" />
+            <buoyancySphereSizeScale value="1.000000" />
+            <pOverrideRagdollThreshold type="NULL" />
+            <firstPersonDrivebyData>
+                <Item>VAN_SPEEDO_FRONT_LEFT_LOOKAROUND</Item>
+                <Item>RANGER_FRONT_RIGHT</Item>
+                <Item>RANGER_PRANGER_REAR_LEFT</Item>
+                <Item>RANGER_PRANGER_REAR_RIGHT</Item>
+            </firstPersonDrivebyData>
+        </Item>
+        <Item>
+            <modelName>RANGERvolito</modelName>
+            <txdName>RANGERvolito</txdName>
+            <handlingId>SVOLITO</handlingId>
+            <gameName>RANGERvolito</gameName>
+            <vehicleMakeName />
+            <expressionDictName>null</expressionDictName>
+            <expressionName>null</expressionName>
+            <animConvRoofDictName>null</animConvRoofDictName>
+            <animConvRoofName>null</animConvRoofName>
+            <animConvRoofWindowsAffected />
+            <ptfxAssetName>null</ptfxAssetName>
+            <audioNameHash>POLMAV</audioNameHash>
+            <layout>LAYOUT_HELI_SVOL</layout>
+            <coverBoundOffsets>SUPERVOLITO_COVER_OFFSET_INFO</coverBoundOffsets>
+            <explosionInfo>EXPLOSION_INFO_DEFAULT</explosionInfo>
+            <scenarioLayout />
+            <cameraName>FOLLOW_HELI_CAMERA</cameraName>
+            <aimCameraName>HELI_AIM_CAMERA</aimCameraName>
+            <bonnetCameraName>DEFAULT_VEHICLE_BONNET_CAMERA</bonnetCameraName>
+            <povCameraName>HELI_SWIFT_POV_CAMERA</povCameraName>
+            <FirstPersonDriveByIKOffset x="0.000000" y="0.000000" z="0.000000" />
+            <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
+            <FirstPersonProjectileDriveByIKOffset x="0.000000" y="0.000000" z="0.000000" />
+            <FirstPersonProjectileDriveByPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
+            <FirstPersonProjectileDriveByRearLeftIKOffset x="0.000000" y="0.000000" z="0.000000" />
+            <FirstPersonProjectileDriveByRearRightIKOffset x="0.000000" y="0.000000" z="0.000000" />
+            <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="0.000000" z="-0.123000" />
+            <FirstPersonDriveByRightPassengerIKOffset x="-0.053000" y="-0.053000" z="-0.068000" />
+            <FirstPersonDriveByRightRearPassengerIKOffset x="0.000000" y="0.000000" z="-0.123000" />
+            <FirstPersonDriveByLeftPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
+            <FirstPersonDriveByRightPassengerUnarmedIKOffset x="0.000000" y="-0.080000" z="-0.033000" />
+            <FirstPersonPassengerMobilePhoneOffset x="0.173000" y="0.273000" z="0.518000" />
+            <FirstPersonMobilePhoneOffset x="0.183000" y="0.383000" z="0.553000" />
+            <PovCameraOffset x="0.000000" y="-0.025000" z="0.725000" />
+            <PovCameraVerticalAdjustmentForRollCage value="0.000000" />
+            <PovPassengerCameraOffset x="0.000000" y="0.000000" z="0.000000" />
+            <PovRearPassengerCameraOffset x="0.000000" y="0.000000" z="0.000000" />
+            <vfxInfoName>VFXVEHICLEINFO_HELI_GENERIC</vfxInfoName>
+            <shouldUseCinematicViewMode value="true" />
+            <shouldCameraTransitionOnClimbUpDown value="false" />
+            <shouldCameraIgnoreExiting value="false" />
+            <AllowPretendOccupants value="false" />
+            <AllowJoyriding value="true" />
+            <AllowSundayDriving value="true" />
+            <AllowBodyColorMapping value="true" />
+            <wheelScale value="0.137000" />
+            <wheelScaleRear value="0.144000" />
+            <dirtLevelMin value="0.000000" />
+            <dirtLevelMax value="0.0050000" />
+            <envEffScaleMin value="0.000000" />
+            <envEffScaleMax value="1.000000" />
+            <envEffScaleMin2 value="0.000000" />
+            <envEffScaleMax2 value="1.000000" />
+            <damageMapScale value="0.400000" />
+            <damageOffsetScale value="0.400000" />
+            <diffuseTint value="0x00FFFFFF" />
+            <steerWheelMult value="1.000000" />
+            <HDTextureDist value="5.000000" />
+            <lodDistances content="float_array">20.000000
+        40.000000
+        100.000000
+        200.000000
+        1000.000000
+        1000.000000</lodDistances>
+            <minSeatHeight value="1.24" />
+            <identicalModelSpawnDistance value="20" />
+            <maxNumOfSameColor value="10" />
+            <defaultBodyHealth value="1000.000000" />
+            <pretendOccupantsScale value="1.000000" />
+            <visibleSpawnDistScale value="1.350000" />
+            <trackerPathWidth value="2.000000" />
+            <weaponForceMult value="1.000000" />
+            <frequency value="100" />
+            <swankness>SWANKNESS_3</swankness>
+            <maxNum value="999" />
+            <flags>FLAG_NO_BOOT FLAG_HAS_LIVERY FLAG_LAW_ENFORCEMENT FLAG_ALLOWS_RAPPEL FLAG_DRIVER_NO_DRIVE_BY FLAG_NO_RESPRAY FLAG_AVERAGE_CAR FLAG_DONT_SPAWN_IN_CARGEN FLAG_DONT_SPAWN_AS_AMBIENT FLAG_DONT_TIMESLICE_WHEELS FLAG_HAS_REAR_SEAT_ACTIVITIES FLAG_USE_LIGHTING_INTERIOR_OVERRIDE</flags>
+            <type>VEHICLE_TYPE_HELI</type>
+            <plateType>VPT_NONE</plateType>
+            <dashboardType>VDT_MAVERICK</dashboardType>
+            <vehicleClass>VC_HELICOPTER</vehicleClass>
+            <wheelType>VWT_SPORT</wheelType>
+            <trailers />
+            <additionalTrailers />
+            <drivers>
+                <Item>
+                    <driverName>S_M_Y_Pilot_01</driverName>
+                    <npcName />
+                </Item>
+            </drivers>
+            <extraIncludes />
+            <doorsWithCollisionWhenClosed />
+            <driveableDoors />
+            <bumpersNeedToCollideWithMap value="false" />
+            <needsRopeTexture value="true" />
+            <requiredExtras />
+            <rewards>
+                <Item>REWARD_WEAPON_SNIPERRIFLE</Item>
+                <Item>REWARD_AMMO_SNIPERRIFLE</Item>
+                <Item>REWARD_STAT_WEAPON</Item>
+            </rewards>
+            <cinematicPartCamera>
+                <Item>HELI_REAR_ROTOR_CAMERA</Item>
+            </cinematicPartCamera>
+            <NmBraceOverrideSet />
+            <buoyancySphereOffset x="0.000000" y="0.000000" z="0.000000" />
+            <buoyancySphereSizeScale value="1.000000" />
+            <pOverrideRagdollThreshold type="NULL" />
+            <firstPersonDrivebyData>
+                <Item>STD_FRONT_LEFT</Item>
+                <Item>HELI_FRONT_RIGHT</Item>
+                <Item>HELI_FROGGER_REAR_LEFT</Item>
+                <Item>HELI_FROGGER_REAR_RIGHT</Item>
+            </firstPersonDrivebyData>
+        </Item>
+        <Item>
+            <modelName>RANGERpredator</modelName>
+            <txdName>RANGERpredator</txdName>
+            <handlingId>PREDATOR</handlingId>
+            <gameName>RANGERpredator</gameName>
+            <vehicleMakeName />
+            <expressionDictName>null</expressionDictName>
+            <expressionName>null</expressionName>
+            <animConvRoofDictName>null</animConvRoofDictName>
+            <animConvRoofName>null</animConvRoofName>
+            <animConvRoofWindowsAffected />
+            <ptfxAssetName>null</ptfxAssetName>
+            <audioNameHash>PREDATOR</audioNameHash>
+            <layout>LAYOUT_BOAT_PREDATOR</layout>
+            <coverBoundOffsets>STANDARD_COVER_OFFSET_INFO</coverBoundOffsets>
+            <explosionInfo>EXPLOSION_INFO_BOAT_MEDIUM</explosionInfo>
+            <scenarioLayout />
+            <cameraName>FOLLOW_BOAT_CAMERA</cameraName>
+            <aimCameraName>BOAT_AIM_CAMERA</aimCameraName>
+            <bonnetCameraName>BOAT_BONNET_CAMERA</bonnetCameraName>
+            <povCameraName>DEFAULT_POV_CAMERA</povCameraName>
+            <FirstPersonDriveByIKOffset x="0.000000" y="-0.040000" z="-0.033000" />
+            <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
+            <FirstPersonProjectileDriveByIKOffset x="0.000000" y="0.000000" z="0.000000" />
+            <FirstPersonProjectileDriveByPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
+            <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
+            <FirstPersonDriveByRightPassengerIKOffset x="0.000000" y="-0.020000" z="-0.041000" />
+            <FirstPersonDriveByLeftPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
+            <FirstPersonDriveByRightPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
+            <FirstPersonMobilePhoneOffset x="0.155000" y="0.315000" z="0.643000" />
+            <FirstPersonPassengerMobilePhoneOffset x="0.113000" y="0.450000" z="0.503000" />
+            <FirstPersonMobilePhoneSeatIKOffset>
+                <Item>
+                    <Offset x="0.113000" y="0.450000" z="0.596000" />
+                    <SeatIndex value="2" />
+                </Item>
+                <Item>
+                    <Offset x="0.113000" y="0.450000" z="0.596000" />
+                    <SeatIndex value="3" />
+                </Item>
+            </FirstPersonMobilePhoneSeatIKOffset>
+            <PovCameraOffset x="0.000000" y="-0.050000" z="0.755000" />
+            <PovCameraVerticalAdjustmentForRollCage value="-0.045000" />
+            <PovPassengerCameraOffset x="0.125000" y="0.200000" z="-0.050000" />
+            <vfxInfoName>VFXVEHICLEINFO_BOAT_GENERIC</vfxInfoName>
+            <shouldUseCinematicViewMode value="true" />
+            <shouldCameraTransitionOnClimbUpDown value="false" />
+            <shouldCameraIgnoreExiting value="false" />
+            <AllowPretendOccupants value="true" />
+            <AllowJoyriding value="true" />
+            <AllowSundayDriving value="true" />
+            <AllowBodyColorMapping value="true" />
+            <wheelScale value="0.500000" />
+            <wheelScaleRear value="0.500000" />
+            <dirtLevelMin value="0.000000" />
+            <dirtLevelMax value="0.000000" />
+            <envEffScaleMin value="0.000000" />
+            <envEffScaleMax value="1.000000" />
+            <envEffScaleMin2 value="0.000000" />
+            <envEffScaleMax2 value="1.000000" />
+            <damageMapScale value="0.600000" />
+            <damageOffsetScale value="1.000000" />
+            <diffuseTint value="0x00FFFFFF" />
+            <steerWheelMult value="1.000000" />
+            <HDTextureDist value="5.000000" />
+            <lodDistances content="float_array">15.000000
+        25.000000
+        70.000000
+        140.000000
+        500.000000
+        500.000000</lodDistances>
+            <minSeatHeight value="0.922" />
+            <identicalModelSpawnDistance value="20" />
+            <maxNumOfSameColor value="10" />
+            <defaultBodyHealth value="1000.000000" />
+            <pretendOccupantsScale value="1.000000" />
+            <visibleSpawnDistScale value="1.000000" />
+            <trackerPathWidth value="2.000000" />
+            <weaponForceMult value="1.000000" />
+            <frequency value="100" />
+            <swankness>SWANKNESS_3</swankness>
+            <maxNum value="999" />
+            <flags>FLAG_NO_BOOT FLAG_PEDS_CAN_STAND_ON_TOP FLAG_GEN_NAVMESH FLAG_LAW_ENFORCEMENT FLAG_EMERGENCY_SERVICE FLAG_DONT_SPAWN_IN_CARGEN FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS FLAG_DONT_SPAWN_AS_AMBIENT FLAG_HAS_LIVERY</flags>
+            <type>VEHICLE_TYPE_BOAT</type>
+            <plateType>VPT_NONE</plateType>
+            <dashboardType>VDT_TRUCK</dashboardType>
+            <vehicleClass>VC_BOAT</vehicleClass>
+            <wheelType>VWT_SPORT</wheelType>
+            <trailers />
+            <additionalTrailers />
+            <drivers>
+                <Item>
+                    <driverName>S_M_Y_USCG_01</driverName>
+                    <npcName />
+                </Item>
+            </drivers>
+            <extraIncludes />
+            <doorsWithCollisionWhenClosed />
+            <driveableDoors />
+            <bumpersNeedToCollideWithMap value="false" />
+            <needsRopeTexture value="false" />
+            <requiredExtras />
+            <rewards>
+                <Item>REWARD_WEAPON_CARBINERIFLE</Item>
+                <Item>REWARD_AMMO_CARBINERIFLE</Item>
+                <Item>REWARD_STAT_WEAPON</Item>
+            </rewards>
+            <cinematicPartCamera>
+                <Item>VEH_WINDOW_FRONT_LEFT_CAMERA</Item>
+                <Item>VEH_WINDOW_FRONT_RIGHT_CAMERA</Item>
+            </cinematicPartCamera>
+            <NmBraceOverrideSet />
+            <buoyancySphereOffset x="0.000000" y="0.000000" z="0.000000" />
+            <buoyancySphereSizeScale value="1.000000" />
+            <pOverrideRagdollThreshold type="NULL" />
+            <firstPersonDrivebyData>
+                <Item>BOAT_PREDATOR_FRONT_LEFT</Item>
+                <Item>BOAT_PREDATOR_FRONT_RIGHT</Item>
+            </firstPersonDrivebyData>
+        </Item>
+        <Item>
+            <modelName>RANGERscout</modelName>
+            <txdName>RANGERscout</txdName>
+            <handlingId>PRANGERSCOUT</handlingId>
+            <gameName>RANGERscout</gameName>
+            <vehicleMakeName />
+            <expressionDictName>null</expressionDictName>
+            <expressionName>null</expressionName>
+            <animConvRoofDictName>null</animConvRoofDictName>
+            <animConvRoofName>null</animConvRoofName>
+            <animConvRoofWindowsAffected />
+            <ptfxAssetName>null</ptfxAssetName>
+            <audioNameHash>PRANGER</audioNameHash>
+            <layout>LAYOUT_RANGER</layout>
+            <coverBoundOffsets>BALLER_COVER_OFFSET_INFO</coverBoundOffsets>
+            <explosionInfo>EXPLOSION_INFO_DEFAULT</explosionInfo>
+            <scenarioLayout />
+            <cameraName>DEFAULT_FOLLOW_VEHICLE_CAMERA</cameraName>
+            <aimCameraName>DEFAULT_THIRD_PERSON_VEHICLE_AIM_CAMERA</aimCameraName>
+            <bonnetCameraName>VEHICLE_BONNET_CAMERA_MID</bonnetCameraName>
+            <povCameraName>DEFAULT_POV_CAMERA</povCameraName>
+            <FirstPersonDriveByIKOffset x="0.000000" y="-0.050000" z="-0.050000" />
+            <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="0.000000" z="-0.020000" />
+            <FirstPersonProjectileDriveByIKOffset x="0.030000" y="0.000000" z="0.000000" />
+            <FirstPersonProjectileDriveByPassengerIKOffset x="-0.030000" y="0.000000" z="0.000000" />
+            <FirstPersonProjectileDriveByRearLeftIKOffset x="0.000000" y="0.025000" z="-0.035000" />
+            <FirstPersonProjectileDriveByRearRightIKOffset x="0.000000" y="0.030000" z="-0.050000" />
+            <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="0.000000" z="-0.010000" />
+            <FirstPersonDriveByRightPassengerIKOffset x="0.000000" y="-0.050000" z="-0.050000" />
+            <FirstPersonDriveByRightRearPassengerIKOffset x="0.000000" y="0.000000" z="-0.010000" />
+            <FirstPersonDriveByLeftPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
+            <FirstPersonDriveByRightPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
+            <FirstPersonMobilePhoneOffset x="0.135000" y="0.240000" z="0.530000" />
+            <FirstPersonPassengerMobilePhoneOffset x="0.136000" y="0.223000" z="0.425000" />
+            <FirstPersonMobilePhoneSeatIKOffset>
+                <Item>
+                    <Offset x="0.136000" y="0.136000" z="0.445000" />
+                    <SeatIndex value="2" />
+                </Item>
+                <Item>
+                    <Offset x="0.136000" y="0.136000" z="0.445000" />
+                    <SeatIndex value="3" />
+                </Item>
+            </FirstPersonMobilePhoneSeatIKOffset>
+            <PovCameraOffset x="0.000000" y="-0.165000" z="0.645000" />
+            <PovCameraVerticalAdjustmentForRollCage value="0.000000" />
+            <PovPassengerCameraOffset x="0.000000" y="0.000000" z="0.000000" />
+            <PovRearPassengerCameraOffset x="0.000000" y="0.010000" z="0.030000" />
+            <vfxInfoName>VFXVEHICLEINFO_CAR_GENERIC</vfxInfoName>
+            <shouldUseCinematicViewMode value="true" />
+            <shouldCameraTransitionOnClimbUpDown value="false" />
+            <shouldCameraIgnoreExiting value="false" />
+            <AllowPretendOccupants value="true" />
+            <AllowJoyriding value="true" />
+            <AllowSundayDriving value="true" />
+            <AllowBodyColorMapping value="true" />
+            <wheelScale value="0.304000" />
+            <wheelScaleRear value="0.304000" />
+            <dirtLevelMin value="0.000000" />
+            <dirtLevelMax value="0.550000" />
+            <envEffScaleMin value="0.000000" />
+            <envEffScaleMax value="1.000000" />
+            <envEffScaleMin2 value="0.000000" />
+            <envEffScaleMax2 value="1.000000" />
+            <damageMapScale value="0.300000" />
+            <damageOffsetScale value="1.000000" />
+            <diffuseTint value="0x00FFFFFF" />
+            <steerWheelMult value="1.000000" />
+            <HDTextureDist value="5.000000" />
+            <lodDistances content="float_array">15.000000	
+        25.000000	
+        70.000000	
+        140.000000	
+        350.000000	
+        350.000000</lodDistances>
+            <minSeatHeight value="0.887" />
+            <identicalModelSpawnDistance value="20" />
+            <maxNumOfSameColor value="10" />
+            <defaultBodyHealth value="1000.000000" />
+            <pretendOccupantsScale value="1.000000" />
+            <visibleSpawnDistScale value="1.000000" />
+            <trackerPathWidth value="2.000000" />
+            <weaponForceMult value="1.000000" />
+            <frequency value="35" />
+            <swankness>SWANKNESS_1</swankness>
+            <maxNum value="4" />
+            <flags>FLAG_USE_INTERIOR_RED_LIGHT FLAG_EXTRAS_STRONG FLAG_EXTRAS_RARE FLAG_HAS_INTERIOR_EXTRAS FLAG_HAS_LIVERY FLAG_LAW_ENFORCEMENT FLAG_EMERGENCY_SERVICE FLAG_NO_RESPRAY FLAG_DONT_SPAWN_IN_CARGEN FLAG_REPORT_CRIME_IF_STANDING_ON FLAG_IS_OFFROAD_VEHICLE</flags>
+            <type>VEHICLE_TYPE_CAR</type>
+            <plateType>VPT_FRONT_AND_BACK_PLATES</plateType>
+            <dashboardType>VDT_CAVALCADE</dashboardType>
+            <vehicleClass>VC_EMERGENCY</vehicleClass>
+            <wheelType>VWT_OFFROAD</wheelType>
+            <trailers />
+            <additionalTrailers />
+            <drivers>
+                <Item>
+                    <driverName>S_M_Y_Ranger_01</driverName>
+                    <npcName />
+                </Item>
+                <Item>
+                    <driverName>S_F_Y_Ranger_01</driverName>
+                    <npcName />
+                </Item>
+            </drivers>
+            <extraIncludes>
+                <Item>EXTRA_2 EXTRA_3</Item>
+            </extraIncludes>
+            <doorsWithCollisionWhenClosed />
+            <driveableDoors />
+            <bumpersNeedToCollideWithMap value="false" />
+            <needsRopeTexture value="false" />
+            <requiredExtras />
+            <rewards />
+            <cinematicPartCamera>
+                <Item>WHEEL_FRONT_RIGHT_CAMERA</Item>
+                <Item>WHEEL_FRONT_LEFT_CAMERA</Item>
+                <Item>WHEEL_REAR_RIGHT_CAMERA</Item>
+                <Item>WHEEL_REAR_LEFT_CAMERA</Item>
+            </cinematicPartCamera>
+            <NmBraceOverrideSet>Truck</NmBraceOverrideSet>
+            <buoyancySphereOffset x="0.000000" y="0.000000" z="0.000000" />
+            <buoyancySphereSizeScale value="1.000000" />
+            <pOverrideRagdollThreshold type="NULL" />
+            <firstPersonDrivebyData>
+                <Item>STD_BUFFALO_FRONT_LEFT</Item>
+                <Item>STD_BUFFALO_FRONT_RIGHT</Item>
+                <Item>STD_BALLER3_REAR_LEFT</Item>
+                <Item>STD_BALLER3_REAR_RIGHT</Item>
+            </firstPersonDrivebyData>
+        </Item>
+        <Item>
+            <modelName>RANGERtorrence</modelName>
+            <txdName>RANGERtorrence</txdName>
+            <handlingId>POLICE3</handlingId>
+            <gameName>RANGERtorrence</gameName>
+            <vehicleMakeName />
+            <expressionDictName>null</expressionDictName>
+            <expressionName>null</expressionName>
+            <animConvRoofDictName>null</animConvRoofDictName>
+            <animConvRoofName>null</animConvRoofName>
+            <animConvRoofWindowsAffected />
+            <ptfxAssetName>null</ptfxAssetName>
+            <audioNameHash>PRANGER</audioNameHash>
+            <layout>LAYOUT_STD_EXITFIXUP</layout>
+            <coverBoundOffsets>POLICE3_COVER_OFFSET_INFO</coverBoundOffsets>
+            <explosionInfo>EXPLOSION_INFO_DEFAULT</explosionInfo>
+            <scenarioLayout />
+            <cameraName>DEFAULT_FOLLOW_VEHICLE_CAMERA</cameraName>
+            <aimCameraName>MID_BOX_VEHICLE_AIM_CAMERA</aimCameraName>
+            <bonnetCameraName>VEHICLE_BONNET_CAMERA_MID_NEAR</bonnetCameraName>
+            <povCameraName>DEFAULT_POV_CAMERA</povCameraName>
+            <FirstPersonDriveByIKOffset x="0.000000" y="-0.060000" z="-0.030000" />
+            <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="0.000000" z="-0.020000" />
+            <FirstPersonProjectileDriveByIKOffset x="0.055000" y="-0.075000" z="-0.045000" />
+            <FirstPersonProjectileDriveByPassengerIKOffset x="-0.055000" y="-0.075000" z="-0.045000" />
+            <FirstPersonProjectileDriveByRearLeftIKOffset x="0.000000" y="0.000000" z="0.000000" />
+            <FirstPersonProjectileDriveByRearRightIKOffset x="0.000000" y="0.000000" z="0.000000" />
+            <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
+            <FirstPersonDriveByRightPassengerIKOffset x="0.000000" y="-0.060000" z="-0.030000" />
+            <FirstPersonDriveByRightRearPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
+            <FirstPersonDriveByLeftPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
+            <FirstPersonDriveByRightPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
+            <FirstPersonMobilePhoneOffset x="0.130000" y="0.275000" z="0.530000" />
+            <FirstPersonPassengerMobilePhoneOffset x="0.136000" y="0.223000" z="0.425000" />
+            <FirstPersonMobilePhoneSeatIKOffset>
+                <Item>
+                    <Offset x="0.136000" y="0.156000" z="0.445000" />
+                    <SeatIndex value="2" />
+                </Item>
+                <Item>
+                    <Offset x="0.136000" y="0.156000" z="0.445000" />
+                    <SeatIndex value="3" />
+                </Item>
+            </FirstPersonMobilePhoneSeatIKOffset>
+            <PovCameraOffset x="0.000000" y="-0.175000" z="0.675000" />
+            <PovCameraVerticalAdjustmentForRollCage value="0.000000" />
+            <PovPassengerCameraOffset x="0.000000" y="0.000000" z="0.000000" />
+            <PovRearPassengerCameraOffset x="0.000000" y="0.000000" z="0.000000" />
+            <vfxInfoName>VFXVEHICLEINFO_CAR_GENERIC</vfxInfoName>
+            <shouldUseCinematicViewMode value="true" />
+            <shouldCameraTransitionOnClimbUpDown value="false" />
+            <shouldCameraIgnoreExiting value="false" />
+            <AllowPretendOccupants value="true" />
+            <AllowJoyriding value="false" />
+            <AllowSundayDriving value="false" />
+            <AllowBodyColorMapping value="false" />
+            <wheelScale value="0.264000" />
+            <wheelScaleRear value="0.264000" />
+            <dirtLevelMin value="0.000000" />
+            <dirtLevelMax value="0.300000" />
+            <envEffScaleMin value="0.000000" />
+            <envEffScaleMax value="1.000000" />
+            <envEffScaleMin2 value="0.000000" />
+            <envEffScaleMax2 value="1.000000" />
+            <damageMapScale value="0.600000" />
+            <damageOffsetScale value="1.000000" />
+            <diffuseTint value="0x00FFFFFF" />
+            <steerWheelMult value="1.000000" />
+            <HDTextureDist value="5.000000" />
+            <lodDistances content="float_array">15.000000
+        30.000000
+        70.000000
+        140.000000
+        500.000000
+        500.000000</lodDistances>
+            <minSeatHeight value="0.83" />
+            <identicalModelSpawnDistance value="20" />
+            <maxNumOfSameColor value="10" />
+            <defaultBodyHealth value="1000.000000" />
+            <pretendOccupantsScale value="1.000000" />
+            <visibleSpawnDistScale value="1.000000" />
+            <trackerPathWidth value="2.000000" />
+            <weaponForceMult value="1.000000" />
+            <frequency value="100" />
+            <swankness>SWANKNESS_1</swankness>
+            <maxNum value="2" />
+            <flags>FLAG_HAS_LIVERY FLAG_EXTRAS_REQUIRE FLAG_EXTRAS_STRONG FLAG_LAW_ENFORCEMENT FLAG_EMERGENCY_SERVICE FLAG_NO_RESPRAY FLAG_DONT_SPAWN_IN_CARGEN FLAG_HAS_INTERIOR_EXTRAS FLAG_REPORT_CRIME_IF_STANDING_ON</flags>
+            <type>VEHICLE_TYPE_CAR</type>
+            <plateType>VPT_FRONT_AND_BACK_PLATES</plateType>
+            <dashboardType>VDT_GENTAXI</dashboardType>
+            <vehicleClass>VC_EMERGENCY</vehicleClass>
+            <wheelType>VWT_SPORT</wheelType>
+            <trailers />
+            <additionalTrailers />
+            <drivers>
+                <Item>
+                    <driverName>S_M_Y_Ranger_01</driverName>
+                    <npcName />
+                </Item>
+                <Item>
+                    <driverName>S_F_Y_Ranger_01</driverName>
+                    <npcName />
+                </Item>
+            </drivers>
+            <extraIncludes />
+            <doorsWithCollisionWhenClosed />
+            <driveableDoors />
+            <bumpersNeedToCollideWithMap value="false" />
+            <needsRopeTexture value="false" />
+            <requiredExtras>EXTRA_1 EXTRA_2</requiredExtras>
+            <rewards>
+                <Item>REWARD_WEAPON_PUMPSHOTGUN</Item>
+                <Item>REWARD_AMMO_PUMPSHOTGUN_ENTER_VEHICLE</Item>
+                <Item>REWARD_STAT_WEAPON</Item>
+            </rewards>
+            <cinematicPartCamera>
+                <Item>WHEEL_FRONT_RIGHT_CAMERA</Item>
+                <Item>WHEEL_FRONT_LEFT_CAMERA</Item>
+                <Item>WHEEL_REAR_RIGHT_CAMERA</Item>
+                <Item>WHEEL_REAR_LEFT_CAMERA</Item>
+            </cinematicPartCamera>
+            <NmBraceOverrideSet />
+            <buoyancySphereOffset x="0.000000" y="0.000000" z="0.000000" />
+            <buoyancySphereSizeScale value="1.000000" />
+            <pOverrideRagdollThreshold type="NULL" />
+            <firstPersonDrivebyData>
+                <Item>STD_POLICE3_FRONT_LEFT</Item>
+                <Item>STD_POLICE3_FRONT_RIGHT</Item>
+                <Item>STD_POLICE2_REAR_LEFT</Item>
+                <Item>STD_POLICE2_REAR_RIGHT</Item>
+            </firstPersonDrivebyData>
+        </Item>
+        <Item>
+            <modelName>RANGERpatriot</modelName>
+            <txdName>RANGERpatriot</txdName>
+            <handlingId>PRANGERPATRIOTC</handlingId>
+            <gameName>RANGERpatriot</gameName>
+            <vehicleMakeName />
+            <expressionDictName>null</expressionDictName>
+            <expressionName>null</expressionName>
+            <animConvRoofDictName>null</animConvRoofDictName>
+            <animConvRoofName>null</animConvRoofName>
+            <animConvRoofWindowsAffected />
+            <ptfxAssetName>null</ptfxAssetName>
+            <audioNameHash>PRANGER</audioNameHash>
+            <layout>LAYOUT_4X4</layout>
+            <coverBoundOffsets>CRUSADER_COVER_OFFSET_INFO</coverBoundOffsets>
+            <explosionInfo>EXPLOSION_INFO_DEFAULT</explosionInfo>
+            <scenarioLayout />
+            <cameraName>FOLLOW_JEEP_CAMERA</cameraName>
+            <aimCameraName>JEEP_AIM_CAMERA</aimCameraName>
+            <bonnetCameraName>VEHICLE_BONNET_CAMERA_MID</bonnetCameraName>
+            <povCameraName>DEFAULT_POV_CAMERA_LOOKAROUND</povCameraName>
+            <FirstPersonDriveByIKOffset x="0.023000" y="-0.050000" z="-0.030000" />
+            <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="0.000000" z="-0.040000" />
+            <FirstPersonProjectileDriveByIKOffset x="0.050000" y="-0.010000" z="0.070000" />
+            <FirstPersonProjectileDriveByPassengerIKOffset x="0.020000" y="0.060000" z="-0.090000" />
+            <FirstPersonProjectileDriveByRearLeftIKOffset x="0.000000" y="0.000000" z="-0.055000" />
+            <FirstPersonProjectileDriveByRearRightIKOffset x="0.000000" y="0.000000" z="-0.055000" />
+            <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="0.010000" z="-0.040000" />
+            <FirstPersonDriveByRightPassengerIKOffset x="0.000000" y="0.000000" z="-0.040000" />
+            <FirstPersonDriveByRightRearPassengerIKOffset x="0.000000" y="0.010000" z="-0.040000" />
+            <FirstPersonDriveByLeftPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="-0.020000" />
+            <FirstPersonDriveByRightPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="-0.020000" />
+            <FirstPersonMobilePhoneOffset x="0.143000" y="0.245000" z="0.493000" />
+            <FirstPersonPassengerMobilePhoneOffset x="0.136000" y="0.223000" z="0.403000" />
+            <FirstPersonMobilePhoneSeatIKOffset>
+                <Item>
+                    <Offset x="0.200000" y="0.223000" z="0.403000" />
+                    <SeatIndex value="3" />
+                </Item>
+            </FirstPersonMobilePhoneSeatIKOffset>
+            <PovCameraOffset x="0.000000" y="-0.160000" z="0.620000" />
+            <PovCameraVerticalAdjustmentForRollCage value="0.000000" />
+            <PovPassengerCameraOffset x="-0.050000" y="0.040000" z="0.015000" />
+            <PovRearPassengerCameraOffset x="-0.050000" y="0.040000" z="0.015000" />
+            <vfxInfoName>VFXVEHICLEINFO_CAR_OFFROAD</vfxInfoName>
+            <shouldUseCinematicViewMode value="true" />
+            <shouldCameraTransitionOnClimbUpDown value="false" />
+            <shouldCameraIgnoreExiting value="false" />
+            <AllowPretendOccupants value="true" />
+            <AllowJoyriding value="true" />
+            <AllowSundayDriving value="true" />
+            <AllowBodyColorMapping value="true" />
+            <wheelScale value="0.354800" />
+            <wheelScaleRear value="0.354800" />
+            <dirtLevelMin value="0.000000" />
+            <dirtLevelMax value="0.700000" />
+            <envEffScaleMin value="0.000000" />
+            <envEffScaleMax value="1.000000" />
+            <envEffScaleMin2 value="0.000000" />
+            <envEffScaleMax2 value="1.000000" />
+            <damageMapScale value="0.600000" />
+            <damageOffsetScale value="1.000000" />
+            <diffuseTint value="0x00FFFFFF" />
+            <steerWheelMult value="1.000000" />
+            <HDTextureDist value="5.000000" />
+            <lodDistances content="float_array">15.000000   
+        35.000000   
+        70.000000   
+        140.000000  
+        500.000000  
+        500.000000</lodDistances>
+            <minSeatHeight value="0.892" />
+            <identicalModelSpawnDistance value="20" />
+            <maxNumOfSameColor value="10" />
+            <defaultBodyHealth value="1000.000000" />
+            <pretendOccupantsScale value="1.000000" />
+            <visibleSpawnDistScale value="1.000000" />
+            <trackerPathWidth value="2.000000" />
+            <weaponForceMult value="1.000000" />
+            <frequency value="50" />
+            <swankness>SWANKNESS_2</swankness>
+            <maxNum value="5" />
+            <flags>FLAG_EXTRAS_STRONG FLAG_HAS_LIVERY FLAG_PARKING_SENSORS FLAG_AVERAGE_CAR FLAG_IS_OFFROAD_VEHICLE FLAG_IS_BULKY FLAG_USE_RESTRICTED_DRIVEBY_HEIGHT FLAG_HAS_INTERIOR_EXTRAS FLAG_LAW_ENFORCEMENT FLAG_EMERGENCY_SERVICE</flags>
+            <type>VEHICLE_TYPE_CAR</type>
+            <plateType>VPT_FRONT_AND_BACK_PLATES</plateType>
+            <dashboardType>VDT_CAVALCADE</dashboardType>
+            <vehicleClass>VC_EMERGENCY</vehicleClass>
+            <wheelType>VWT_OFFROAD</wheelType>
+            <trailers>
+                <Item>boattrailer</Item>
+                <Item>trailersmall</Item>
+            </trailers>
+            <additionalTrailers>
+                <Item>trailersmall2</Item>
+            </additionalTrailers>
+            <drivers>
+                <Item>
+                    <driverName>S_M_Y_Ranger_01</driverName>
+                    <npcName />
+                </Item>
+                <Item>
+                    <driverName>S_F_Y_Ranger_01</driverName>
+                    <npcName />
+                </Item>
+            </drivers>
+            <extraIncludes />
+            <doorsWithCollisionWhenClosed>
+                <Item>VEH_EXT_BOOT</Item>
+            </doorsWithCollisionWhenClosed>
+            <driveableDoors />
+            <bumpersNeedToCollideWithMap value="false" />
+            <needsRopeTexture value="false" />
+            <requiredExtras />
+            <rewards />
+            <cinematicPartCamera>
+                <Item>WHEEL_FRONT_RIGHT_CAMERA</Item>
+                <Item>WHEEL_FRONT_LEFT_CAMERA</Item>
+                <Item>WHEEL_REAR_RIGHT_CAMERA</Item>
+                <Item>WHEEL_REAR_LEFT_CAMERA</Item>
+            </cinematicPartCamera>
+            <NmBraceOverrideSet>Truck</NmBraceOverrideSet>
+            <buoyancySphereOffset x="0.000000" y="0.000000" z="0.000000" />
+            <buoyancySphereSizeScale value="1.000000" />
+            <pOverrideRagdollThreshold type="NULL" />
+            <firstPersonDrivebyData>
+                <Item>VAN_PATRIOTC_FRONT_LEFT</Item>
+                <Item>VAN_PATRIOTC_FRONT_RIGHT</Item>
+                <Item>RANGER_CRUSADER_REAR_LEFT</Item>
+                <Item>RANGER_CRUSADER_REAR_RIGHT</Item>
+            </firstPersonDrivebyData>
+        </Item>
+        <Item>
+            <modelName>RANGERsadler</modelName>
+            <txdName>RANGERsadler</txdName>
+            <handlingId>prangersd</handlingId>
+            <gameName>RANGERsadler</gameName>
+            <vehicleMakeName />
+            <expressionDictName>null</expressionDictName>
+            <expressionName>null</expressionName>
+            <animConvRoofDictName>null</animConvRoofDictName>
+            <animConvRoofName>null</animConvRoofName>
+            <animConvRoofWindowsAffected />
+            <ptfxAssetName>weap_gr_vehicle_weapons</ptfxAssetName>
+            <audioNameHash>PRANGER</audioNameHash>
+            <layout>LAYOUT_4X4</layout>
+            <coverBoundOffsets>SADLER_COVER_OFFSET_INFO</coverBoundOffsets>
+            <explosionInfo>EXPLOSION_INFO_DEFAULT</explosionInfo>
+            <scenarioLayout />
+            <cameraName>DEFAULT_FOLLOW_VEHICLE_CAMERA</cameraName>
+            <aimCameraName>DEFAULT_THIRD_PERSON_VEHICLE_AIM_CAMERA</aimCameraName>
+            <bonnetCameraName>VEHICLE_BONNET_CAMERA_MID</bonnetCameraName>
+            <povCameraName>DEFAULT_POV_CAMERA_LOOKAROUND</povCameraName>
+            <FirstPersonDriveByIKOffset x="0.023000" y="-0.050000" z="-0.030000" />
+            <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="0.000000" z="-0.020000" />
+            <FirstPersonProjectileDriveByIKOffset x="0.000000" y="0.000000" z="0.038000" />
+            <FirstPersonProjectileDriveByPassengerIKOffset x="0.020000" y="0.060000" z="-0.090000" />
+            <FirstPersonProjectileDriveByRearLeftIKOffset x="0.000000" y="0.000000" z="-0.055000" />
+            <FirstPersonProjectileDriveByRearRightIKOffset x="0.000000" y="0.000000" z="-0.055000" />
+            <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="0.000000" z="-0.040000" />
+            <FirstPersonDriveByRightPassengerIKOffset x="0.000000" y="-0.030000" z="-0.040000" />
+            <FirstPersonDriveByRightRearPassengerIKOffset x="0.000000" y="0.000000" z="-0.040000" />
+            <FirstPersonDriveByLeftPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="-0.020000" />
+            <FirstPersonDriveByRightPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="-0.020000" />
+            <FirstPersonMobilePhoneOffset x="0.155000" y="0.220000" z="0.501000" />
+            <FirstPersonPassengerMobilePhoneOffset x="0.136000" y="0.223000" z="0.425000" />
+            <FirstPersonMobilePhoneSeatIKOffset>
+                <Item>
+                    <Offset x="0.136000" y="0.123000" z="0.448000" />
+                    <SeatIndex value="2" />
+                </Item>
+                <Item>
+                    <Offset x="0.136000" y="0.123000" z="0.448000" />
+                    <SeatIndex value="3" />
+                </Item>
+            </FirstPersonMobilePhoneSeatIKOffset>
+            <PovCameraOffset x="0.000000" y="-0.120000" z="0.610000" />
+            <PovCameraVerticalAdjustmentForRollCage value="0.000000" />
+            <PovPassengerCameraOffset x="0.000000" y="0.000000" z="0.030000" />
+            <PovRearPassengerCameraOffset x="0.000000" y="-0.130000" z="0.090000" />
+            <vfxInfoName>VFXVEHICLEINFO_CAR_GENERIC</vfxInfoName>
+            <shouldUseCinematicViewMode value="true" />
+            <shouldCameraTransitionOnClimbUpDown value="false" />
+            <shouldCameraIgnoreExiting value="false" />
+            <AllowPretendOccupants value="true" />
+            <AllowJoyriding value="false" />
+            <AllowSundayDriving value="false" />
+            <AllowBodyColorMapping value="true" />
+            <wheelScale value="0.3012" />
+            <wheelScaleRear value="0.3012" />
+            <dirtLevelMin value="0.300000" />
+            <dirtLevelMax value="1.000000" />
+            <envEffScaleMin value="0.000000" />
+            <envEffScaleMax value="1.000000" />
+            <envEffScaleMin2 value="0.000000" />
+            <envEffScaleMax2 value="1.000000" />
+            <damageMapScale value="0.600000" />
+            <damageOffsetScale value="1.000000" />
+            <diffuseTint value="0x00FFFFFF" />
+            <steerWheelMult value="1.000000" />
+            <HDTextureDist value="5.000000" />
+            <lodDistances content="float_array">15.000000
+                30.000000
+                65.000000
+                130.000000
+                500.000000
+                500.000000</lodDistances>
+            <minSeatHeight value="0.933" />
+            <identicalModelSpawnDistance value="20" />
+            <maxNumOfSameColor value="10" />
+            <defaultBodyHealth value="1000.000000" />
+            <pretendOccupantsScale value="1.000000" />
+            <visibleSpawnDistScale value="1.000000" />
+            <trackerPathWidth value="2.000000" />
+            <weaponForceMult value="1.000000" />
+            <frequency value="10" />
+            <swankness>SWANKNESS_4</swankness>
+            <maxNum value="3" />
+            <flags>FLAG_EXTRAS_STRONG FLAG_HAS_LIVERY FLAG_USE_INTERIOR_RED_LIGHT FLAG_IS_OFFROAD_VEHICLE FLAG_LAW_ENFORCEMENT FLAG_EMERGENCY_SERVICE FLAG_IS_BULKY FLAG_NO_RESPRAY</flags>
+            <type>VEHICLE_TYPE_CAR</type>
+            <plateType>VPT_BACK_PLATES</plateType>
+            <dashboardType>VDT_CAVALCADE</dashboardType>
+            <vehicleClass>VC_EMERGENCY</vehicleClass>
+            <wheelType>VWT_OFFROAD</wheelType>
+            <trailers />
+            <additionalTrailers />
+            <drivers>
+                <Item>
+                    <driverName>S_M_Y_Ranger_01</driverName>
+                    <npcName />
+                </Item>
+                <Item>
+                    <driverName>S_F_Y_Ranger_01</driverName>
+                    <npcName />
+                </Item>
+            </drivers>
+            <extraIncludes />
+            <doorsWithCollisionWhenClosed>
+                <Item>VEH_EXT_BOOT</Item>
+            </doorsWithCollisionWhenClosed>
+            <driveableDoors />
+            <bumpersNeedToCollideWithMap value="true" />
+            <needsRopeTexture value="false" />
+            <requiredExtras />
+            <rewards>
+                <Item>REWARD_STAT_WEAPON</Item>
+                <Item>REWARD_HEALTH_ENTER_VEHICLE</Item>
+            </rewards>
+            <cinematicPartCamera>
+                <Item>WHEEL_FRONT_RIGHT_CAMERA</Item>
+                <Item>WHEEL_FRONT_LEFT_CAMERA</Item>
+                <Item>WHEEL_REAR_RIGHT_CAMERA</Item>
+                <Item>WHEEL_REAR_LEFT_CAMERA</Item>
+            </cinematicPartCamera>
+            <NmBraceOverrideSet />
+            <buoyancySphereOffset x="0.000000" y="0.000000" z="0.000000" />
+            <buoyancySphereSizeScale value="1.000000" />
+            <pOverrideRagdollThreshold type="NULL" />
+            <firstPersonDrivebyData>
+                <Item>RANGER_SADLER_FRONT_LEFT</Item>
+                <Item>RANGER_FRONT_RIGHT</Item>
+                <Item>RANGER_CRUSADER_REAR_LEFT</Item>
+                <Item>RANGER_CRUSADER_REAR_RIGHT</Item>
+            </firstPersonDrivebyData>
+        </Item>
+        <Item>
+            <modelName>RANGERutil</modelName>
+            <txdName>RANGERutil</txdName>
+            <handlingId>BOBCATXL</handlingId>
+            <gameName>RANGERutil</gameName>
+            <vehicleMakeName />
+            <expressionDictName>null</expressionDictName>
+            <expressionName>null</expressionName>
+            <animConvRoofDictName>null</animConvRoofDictName>
+            <animConvRoofName>null</animConvRoofName>
+            <animConvRoofWindowsAffected />
+            <ptfxAssetName>null</ptfxAssetName>
+            <audioNameHash>BOBCATXL</audioNameHash>
+            <layout>LAYOUT_STANDARD</layout>
+            <coverBoundOffsets>BOBCATXL_COVER_OFFSET_INFO</coverBoundOffsets>
+            <explosionInfo>EXPLOSION_INFO_DEFAULT</explosionInfo>
+            <scenarioLayout />
+            <cameraName>DEFAULT_FOLLOW_VEHICLE_CAMERA</cameraName>
+            <aimCameraName>BOX_VEHICLE_AIM_CAMERA</aimCameraName>
+            <bonnetCameraName>VEHICLE_BONNET_CAMERA_STANDARD_LONG</bonnetCameraName>
+            <povCameraName>DEFAULT_POV_CAMERA</povCameraName>
+            <FirstPersonDriveByIKOffset x="0.000000" y="0.000000" z="-0.030000" />
+            <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="-0.025000" z="0.000000" />
+            <FirstPersonProjectileDriveByIKOffset x="0.000000" y="-0.085000" z="-0.010000" />
+            <FirstPersonProjectileDriveByPassengerIKOffset x="-0.120000" y="-0.120000" z="-0.060000" />
+            <FirstPersonProjectileDriveByRearLeftIKOffset x="0.000000" y="0.000000" z="0.000000" />
+            <FirstPersonProjectileDriveByRearRightIKOffset x="0.000000" y="0.000000" z="0.000000" />
+            <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
+            <FirstPersonDriveByRightPassengerIKOffset x="0.000000" y="0.000000" z="0.030000" />
+            <FirstPersonDriveByRightRearPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
+            <FirstPersonDriveByLeftPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
+            <FirstPersonDriveByRightPassengerUnarmedIKOffset x="0.000000" y="-0.035000" z="0.000000" />
+            <FirstPersonMobilePhoneOffset x="0.133000" y="0.268000" z="0.571000" />
+            <FirstPersonPassengerMobilePhoneOffset x="0.135000" y="0.205000" z="0.485000" />
+            <PovCameraOffset x="0.000000" y="-0.100000" z="0.680000" />
+            <PovCameraVerticalAdjustmentForRollCage value="0.000000" />
+            <PovPassengerCameraOffset x="0.000000" y="0.000000" z="0.000000" />
+            <PovRearPassengerCameraOffset x="0.000000" y="0.000000" z="0.000000" />
+            <vfxInfoName>VFXVEHICLEINFO_CAR_GENERIC</vfxInfoName>
+            <shouldUseCinematicViewMode value="true" />
+            <shouldCameraTransitionOnClimbUpDown value="false" />
+            <shouldCameraIgnoreExiting value="false" />
+            <AllowPretendOccupants value="true" />
+            <AllowJoyriding value="true" />
+            <AllowSundayDriving value="true" />
+            <AllowBodyColorMapping value="true" />
+            <wheelScale value="0.240000" />
+            <wheelScaleRear value="0.240000" />
+            <dirtLevelMin value="0.000000" />
+            <dirtLevelMax value="0.850000" />
+            <envEffScaleMin value="0.000000" />
+            <envEffScaleMax value="1.000000" />
+            <envEffScaleMin2 value="0.000000" />
+            <envEffScaleMax2 value="1.000000" />
+            <damageMapScale value="0.600000" />
+            <damageOffsetScale value="1.000000" />
+            <diffuseTint value="0x00FFFFFF" />
+            <steerWheelMult value="1.000000" />
+            <HDTextureDist value="5.000000" />
+            <lodDistances content="float_array">15.000000
+        30.000000
+        85.000000
+        170.000000
+        500.000000
+        500.000000</lodDistances>
+            <minSeatHeight value="0.993" />
+            <identicalModelSpawnDistance value="20" />
+            <maxNumOfSameColor value="10" />
+            <defaultBodyHealth value="1000.000000" />
+            <pretendOccupantsScale value="1.000000" />
+            <visibleSpawnDistScale value="1.000000" />
+            <trackerPathWidth value="2.000000" />
+            <weaponForceMult value="1.000000" />
+            <frequency value="100" />
+            <swankness>SWANKNESS_1</swankness>
+            <maxNum value="999" />
+            <flags>FLAG_EXTRAS_STRONG FLAG_POOR_CAR FLAG_IS_OFFROAD_VEHICLE FLAG_IS_BULKY</flags>
+            <type>VEHICLE_TYPE_CAR</type>
+            <plateType>VPT_FRONT_AND_BACK_PLATES</plateType>
+            <dashboardType>VDT_BOBCAT</dashboardType>
+            <vehicleClass>VC_UTILITY</vehicleClass>
+            <wheelType>VWT_SUV</wheelType>
+            <trailers>
+                <Item>boattrailer</Item>
+                <Item>trailersmall</Item>
+            </trailers>
+            <additionalTrailers>
+                <Item>trailersmall2</Item>
+            </additionalTrailers>
+            <drivers>
+                <Item>
+                    <driverName>S_F_Y_Ranger_01</driverName>
+                    <npcName />
+                </Item>
+                <Item>
+                    <driverName>S_M_Y_Ranger_01</driverName>
+                    <npcName />
+                </Item>
+            </drivers>
+            <extraIncludes />
+            <doorsWithCollisionWhenClosed>
+                <Item>VEH_EXT_BOOT</Item>
+            </doorsWithCollisionWhenClosed>
+            <driveableDoors />
+            <bumpersNeedToCollideWithMap value="true" />
+            <needsRopeTexture value="false" />
+            <requiredExtras />
+            <rewards />
+            <cinematicPartCamera>
+                <Item>WHEEL_FRONT_RIGHT_CAMERA</Item>
+                <Item>WHEEL_FRONT_LEFT_CAMERA</Item>
+                <Item>WHEEL_REAR_RIGHT_CAMERA</Item>
+                <Item>WHEEL_REAR_LEFT_CAMERA</Item>
+            </cinematicPartCamera>
+            <NmBraceOverrideSet>Truck</NmBraceOverrideSet>
+            <buoyancySphereOffset x="0.000000" y="0.000000" z="0.000000" />
+            <buoyancySphereSizeScale value="1.000000" />
+            <pOverrideRagdollThreshold type="NULL" />
+            <firstPersonDrivebyData>
+                <Item>STD_BOBCATXL_FRONT_LEFT</Item>
+                <Item>STD_BOBCATXL_FRONT_RIGHT</Item>
+            </firstPersonDrivebyData>
+        </Item>
+        <Item>
+            <modelName>RANGERstanier</modelName>
+            <txdName>RANGERstanier</txdName>
+            <handlingId>TAXI2</handlingId>
+            <gameName>RANGERstanier</gameName>
+            <vehicleMakeName />
+            <expressionDictName>null</expressionDictName>
+            <expressionName>null</expressionName>
+            <animConvRoofDictName>null</animConvRoofDictName>
+            <animConvRoofName>null</animConvRoofName>
+            <animConvRoofWindowsAffected />
+            <ptfxAssetName>null</ptfxAssetName>
+            <audioNameHash>PRANGER</audioNameHash>
+            <layout>LAYOUT_STANDARD</layout>
+            <coverBoundOffsets>STANIER_COVER_OFFSET_INFO</coverBoundOffsets>
+            <explosionInfo>EXPLOSION_INFO_DEFAULT</explosionInfo>
+            <scenarioLayout />
+            <cameraName>DEFAULT_FOLLOW_VEHICLE_CAMERA</cameraName>
+            <aimCameraName>MID_BOX_VEHICLE_AIM_CAMERA</aimCameraName>
+            <bonnetCameraName>VEHICLE_BONNET_CAMERA_MID_HIGH</bonnetCameraName>
+            <povCameraName>REDUCED_NEAR_CLIP_POV_CAMERA</povCameraName>
+            <FirstPersonDriveByIKOffset x="0.000000" y="-0.050000" z="-0.060000" />
+            <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="-0.025000" z="0.000000" />
+            <FirstPersonProjectileDriveByIKOffset x="0.000000" y="-0.080000" z="-0.020000" />
+            <FirstPersonProjectileDriveByPassengerIKOffset x="0.000000" y="-0.080000" z="-0.020000" />
+            <FirstPersonProjectileDriveByRearLeftIKOffset x="0.000000" y="0.020000" z="-0.030000" />
+            <FirstPersonProjectileDriveByRearRightIKOffset x="0.000000" y="0.020000" z="-0.030000" />
+            <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
+            <FirstPersonDriveByRightPassengerIKOffset x="0.000000" y="-0.050000" z="-0.060000" />
+            <FirstPersonDriveByRightRearPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
+            <FirstPersonDriveByLeftPassengerUnarmedIKOffset x="0.000000" y="-0.000000" z="0.000000" />
+            <FirstPersonDriveByRightPassengerUnarmedIKOffset x="0.000000" y="-0.000000" z="0.000000" />
+            <FirstPersonMobilePhoneOffset x="0.170000" y="0.270000" z="0.510000" />
+            <FirstPersonPassengerMobilePhoneOffset x="0.135000" y="0.085000" z="0.465000" />
+            <FirstPersonMobilePhoneSeatIKOffset>
+                <Item>
+                    <Offset x="0.136000" y="0.076000" z="0.465000" />
+                    <SeatIndex value="2" />
+                </Item>
+                <Item>
+                    <Offset x="0.136000" y="0.076000" z="0.465000" />
+                    <SeatIndex value="3" />
+                </Item>
+            </FirstPersonMobilePhoneSeatIKOffset>
+            <PovCameraOffset x="0.000000" y="-0.245000" z="0.680000" />
+            <PovCameraVerticalAdjustmentForRollCage value="0.000000" />
+            <PovPassengerCameraOffset x="0.000000" y="0.000000" z="0.000000" />
+            <PovRearPassengerCameraOffset x="0.000000" y="0.000000" z="0.000000" />
+            <vfxInfoName>VFXVEHICLEINFO_CAR_GENERIC</vfxInfoName>
+            <shouldUseCinematicViewMode value="true" />
+            <shouldCameraTransitionOnClimbUpDown value="false" />
+            <shouldCameraIgnoreExiting value="false" />
+            <AllowPretendOccupants value="true" />
+            <AllowJoyriding value="true" />
+            <AllowSundayDriving value="true" />
+            <AllowBodyColorMapping value="true" />
+            <wheelScale value="0.243500" />
+            <wheelScaleRear value="0.243500" />
+            <dirtLevelMin value="0.300000" />
+            <dirtLevelMax value="0.850000" />
+            <envEffScaleMin value="0.000000" />
+            <envEffScaleMax value="1.000000" />
+            <envEffScaleMin2 value="0.000000" />
+            <envEffScaleMax2 value="1.000000" />
+            <damageMapScale value="0.600000" />
+            <damageOffsetScale value="1.000000" />
+            <diffuseTint value="0x00FFFFFF" />
+            <steerWheelMult value="1.000000" />
+            <HDTextureDist value="5.000000" />
+            <lodDistances content="float_array">15.000000
+                30.000000
+                50.000000
+                100.000000
+                500.000000
+                500.000000</lodDistances>
+            <minSeatHeight value="0.855" />
+            <identicalModelSpawnDistance value="20" />
+            <maxNumOfSameColor value="10" />
+            <defaultBodyHealth value="1000.000000" />
+            <pretendOccupantsScale value="1.000000" />
+            <visibleSpawnDistScale value="1.000000" />
+            <trackerPathWidth value="2.000000" />
+            <weaponForceMult value="1.000000" />
+            <frequency value="50" />
+            <swankness>SWANKNESS_1</swankness>
+            <maxNum value="50" />
+            <flags>FLAG_EXTRAS_STRONG FLAG_EXTRAS_REQUIRE FLAG_HAS_LIVERY FLAG_EMERGENCY_SERVICE FLAG_LAW_ENFORCEMENT FLAG_AVERAGE_CAR FLAG_POOR_CAR FLAG_HAS_INTERIOR_EXTRAS</flags>
+            <type>VEHICLE_TYPE_CAR</type>
+            <plateType>VPT_FRONT_AND_BACK_PLATES</plateType>
+            <dashboardType>VDT_GENTAXI</dashboardType>
+            <vehicleClass>VC_EMERGENCY</vehicleClass>
+            <wheelType>VWT_MUSCLE</wheelType>
+            <trailers />
+            <additionalTrailers />
+            <Item>
+                <driverName>S_F_Y_Ranger_01</driverName>
+                <npcName />
+            </Item>
+            <Item>
+                <driverName>S_M_Y_Ranger_01</driverName>
+                <npcName />
+            </Item>
+            <extraIncludes />
+            <doorsWithCollisionWhenClosed />
+            <driveableDoors />
+            <bumpersNeedToCollideWithMap value="false" />
+            <needsRopeTexture value="false" />
+            <requiredExtras />
+            <rewards />
+            <cinematicPartCamera>
+                <Item>WHEEL_FRONT_RIGHT_CAMERA</Item>
+                <Item>WHEEL_FRONT_LEFT_CAMERA</Item>
+                <Item>WHEEL_REAR_RIGHT_CAMERA</Item>
+                <Item>WHEEL_REAR_LEFT_CAMERA</Item>
+            </cinematicPartCamera>
+            <NmBraceOverrideSet />
+            <buoyancySphereOffset x="0.000000" y="0.000000" z="0.000000" />
+            <buoyancySphereSizeScale value="1.000000" />
+            <pOverrideRagdollThreshold type="NULL" />
+            <firstPersonDrivebyData>
+                <Item>STD_TAXI_FRONT_LEFT</Item>
+                <Item>STD_TAXI_FRONT_RIGHT</Item>
+                <Item>STD_POLICE2_REAR_LEFT</Item>
+                <Item>STD_POLICE2_REAR_RIGHT</Item>
+            </firstPersonDrivebyData>
+        </Item>
+        <Item>
+            <modelName>RANGERriata</modelName>
+            <txdName>RANGERriata</txdName>
+            <handlingId>PRANGERRIATA2</handlingId>
+            <gameName>RANGERriata</gameName>
+            <vehicleMakeName />
+            <expressionDictName>null</expressionDictName>
+            <expressionName>null</expressionName>
+            <animConvRoofDictName>null</animConvRoofDictName>
+            <animConvRoofName>null</animConvRoofName>
+            <animConvRoofWindowsAffected />
+            <ptfxAssetName>null</ptfxAssetName>
+            <audioNameHash>PRANGER</audioNameHash>
+            <layout>LAYOUT_RANGER</layout>
+            <coverBoundOffsets>RIATA_COVER_OFFSET_INFO</coverBoundOffsets>
+            <explosionInfo>EXPLOSION_INFO_DEFAULT</explosionInfo>
+            <scenarioLayout />
+            <cameraName>DEFAULT_FOLLOW_VEHICLE_CAMERA</cameraName>
+            <aimCameraName>MID_BOX_VEHICLE_AIM_CAMERA</aimCameraName>
+            <bonnetCameraName>VEHICLE_BONNET_CAMERA_STANDARD</bonnetCameraName>
+            <povCameraName>DEFAULT_POV_CAMERA_LOOKAROUND_MID</povCameraName>
+            <FirstPersonDriveByIKOffset x="0.060000" y="-0.010000" z="-0.040000" />
+            <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="0.000000" z="-0.020000" />
+            <FirstPersonProjectileDriveByIKOffset x="0.035000" y="-0.130000" z="-0.020000" />
+            <FirstPersonProjectileDriveByPassengerIKOffset x="0.035000" y="-0.130000" z="-0.020000" />
+            <FirstPersonDriveByRightPassengerIKOffset x="-0.060000" y="-0.010000" z="-0.040000" />
+            <FirstPersonDriveByRightPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="-0.020000" />
+            <FirstPersonMobilePhoneOffset x="0.130000" y="0.168000" z="0.555000" />
+            <FirstPersonPassengerMobilePhoneOffset x="0.200000" y="0.173000" z="0.485000" />
+            <PovCameraOffset x="0.000000" y="-0.175000" z="0.650000" />
+            <PovCameraVerticalAdjustmentForRollCage value="0.000000" />
+            <PovPassengerCameraOffset x="0.000000" y="0.000000" z="0.070000" />
+            <vfxInfoName>VFXVEHICLEINFO_CAR_OFFROAD</vfxInfoName>
+            <shouldUseCinematicViewMode value="true" />
+            <shouldCameraTransitionOnClimbUpDown value="false" />
+            <shouldCameraIgnoreExiting value="false" />
+            <AllowPretendOccupants value="true" />
+            <AllowJoyriding value="true" />
+            <AllowSundayDriving value="true" />
+            <AllowBodyColorMapping value="true" />
+            <wheelScale value="0.295100" />
+            <wheelScaleRear value="0.295100" />
+            <dirtLevelMin value="0.000000" />
+            <dirtLevelMax value="0.850000" />
+            <envEffScaleMin value="0.000000" />
+            <envEffScaleMax value="1.000000" />
+            <envEffScaleMin2 value="0.000000" />
+            <envEffScaleMax2 value="1.000000" />
+            <damageMapScale value="0.400000" />
+            <damageOffsetScale value="0.400000" />
+            <diffuseTint value="0x00FFFFFF" />
+            <steerWheelMult value="1.000000" />
+            <HDTextureDist value="5.000000" />
+            <lodDistances content="float_array">20.000000
+        40.000000
+        80.000000
+        120.000000
+        500.000000
+        500.000000</lodDistances>
+            <minSeatHeight value="1.006" />
+            <identicalModelSpawnDistance value="100" />
+            <maxNumOfSameColor value="1" />
+            <defaultBodyHealth value="1000.000000" />
+            <pretendOccupantsScale value="1.000000" />
+            <visibleSpawnDistScale value="1.000000" />
+            <trackerPathWidth value="2.000000" />
+            <weaponForceMult value="1.000000" />
+            <frequency value="100" />
+            <swankness>SWANKNESS_3</swankness>
+            <maxNum value="999" />
+            <flags>FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS FLAG_HAS_INTERIOR_EXTRAS FLAG_HAS_LIVERY FLAG_EXTRAS_STRONG FLAG_EXTRAS_ALL FLAG_LAW_ENFORCEMENT FLAG_EMERGENCY_SERVICE FLAG_USE_INTERIOR_RED_LIGHT FLAG_REPORT_CRIME_IF_STANDING_ON FLAG_IS_OFFROAD_VEHICLE FLAG_IS_BULKY</flags>
+            <type>VEHICLE_TYPE_CAR</type>
+            <plateType>VPT_FRONT_AND_BACK_PLATES</plateType>
+            <dashboardType>VDT_CAVALCADE</dashboardType>
+            <vehicleClass>VC_EMERGENCY</vehicleClass>
+            <wheelType>VWT_OFFROAD</wheelType>
+            <trailers />
+            <additionalTrailers />
+            <Item>
+                <driverName>S_F_Y_Ranger_01</driverName>
+                <npcName />
+            </Item>
+            <Item>
+                <driverName>S_M_Y_Ranger_01</driverName>
+                <npcName />
+            </Item>
+            <extraIncludes />
+            <doorsWithCollisionWhenClosed>
+                <Item>VEH_EXT_BOOT</Item>
+            </doorsWithCollisionWhenClosed>
+            <driveableDoors />
+            <bumpersNeedToCollideWithMap value="false" />
+            <needsRopeTexture value="false" />
+            <requiredExtras>EXTRA_1 EXTRA_2</requiredExtras>
+            <rewards />
+            <cinematicPartCamera>
+                <Item>WHEEL_WIDE_REAR_RIGHT_CAMERA</Item>
+                <Item>WHEEL_WIDE_REAR_LEFT_CAMERA</Item>
+            </cinematicPartCamera>
+            <NmBraceOverrideSet>Truck</NmBraceOverrideSet>
+            <buoyancySphereOffset x="0.000000" y="0.000000" z="0.000000" />
+            <buoyancySphereSizeScale value="1.000000" />
+            <pOverrideRagdollThreshold type="NULL" />
+            <firstPersonDrivebyData>
+                <Item>RANGER_RIATA_FRONT_LEFT</Item>
+                <Item>RANGER_RIATA_FRONT_RIGHT</Item>
+            </firstPersonDrivebyData>
+            <numSeatsOverride value="2" />
+        </Item>
+        <Item>
+            <modelName>RANGERlandroamer</modelName>
+            <txdName>RANGERlandroamer</txdName>
+            <handlingId>PRANGERLANDROAMER</handlingId>
+            <gameName>RANGERlandroamer</gameName>
+            <vehicleMakeName />
+            <expressionDictName>null</expressionDictName>
+            <expressionName>null</expressionName>
+            <animConvRoofDictName>null</animConvRoofDictName>
+            <animConvRoofName>null</animConvRoofName>
+            <animConvRoofWindowsAffected />
+            <ptfxAssetName>null</ptfxAssetName>
+            <audioNameHash>PRANGER</audioNameHash>
+            <layout>LAYOUT_RANGER</layout>
+            <coverBoundOffsets>LANDSTALKER_COVER_OFFSET_INFO</coverBoundOffsets>
+            <explosionInfo>EXPLOSION_INFO_DEFAULT</explosionInfo>
+            <scenarioLayout />
+            <cameraName>DEFAULT_FOLLOW_VEHICLE_CAMERA</cameraName>
+            <aimCameraName>DEFAULT_THIRD_PERSON_VEHICLE_AIM_CAMERA</aimCameraName>
+            <bonnetCameraName>VEHICLE_BONNET_CAMERA_MID_NEAR</bonnetCameraName>
+            <povCameraName>DEFAULT_POV_CAMERA</povCameraName>
+            <FirstPersonDriveByIKOffset x="0.023000" y="-0.050000" z="-0.030000" />
+            <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="0.000000" z="-0.020000" />
+            <FirstPersonProjectileDriveByIKOffset x="0.113000" y="-0.088000" z="0.050000" />
+            <FirstPersonProjectileDriveByPassengerIKOffset x="0.020000" y="0.060000" z="-0.090000" />
+            <FirstPersonProjectileDriveByRearLeftIKOffset x="0.000000" y="0.000000" z="-0.055000" />
+            <FirstPersonProjectileDriveByRearRightIKOffset x="0.000000" y="0.000000" z="-0.055000" />
+            <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="0.000000" z="-0.040000" />
+            <FirstPersonDriveByRightPassengerIKOffset x="0.000000" y="0.000000" z="-0.040000" />
+            <FirstPersonDriveByRightRearPassengerIKOffset x="0.000000" y="0.000000" z="-0.040000" />
+            <FirstPersonDriveByLeftPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="-0.020000" />
+            <FirstPersonDriveByRightPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="-0.020000" />
+            <FirstPersonMobilePhoneOffset x="0.150000" y="0.268000" z="0.553000" />
+            <FirstPersonPassengerMobilePhoneOffset x="0.174000" y="0.196000" z="0.478000" />
+            <FirstPersonMobilePhoneSeatIKOffset>
+                <Item>
+                    <Offset x="0.174000" y="0.156000" z="0.513000" />
+                    <SeatIndex value="2" />
+                </Item>
+                <Item>
+                    <Offset x="0.174000" y="0.156000" z="0.513000" />
+                    <SeatIndex value="3" />
+                </Item>
+            </FirstPersonMobilePhoneSeatIKOffset>
+            <PovCameraOffset x="0.000000" y="-0.210000" z="0.710000" />
+            <PovCameraVerticalAdjustmentForRollCage value="0.000000" />
+            <PovPassengerCameraOffset x="0.000000" y="0.000000" z="0.000000" />
+            <PovRearPassengerCameraOffset x="0.000000" y="0.000000" z="0.040000" />
+            <vfxInfoName>VFXVEHICLEINFO_CAR_GENERIC</vfxInfoName>
+            <shouldUseCinematicViewMode value="true" />
+            <shouldCameraTransitionOnClimbUpDown value="false" />
+            <shouldCameraIgnoreExiting value="false" />
+            <AllowPretendOccupants value="true" />
+            <AllowJoyriding value="true" />
+            <AllowSundayDriving value="true" />
+            <AllowBodyColorMapping value="true" />
+            <wheelScale value="0.299200" />
+            <wheelScaleRear value="0.299200" />
+            <dirtLevelMin value="0.000000" />
+            <dirtLevelMax value="0.550000" />
+            <envEffScaleMin value="0.000000" />
+            <envEffScaleMax value="1.000000" />
+            <envEffScaleMin2 value="0.000000" />
+            <envEffScaleMax2 value="1.000000" />
+            <damageMapScale value="0.600000" />
+            <damageOffsetScale value="1.000000" />
+            <diffuseTint value="0x00FFFFFF" />
+            <steerWheelMult value="1.000000" />
+            <HDTextureDist value="5.000000" />
+            <lodDistances content="float_array">15.000000   
+        30.000000
+        70.000000   
+        140.000000  
+        500.000000  
+        500.000000</lodDistances>
+            <minSeatHeight value="0.976" />
+            <identicalModelSpawnDistance value="20" />
+            <maxNumOfSameColor value="10" />
+            <defaultBodyHealth value="1000.000000" />
+            <pretendOccupantsScale value="1.000000" />
+            <visibleSpawnDistScale value="1.000000" />
+            <trackerPathWidth value="2.000000" />
+            <weaponForceMult value="1.000000" />
+            <frequency value="100" />
+            <swankness>SWANKNESS_3</swankness>
+            <maxNum value="10" />
+            <flags>FLAG_HAS_LIVERY FLAG_EXTRAS_STRONG FLAG_LAW_ENFORCEMENT FLAG_EMERGENCY_SERVICE FLAG_NO_RESPRAY FLAG_DONT_SPAWN_IN_CARGEN FLAG_REPORT_CRIME_IF_STANDING_ON FLAG_HAS_INTERIOR_EXTRAS FLAG_IS_OFFROAD_VEHICLE FLAG_IS_BULKY</flags>
+            <type>VEHICLE_TYPE_CAR</type>
+            <plateType>VPT_FRONT_AND_BACK_PLATES</plateType>
+            <dashboardType>VDT_CAVALCADE</dashboardType>
+            <vehicleClass>VC_EMERGENCY</vehicleClass>
+            <wheelType>VWT_OFFROAD</wheelType>
+            <trailers />
+            <additionalTrailers />
+            <drivers>
+                <Item>
+                    <driverName>S_F_Y_Ranger_01</driverName>
+                    <npcName />
+                </Item>
+                <Item>
+                    <driverName>S_M_Y_Ranger_01</driverName>
+                    <npcName />
+                </Item>
+            </drivers>
+            <extraIncludes />
+            <doorsWithCollisionWhenClosed />
+            <driveableDoors />
+            <bumpersNeedToCollideWithMap value="false" />
+            <needsRopeTexture value="false" />
+            <requiredExtras />
+            <rewards />
+            <cinematicPartCamera>
+                <Item>WHEEL_FRONT_RIGHT_CAMERA</Item>
+                <Item>WHEEL_FRONT_LEFT_CAMERA</Item>
+                <Item>WHEEL_REAR_RIGHT_CAMERA</Item>
+                <Item>WHEEL_REAR_LEFT_CAMERA</Item>
+            </cinematicPartCamera>
+            <NmBraceOverrideSet />
+            <buoyancySphereOffset x="0.000000" y="0.000000" z="0.000000" />
+            <buoyancySphereSizeScale value="1.000000" />
+            <pOverrideRagdollThreshold type="NULL" />
+            <firstPersonDrivebyData>
+                <Item>VAN_SPEEDO_FRONT_LEFT</Item>
+                <Item>VAN_SPEEDO_FRONT_RIGHT</Item>
+                <Item>RANGER_RANCHERXL2_REAR_LEFT</Item>
+                <Item>RANGER_RANCHERXL2_REAR_RIGHT</Item>
+            </firstPersonDrivebyData>
+        </Item>
+        <Item>
+            <modelName>RANGERbison</modelName>
+            <txdName>RANGERbison</txdName>
+            <handlingId>BISON</handlingId>
+            <gameName>RANGERbison</gameName>
+            <vehicleMakeName />
+            <expressionDictName>null</expressionDictName>
+            <expressionName>null</expressionName>
+            <animConvRoofDictName>null</animConvRoofDictName>
+            <animConvRoofName>null</animConvRoofName>
+            <animConvRoofWindowsAffected />
+            <ptfxAssetName>null</ptfxAssetName>
+            <audioNameHash>PRANGER</audioNameHash>
+            <layout>LAYOUT_BISON</layout>
+            <coverBoundOffsets>BISON_COVER_OFFSET_INFO</coverBoundOffsets>
+            <explosionInfo>EXPLOSION_INFO_DEFAULT</explosionInfo>
+            <scenarioLayout />
+            <cameraName>DEFAULT_FOLLOW_VEHICLE_CAMERA</cameraName>
+            <aimCameraName>DEFAULT_THIRD_PERSON_VEHICLE_AIM_CAMERA</aimCameraName>
+            <bonnetCameraName>VEHICLE_BONNET_CAMERA_MID</bonnetCameraName>
+            <povCameraName>DEFAULT_POV_CAMERA</povCameraName>
+            <FirstPersonDriveByIKOffset x="0.040000" y="-0.060000" z="-0.030000" />
+            <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
+            <FirstPersonProjectileDriveByIKOffset x="0.075000" y="-0.128000" z="-0.020000" />
+            <FirstPersonProjectileDriveByPassengerIKOffset x="0.000000" y="0.058000" z="-0.058000" />
+            <FirstPersonProjectileDriveByRearLeftIKOffset x="0.000000" y="-0.058000" z="-0.055000" />
+            <FirstPersonProjectileDriveByRearRightIKOffset x="0.000000" y="-0.058000" z="-0.055000" />
+            <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="0.015000" z="-0.040000" />
+            <FirstPersonDriveByRightPassengerIKOffset x="-0.043000" y="-0.043000" z="-0.055000" />
+            <FirstPersonDriveByRightRearPassengerIKOffset x="0.000000" y="0.015000" z="-0.040000" />
+            <FirstPersonDriveByLeftPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
+            <FirstPersonDriveByRightPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
+            <FirstPersonMobilePhoneOffset x="0.143000" y="0.278000" z="0.565000" />
+            <FirstPersonPassengerMobilePhoneOffset x="0.204000" y="0.176000" z="0.490000" />
+            <FirstPersonMobilePhoneSeatIKOffset>
+                <Item>
+                    <Offset x="0.204000" y="0.131000" z="0.490000" />
+                    <SeatIndex value="2" />
+                </Item>
+                <Item>
+                    <Offset x="0.204000" y="0.131000" z="0.490000" />
+                    <SeatIndex value="3" />
+                </Item>
+            </FirstPersonMobilePhoneSeatIKOffset>
+            <PovCameraOffset x="0.000000" y="-0.170000" z="0.700000" />
+            <PovCameraVerticalAdjustmentForRollCage value="0.000000" />
+            <PovPassengerCameraOffset x="0.000000" y="0.000000" z="0.020000" />
+            <PovRearPassengerCameraOffset x="0.000000" y="0.000000" z="0.020000" />
+            <vfxInfoName>VFXVEHICLEINFO_CAR_GENERIC</vfxInfoName>
+            <shouldUseCinematicViewMode value="true" />
+            <shouldCameraTransitionOnClimbUpDown value="false" />
+            <shouldCameraIgnoreExiting value="false" />
+            <AllowPretendOccupants value="true" />
+            <AllowJoyriding value="true" />
+            <AllowSundayDriving value="true" />
+            <AllowBodyColorMapping value="true" />
+            <wheelScale value="0.300000" />
+            <wheelScaleRear value="0.300000" />
+            <dirtLevelMin value="0.300000" />
+            <dirtLevelMax value="0.850000" />
+            <envEffScaleMin value="0.000000" />
+            <envEffScaleMax value="1.000000" />
+            <envEffScaleMin2 value="0.000000" />
+            <envEffScaleMax2 value="1.000000" />
+            <damageMapScale value="0.600000" />
+            <damageOffsetScale value="1.000000" />
+            <diffuseTint value="0x00FFFFFF" />
+            <steerWheelMult value="1.000000" />
+            <HDTextureDist value="5.000000" />
+            <lodDistances content="float_array">15.000000
+                30.000000
+                70.000000
+                140.000000
+                500.000000
+                500.000000</lodDistances>
+            <minSeatHeight value="0.931" />
+            <identicalModelSpawnDistance value="100" />
+            <maxNumOfSameColor value="1" />
+            <defaultBodyHealth value="1000.000000" />
+            <pretendOccupantsScale value="1.000000" />
+            <visibleSpawnDistScale value="1.000000" />
+            <trackerPathWidth value="2.000000" />
+            <weaponForceMult value="1.000000" />
+            <frequency value="20" />
+            <swankness>SWANKNESS_1</swankness>
+            <maxNum value="2" />
+            <flags>FLAG_HAS_LIVERY FLAG_LAW_ENFORCEMENT FLAG_EMERGENCY_SERVICE FLAG_NO_RESPRAY FLAG_REPORT_CRIME_IF_STANDING_ON FLAG_DONT_SPAWN_IN_CARGEN FLAG_EXTRAS_STRONG FLAG_IS_OFFROAD_VEHICLE FLAG_IS_BULKY FLAG_HAS_INTERIOR_EXTRAS</flags>
+            <type>VEHICLE_TYPE_CAR</type>
+            <plateType>VPT_FRONT_AND_BACK_PLATES</plateType>
+            <dashboardType>VDT_CAVALCADE</dashboardType>
+            <vehicleClass>VC_EMERGENCY</vehicleClass>
+            <wheelType>VWT_OFFROAD</wheelType>
+            <trailers>
+                <Item>boattrailer</Item>
+                <Item>trailersmall</Item>
+            </trailers>
+            <additionalTrailers>
+                <Item>trailersmall2</Item>
+            </additionalTrailers>
+            <drivers>
+                <Item>
+                    <driverName>S_F_Y_Ranger_01</driverName>
+                    <npcName />
+                </Item>
+                <Item>
+                    <driverName>S_M_Y_Ranger_01</driverName>
+                    <npcName />
+                </Item>
+            </drivers>
+            <extraIncludes />
+            <doorsWithCollisionWhenClosed>
+                <Item>VEH_EXT_BOOT</Item>
+            </doorsWithCollisionWhenClosed>
+            <driveableDoors />
+            <bumpersNeedToCollideWithMap value="false" />
+            <needsRopeTexture value="false" />
+            <requiredExtras />
+            <rewards>
+                <Item>REWARD_WEAPON_PUMPSHOTGUN</Item>
+                <Item>REWARD_AMMO_PUMPSHOTGUN_ENTER_VEHICLE</Item>
+                <Item>REWARD_STAT_WEAPON</Item>
+            </rewards>
+            <cinematicPartCamera>
+                <Item>WHEEL_FRONT_RIGHT_CAMERA</Item>
+                <Item>WHEEL_FRONT_LEFT_CAMERA</Item>
+                <Item>WHEEL_REAR_RIGHT_CAMERA</Item>
+                <Item>WHEEL_REAR_LEFT_CAMERA</Item>
+            </cinematicPartCamera>
+            <NmBraceOverrideSet>Truck</NmBraceOverrideSet>
+            <buoyancySphereOffset x="0.000000" y="0.000000" z="0.000000" />
+            <buoyancySphereSizeScale value="1.000000" />
+            <pOverrideRagdollThreshold type="NULL" />
+            <firstPersonDrivebyData>
+                <Item>RANGER_BISON_FRONT_LEFT</Item>
+                <Item>VAN_RUMPO_FRONT_RIGHT</Item>
+                <Item>RANGER_BISON_REAR_LEFT</Item>
+                <Item>RANGER_BISON_REAR_RIGHT</Item>
+            </firstPersonDrivebyData>
+        </Item>
+        <Item>
+            <modelName>RANGERoutlaw</modelName>
+            <txdName>RANGERoutlaw</txdName>
+            <handlingId>PRANGEROUTLAW</handlingId>
+            <gameName>RANGERoutlaw</gameName>
+            <vehicleMakeName />
+            <expressionDictName>null</expressionDictName>
+            <expressionName>null</expressionName>
+            <animConvRoofDictName>null</animConvRoofDictName>
+            <animConvRoofName>null</animConvRoofName>
+            <ptfxAssetName>null</ptfxAssetName>
+            <audioNameHash>PRANGER</audioNameHash>
+            <layout>LAYOUT_STD_OUTLAW</layout>
+            <coverBoundOffsets>OUTLAW_COVER_OFFSET_INFO</coverBoundOffsets>
+            <scenarioLayout />
+            <cameraName>DEFAULT_FOLLOW_VEHICLE_CAMERA</cameraName>
+            <aimCameraName>DEFAULT_THIRD_PERSON_VEHICLE_AIM_CAMERA</aimCameraName>
+            <bonnetCameraName>VEHICLE_BONNET_CAMERA_LOW_LOW</bonnetCameraName>
+            <povCameraName>DEFAULT_POV_CAMERA</povCameraName>
+            <FirstPersonDriveByIKOffset x="0.000000" y="-0.020000" z="0.020000" />
+            <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="-0.100000" z="0.000000" />
+            <FirstPersonProjectileDriveByIKOffset x="0.000000" y="0.000000" z="0.000000" />
+            <FirstPersonProjectileDriveByPassengerIKOffset x="-0.140000" y="0.000000" z="0.000000" />
+            <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
+            <FirstPersonDriveByRightPassengerIKOffset x="0.000000" y="-0.020000" z="0.020000" />
+            <FirstPersonDriveByLeftPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
+            <FirstPersonDriveByRightPassengerUnarmedIKOffset x="0.000000" y="-0.100000" z="0.000000" />
+            <FirstPersonMobilePhoneOffset x="0.140000" y="0.166000" z="0.526000" />
+            <FirstPersonPassengerMobilePhoneOffset x="0.136000" y="0.138000" z="0.438000" />
+            <PovCameraOffset x="0.000000" y="-0.250000" z="0.630000" />
+            <PovCameraVerticalAdjustmentForRollCage value="0.000000" />
+            <PovPassengerCameraOffset x="0.000000" y="0.000000" z="0.000000" />
+            <vfxInfoName>VFXVEHICLEINFO_MOTORBIKE_GENERIC</vfxInfoName>
+            <shouldUseCinematicViewMode value="true" />
+            <shouldCameraExitUseInterrupt value="false" />
+            <shouldCameraIgnoreExiting value="false" />
+            <AllowPretendOccupants value="true" />
+            <AllowJoyriding value="true" />
+            <AllowSundayDriving value="true" />
+            <AllowBodyColorMapping value="true" />
+            <wheelScale value="0.267500" />
+            <wheelScaleRear value="0.267500" />
+            <dirtLevelMin value="0.000000" />
+            <dirtLevelMax value="1.000000" />
+            <envEffScaleMin value="0.000000" />
+            <envEffScaleMax value="1.000000" />
+            <envEffScaleMin2 value="0.000000" />
+            <envEffScaleMax2 value="1.000000" />
+            <damageMapScale value="0.600000" />
+            <damageOffsetScale value="1.000000" />
+            <diffuseTint value="0x57000000" />
+            <steerWheelMult value="1.200000" />
+            <HDTextureDist value="5.000000" />
+            <lodDistances content="float_array">10.000000   
+                25.000000   
+                60.000000   
+                120.000000  
+                500.000000  
+                500.000000</lodDistances>
+            <minSeatHeight value="10" />
+            <identicalModelSpawnDistance value="20" />
+            <maxNumOfSameColor value="1" />
+            <defaultBodyHealth value="1000.000000" />
+            <pretendOccupantsScale value="1.000000" />
+            <frequency value="100" />
+            <swankness>SWANKNESS_3</swankness>
+            <vehicleClass>VC_EMERGENCY</vehicleClass>
+            <maxNum value="100" />
+            <flags>FLAG_AVERAGE_CAR FLAG_POOR_CAR FLAG_HAS_LIVERY FLAG_IS_OFFROAD_VEHICLE FLAG_PEDS_INSIDE_CAN_BE_SET_ON_FIRE_MP FLAG_NO_HEAVY_BRAKE_ANIMATION FLAG_PEDS_INSIDE_CAN_BE_SET_ON_FIRE_MP FLAG_LAW_ENFORCEMENT FLAG_EMERGENCY_SERVICE</flags>
+            <type>VEHICLE_TYPE_CAR</type>
+            <dashboardType>VDT_RACE</dashboardType>
+            <plateType>VPT_BACK_PLATES</plateType>
+            <wheelType>VWT_OFFROAD</wheelType>
+            <trailers />
+            <drivers>
+                <Item>
+                    <driverName>S_F_Y_Ranger_01</driverName>
+                    <npcName />
+                </Item>
+                <Item>
+                    <driverName>S_M_Y_Ranger_01</driverName>
+                    <npcName />
+                </Item>
+            </drivers>
+            <extraIncludes />
+            <doorsWithCollisionWhenClosed />
+            <driveableDoors />
+            <requiredExtras />
+            <rewards />
+            <cinematicPartCamera>
+                <Item>WHEEL_FRONT_RIGHT_CAMERA</Item>
+                <Item>WHEEL_FRONT_LEFT_CAMERA</Item>
+                <Item>WHEEL_WIDE_REAR_RIGHT_CAMERA</Item>
+                <Item>WHEEL_WIDE_REAR_LEFT_CAMERA</Item>
+            </cinematicPartCamera>
+            <NmBraceOverrideSet>Truck</NmBraceOverrideSet>
+            <firstPersonDrivebyData>
+                <Item>LOW_OUTLAW_FRONT_LEFT</Item>
+                <Item>LOW_OUTLAW_FRONT_RIGHT</Item>
+            </firstPersonDrivebyData>
+            <numSeatsOverride value="2" />
+        </Item>
+        <Item>
+            <modelName>RANGERfreecrawler</modelName>
+            <txdName>RANGERfreecrawler</txdName>
+            <handlingId>PRANGERFREECRAWLER</handlingId>
+            <gameName>RANGERfreecrawler</gameName>
+            <vehicleMakeName />
+            <expressionDictName>null</expressionDictName>
+            <expressionName>null</expressionName>
+            <animConvRoofDictName>null</animConvRoofDictName>
+            <animConvRoofName>null</animConvRoofName>
+            <animConvRoofWindowsAffected />
+            <ptfxAssetName>null</ptfxAssetName>
+            <audioNameHash>PRANGER</audioNameHash>
+            <layout>LAYOUT_VAN_FREECRAWLER</layout>
+            <coverBoundOffsets>FREECRAWLER_COVER_OFFSET_INFO</coverBoundOffsets>
+            <explosionInfo>EXPLOSION_INFO_DEFAULT</explosionInfo>
+            <scenarioLayout />
+            <cameraName>DEFAULT_FOLLOW_VEHICLE_CAMERA</cameraName>
+            <aimCameraName>MID_BOX_VEHICLE_AIM_CAMERA</aimCameraName>
+            <bonnetCameraName>VEHICLE_BONNET_CAMERA_STANDARD_LONG_EXTRA_LOW</bonnetCameraName>
+            <povCameraName>REDUCED_NEAR_CLIP_POV_CAMERA</povCameraName>
+            <FirstPersonDriveByIKOffset x="0.040000" y="-0.050000" z="-0.040000" />
+            <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="-0.060000" z="-0.010000" />
+            <FirstPersonProjectileDriveByIKOffset x="0.035000" y="-0.120000" z="-0.040000" />
+            <FirstPersonProjectileDriveByPassengerIKOffset x="-0.035000" y="-0.120000" z="-0.040000" />
+            <FirstPersonProjectileDriveByRearLeftIKOffset x="-0.020000" y="0.000000" z="-0.060000" />
+            <FirstPersonProjectileDriveByRearRightIKOffset x="0.020000" y="-0.070000" z="-0.060000" />
+            <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="0.000000" z="-0.050000" />
+            <FirstPersonDriveByRightPassengerIKOffset x="-0.030000" y="-0.050000" z="-0.040000" />
+            <FirstPersonDriveByRightRearPassengerIKOffset x="0.000000" y="0.000000" z="-0.050000" />
+            <FirstPersonDriveByRightPassengerUnarmedIKOffset x="0.000000" y="-0.060000" z="-0.010000" />
+            <FirstPersonDriveByLeftPassengerUnarmedIKOffset x="0.070000" y="-0.040000" z="-0.030000" />
+            <FirstPersonMobilePhoneOffset x="0.150000" y="0.188000" z="0.535000" />
+            <FirstPersonPassengerMobilePhoneOffset x="0.250000" y="0.173000" z="0.455000" />
+            <FirstPersonMobilePhoneSeatIKOffset>
+                <Item>
+                    <Offset x="0.190000" y="0.173000" z="0.415000" />
+                    <SeatIndex value="2" />
+                </Item>
+                <Item>
+                    <Offset x="0.190000" y="0.173000" z="0.415000" />
+                    <SeatIndex value="3" />
+                </Item>
+            </FirstPersonMobilePhoneSeatIKOffset>
+            <PovCameraOffset x="0.000000" y="-0.185000" z="0.665000" />
+            <PovCameraVerticalAdjustmentForRollCage value="0.000000" />
+            <PovPassengerCameraOffset x="0.000000" y="-0.010000" z="0.070000" />
+            <vfxInfoName>VFXVEHICLEINFO_CAR_OFFROAD</vfxInfoName>
+            <shouldUseCinematicViewMode value="true" />
+            <shouldCameraTransitionOnClimbUpDown value="false" />
+            <shouldCameraIgnoreExiting value="false" />
+            <AllowPretendOccupants value="true" />
+            <AllowJoyriding value="true" />
+            <AllowSundayDriving value="true" />
+            <AllowBodyColorMapping value="true" />
+            <wheelScale value="0.284000" />
+            <wheelScaleRear value="0.284000" />
+            <dirtLevelMin value="0.000000" />
+            <dirtLevelMax value="0.850000" />
+            <envEffScaleMin value="0.000000" />
+            <envEffScaleMax value="1.000000" />
+            <envEffScaleMin2 value="0.000000" />
+            <envEffScaleMax2 value="1.000000" />
+            <damageMapScale value="0.400000" />
+            <damageOffsetScale value="0.400000" />
+            <diffuseTint value="0x00FFFFFF" />
+            <steerWheelMult value="1.000000" />
+            <HDTextureDist value="5.000000" />
+            <lodDistances content="float_array">20.000000
+        35.000000
+        90.000000
+        180.000000
+        500.000000
+        500.000000</lodDistances>
+            <minSeatHeight value="1.006" />
+            <identicalModelSpawnDistance value="20" />
+            <maxNumOfSameColor value="10" />
+            <defaultBodyHealth value="1000.000000" />
+            <pretendOccupantsScale value="1.000000" />
+            <visibleSpawnDistScale value="1.000000" />
+            <trackerPathWidth value="2.000000" />
+            <weaponForceMult value="1.000000" />
+            <frequency value="30" />
+            <swankness>SWANKNESS_1</swankness>
+            <maxNum value="5" />
+            <flags>FLAG_IS_OFFROAD_VEHICLE FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS FLAG_IS_BULKY FLAG_HAS_INTERIOR_EXTRAS FLAG_HAS_LIVERY FLAG_EXTRAS_STRONG FLAG_LAW_ENFORCEMENT FLAG_EMERGENCY_SERVICE</flags>
+            <type>VEHICLE_TYPE_CAR</type>
+            <plateType>VPT_FRONT_AND_BACK_PLATES</plateType>
+            <dashboardType>VDT_CAVALCADE</dashboardType>
+            <vehicleClass>VC_EMERGENCY</vehicleClass>
+            <wheelType>VWT_OFFROAD</wheelType>
+            <trailers />
+            <additionalTrailers />
+            <drivers>
+                <Item>
+                    <driverName>S_F_Y_Baywatch_01</driverName>
+                    <npcName />
+                </Item>
+                <Item>
+                    <driverName>S_M_Y_Baywatch_01</driverName>
+                    <npcName />
+                </Item>
+            </drivers>
+            <extraIncludes />
+            <doorsWithCollisionWhenClosed>
+                <Item>VEH_EXT_BOOT</Item>
+            </doorsWithCollisionWhenClosed>
+            <driveableDoors />
+            <bumpersNeedToCollideWithMap value="false" />
+            <needsRopeTexture value="false" />
+            <requiredExtras>EXTRA_1</requiredExtras>
+            <rewards />
+            <cinematicPartCamera>
+                <Item>WHEEL_WIDE_REAR_RIGHT_CAMERA</Item>
+                <Item>WHEEL_WIDE_REAR_LEFT_CAMERA</Item>
+            </cinematicPartCamera>
+            <NmBraceOverrideSet>Truck</NmBraceOverrideSet>
+            <buoyancySphereOffset x="0.000000" y="0.000000" z="0.000000" />
+            <buoyancySphereSizeScale value="1.000000" />
+            <pOverrideRagdollThreshold type="NULL" />
+            <firstPersonDrivebyData>
+                <Item>VAN_FREECRAWLER_FRONT_LEFT</Item>
+                <Item>VAN_FREECRAWLER_FRONT_RIGHT</Item>
+                <Item>VAN_FREECRAWLER_REAR_LEFT</Item>
+                <Item>VAN_FREECRAWLER_REAR_RIGHT</Item>
+            </firstPersonDrivebyData>
+        </Item>
+        <Item>
+            <modelName>RANGERyosemite</modelName>
+            <txdName>RANGERyosemite</txdName>
+            <handlingId>prangeryo</handlingId>
+            <gameName>RANGERyosemite</gameName>
+            <vehicleMakeName />
+            <expressionDictName>null</expressionDictName>
+            <expressionName>null</expressionName>
+            <animConvRoofDictName>null</animConvRoofDictName>
+            <animConvRoofName>null</animConvRoofName>
+            <animConvRoofWindowsAffected />
+            <ptfxAssetName>null</ptfxAssetName>
+            <audioNameHash>PRANGER</audioNameHash>
+            <layout>LAYOUT_RANGER</layout>
+            <coverBoundOffsets>GRANGER_COVER_OFFSET_INFO</coverBoundOffsets>
+            <explosionInfo>EXPLOSION_INFO_DEFAULT</explosionInfo>
+            <scenarioLayout />
+            <cameraName>DEFAULT_FOLLOW_VEHICLE_CAMERA</cameraName>
+            <aimCameraName>BOX_VEHICLE_AIM_CAMERA</aimCameraName>
+            <bonnetCameraName>VEHICLE_BONNET_CAMERA_STANDARD</bonnetCameraName>
+            <povCameraName>DEFAULT_POV_CAMERA_LOOKAROUND</povCameraName>
+            <FirstPersonDriveByIKOffset x="0.000000" y="-0.050000" z="-0.030000" />
+            <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
+            <FirstPersonProjectileDriveByIKOffset x="0.000000" y="-0.088000" z="0.093000" />
+            <FirstPersonProjectileDriveByPassengerIKOffset x="0.020000" y="0.060000" z="-0.090000" />
+            <FirstPersonProjectileDriveByRearLeftIKOffset x="0.000000" y="0.000000" z="-0.055000" />
+            <FirstPersonProjectileDriveByRearRightIKOffset x="0.000000" y="0.000000" z="-0.055000" />
+            <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="0.000000" z="-0.040000" />
+            <FirstPersonDriveByRightPassengerIKOffset x="-0.045000" y="-0.048000" z="-0.040000" />
+            <FirstPersonDriveByRightRearPassengerIKOffset x="0.000000" y="0.000000" z="-0.040000" />
+            <FirstPersonDriveByLeftPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
+            <FirstPersonDriveByRightPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
+            <FirstPersonMobilePhoneOffset x="0.150000" y="0.268000" z="0.503000" />
+            <FirstPersonPassengerMobilePhoneOffset x="0.136000" y="0.223000" z="0.425000" />
+            <FirstPersonMobilePhoneSeatIKOffset>
+                <Item>
+                    <Offset x="0.156000" y="0.223000" z="0.493000" />
+                    <SeatIndex value="2" />
+                </Item>
+                <Item>
+                    <Offset x="0.156000" y="0.223000" z="0.493000" />
+                    <SeatIndex value="3" />
+                </Item>
+            </FirstPersonMobilePhoneSeatIKOffset>
+            <PovCameraOffset x="0.000000" y="-0.135000" z="0.635000" />
+            <PovCameraVerticalAdjustmentForRollCage value="0.000000" />
+            <PovPassengerCameraOffset x="0.000000" y="0.000000" z="0.030000" />
+            <PovRearPassengerCameraOffset x="0.000000" y="0.000000" z="0.070000" />
+            <vfxInfoName>VFXVEHICLEINFO_CAR_GENERIC</vfxInfoName>
+            <shouldUseCinematicViewMode value="true" />
+            <shouldCameraTransitionOnClimbUpDown value="false" />
+            <shouldCameraIgnoreExiting value="false" />
+            <AllowPretendOccupants value="true" />
+            <AllowJoyriding value="true" />
+            <AllowSundayDriving value="true" />
+            <AllowBodyColorMapping value="true" />
+            <wheelScale value="0.456300" />
+            <wheelScaleRear value="0.45630" />
+            <dirtLevelMin value="0.000000" />
+            <dirtLevelMax value="0.850000" />
+            <envEffScaleMin value="0.000000" />
+            <envEffScaleMax value="1.000000" />
+            <envEffScaleMin2 value="0.000000" />
+            <envEffScaleMax2 value="1.000000" />
+            <damageMapScale value="0.600000" />
+            <damageOffsetScale value="1.000000" />
+            <diffuseTint value="0xAA0A0A0A" />
+            <steerWheelMult value="1.000000" />
+            <HDTextureDist value="5.000000" />
+            <lodDistances content="float_array">15.000000   
+        35.000000   
+        80.000000   
+        160.000000  
+        500.000000  
+        500.000000</lodDistances>
+            <minSeatHeight value="0.966" />
+            <identicalModelSpawnDistance value="20" />
+            <maxNumOfSameColor value="10" />
+            <defaultBodyHealth value="1000.000000" />
+            <pretendOccupantsScale value="1.000000" />
+            <visibleSpawnDistScale value="1.000000" />
+            <trackerPathWidth value="2.000000" />
+            <weaponForceMult value="1.000000" />
+            <frequency value="100" />
+            <swankness>SWANKNESS_1</swankness>
+            <maxNum value="999" />
+            <flags>FLAG_HAS_LIVERY FLAG_LAW_ENFORCEMENT FLAG_EMERGENCY_SERVICE FLAG_NO_RESPRAY FLAG_IS_OFFROAD_VEHICLE FLAG_RECESSED_HEADLIGHT_CORONAS FLAG_EXTRAS_STRONG</flags>
+            <type>VEHICLE_TYPE_CAR</type>
+            <plateType>VPT_FRONT_AND_BACK_PLATES</plateType>
+            <dashboardType>VDT_CAVALCADE</dashboardType>
+            <vehicleClass>VC_EMERGENCY</vehicleClass>
+            <wheelType>VWT_OFFROAD</wheelType>
+            <trailers />
+            <additionalTrailers />
+            <drivers>
+                <Item>
+                    <driverName>S_F_Y_Ranger_01</driverName>
+                    <npcName />
+                </Item>
+                <Item>
+                    <driverName>S_M_Y_Ranger_01</driverName>
+                    <npcName />
+                </Item>
+            </drivers>
+            <extraIncludes />
+            <doorsWithCollisionWhenClosed>
+                <Item>VEH_EXT_BOOT</Item>
+            </doorsWithCollisionWhenClosed>
+            <driveableDoors />
+            <bumpersNeedToCollideWithMap value="false" />
+            <needsRopeTexture value="false" />
+            <requiredExtras>EXTRA_1 EXTRA_2</requiredExtras>
+            <rewards />
+            <cinematicPartCamera>
+                <Item>WHEEL_FRONT_RIGHT_CAMERA</Item>
+                <Item>WHEEL_FRONT_LEFT_CAMERA</Item>
+                <Item>WHEEL_REAR_RIGHT_CAMERA</Item>
+                <Item>WHEEL_REAR_LEFT_CAMERA</Item>
+            </cinematicPartCamera>
+            <NmBraceOverrideSet />
+            <buoyancySphereOffset x="0.000000" y="0.000000" z="0.000000" />
+            <buoyancySphereSizeScale value="1.000000" />
+            <pOverrideRagdollThreshold type="NULL" />
+            <firstPersonDrivebyData>
+                <Item>RANGER_CAVALCADE_FRONT_LEFT</Item>
+                <Item>RANGER_FRONT_RIGHT</Item>
+                <Item>RANGER_PRANGER_REAR_LEFT</Item>
+                <Item>RANGER_PRANGER_REAR_RIGHT</Item>
+            </firstPersonDrivebyData>
+        </Item>
+        <Item>
+            <modelName>RANGERyosemite2</modelName>
+            <txdName>RANGERyosemite2</txdName>
+            <handlingId>prangerswb</handlingId>
+            <gameName>RANGERyosemite2</gameName>
+            <vehicleMakeName />
+            <expressionDictName>null</expressionDictName>
+            <expressionName>null</expressionName>
+            <animConvRoofDictName>null</animConvRoofDictName>
+            <animConvRoofName>null</animConvRoofName>
+            <animConvRoofWindowsAffected />
+            <ptfxAssetName>null</ptfxAssetName>
+            <audioNameHash>PRANGER</audioNameHash>
+            <layout>LAYOUT_RANGER</layout>
+            <coverBoundOffsets>GRANGER_COVER_OFFSET_INFO</coverBoundOffsets>
+            <explosionInfo>EXPLOSION_INFO_DEFAULT</explosionInfo>
+            <scenarioLayout />
+            <cameraName>DEFAULT_FOLLOW_VEHICLE_CAMERA</cameraName>
+            <aimCameraName>BOX_VEHICLE_AIM_CAMERA</aimCameraName>
+            <bonnetCameraName>VEHICLE_BONNET_CAMERA_STANDARD</bonnetCameraName>
+            <povCameraName>DEFAULT_POV_CAMERA_LOOKAROUND</povCameraName>
+            <FirstPersonDriveByIKOffset x="0.000000" y="-0.050000" z="-0.030000" />
+            <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
+            <FirstPersonProjectileDriveByIKOffset x="0.000000" y="-0.088000" z="0.093000" />
+            <FirstPersonProjectileDriveByPassengerIKOffset x="0.020000" y="0.060000" z="-0.090000" />
+            <FirstPersonProjectileDriveByRearLeftIKOffset x="0.000000" y="0.000000" z="-0.055000" />
+            <FirstPersonProjectileDriveByRearRightIKOffset x="0.000000" y="0.000000" z="-0.055000" />
+            <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="0.000000" z="-0.040000" />
+            <FirstPersonDriveByRightPassengerIKOffset x="-0.045000" y="-0.048000" z="-0.040000" />
+            <FirstPersonDriveByRightRearPassengerIKOffset x="0.000000" y="0.000000" z="-0.040000" />
+            <FirstPersonDriveByLeftPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
+            <FirstPersonDriveByRightPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
+            <FirstPersonMobilePhoneOffset x="0.150000" y="0.268000" z="0.503000" />
+            <FirstPersonPassengerMobilePhoneOffset x="0.136000" y="0.223000" z="0.425000" />
+            <FirstPersonMobilePhoneSeatIKOffset>
+                <Item>
+                    <Offset x="0.156000" y="0.223000" z="0.493000" />
+                    <SeatIndex value="2" />
+                </Item>
+                <Item>
+                    <Offset x="0.156000" y="0.223000" z="0.493000" />
+                    <SeatIndex value="3" />
+                </Item>
+            </FirstPersonMobilePhoneSeatIKOffset>
+            <PovCameraOffset x="0.000000" y="-0.135000" z="0.635000" />
+            <PovCameraVerticalAdjustmentForRollCage value="0.000000" />
+            <PovPassengerCameraOffset x="0.000000" y="0.000000" z="0.030000" />
+            <PovRearPassengerCameraOffset x="0.000000" y="0.000000" z="0.070000" />
+            <vfxInfoName>VFXVEHICLEINFO_CAR_GENERIC</vfxInfoName>
+            <shouldUseCinematicViewMode value="true" />
+            <shouldCameraTransitionOnClimbUpDown value="false" />
+            <shouldCameraIgnoreExiting value="false" />
+            <AllowPretendOccupants value="true" />
+            <AllowJoyriding value="true" />
+            <AllowSundayDriving value="true" />
+            <AllowBodyColorMapping value="true" />
+            <wheelScale value="0.456300" />
+            <wheelScaleRear value="0.45630" />
+            <dirtLevelMin value="0.000000" />
+            <dirtLevelMax value="0.850000" />
+            <envEffScaleMin value="0.000000" />
+            <envEffScaleMax value="1.000000" />
+            <envEffScaleMin2 value="0.000000" />
+            <envEffScaleMax2 value="1.000000" />
+            <damageMapScale value="0.600000" />
+            <damageOffsetScale value="1.000000" />
+            <diffuseTint value="0xAA0A0A0A" />
+            <steerWheelMult value="1.000000" />
+            <HDTextureDist value="5.000000" />
+            <lodDistances content="float_array">15.000000   
+        35.000000   
+        80.000000   
+        160.000000  
+        500.000000  
+        500.000000</lodDistances>
+            <minSeatHeight value="0.966" />
+            <identicalModelSpawnDistance value="20" />
+            <maxNumOfSameColor value="10" />
+            <defaultBodyHealth value="1000.000000" />
+            <pretendOccupantsScale value="1.000000" />
+            <visibleSpawnDistScale value="1.000000" />
+            <trackerPathWidth value="2.000000" />
+            <weaponForceMult value="1.000000" />
+            <frequency value="100" />
+            <swankness>SWANKNESS_1</swankness>
+            <maxNum value="999" />
+            <flags>FLAG_HAS_LIVERY FLAG_LAW_ENFORCEMENT FLAG_EMERGENCY_SERVICE FLAG_NO_RESPRAY FLAG_IS_OFFROAD_VEHICLE FLAG_RECESSED_HEADLIGHT_CORONAS FLAG_EXTRAS_STRONG</flags>
+            <type>VEHICLE_TYPE_CAR</type>
+            <plateType>VPT_FRONT_AND_BACK_PLATES</plateType>
+            <dashboardType>VDT_CAVALCADE</dashboardType>
+            <vehicleClass>VC_EMERGENCY</vehicleClass>
+            <wheelType>VWT_OFFROAD</wheelType>
+            <trailers />
+            <additionalTrailers />
+            <drivers>
+                <Item>
+                    <driverName>S_F_Y_Ranger_01</driverName>
+                    <npcName />
+                </Item>
+                <Item>
+                    <driverName>S_M_Y_Ranger_01</driverName>
+                    <npcName />
+                </Item>
+            </drivers>
+            <extraIncludes />
+            <doorsWithCollisionWhenClosed>
+                <Item>VEH_EXT_BOOT</Item>
+            </doorsWithCollisionWhenClosed>
+            <driveableDoors />
+            <bumpersNeedToCollideWithMap value="false" />
+            <needsRopeTexture value="false" />
+            <requiredExtras>EXTRA_1 EXTRA_2</requiredExtras>
+            <rewards />
+            <cinematicPartCamera>
+                <Item>WHEEL_FRONT_RIGHT_CAMERA</Item>
+                <Item>WHEEL_FRONT_LEFT_CAMERA</Item>
+                <Item>WHEEL_REAR_RIGHT_CAMERA</Item>
+                <Item>WHEEL_REAR_LEFT_CAMERA</Item>
+            </cinematicPartCamera>
+            <NmBraceOverrideSet />
+            <buoyancySphereOffset x="0.000000" y="0.000000" z="0.000000" />
+            <buoyancySphereSizeScale value="1.000000" />
+            <pOverrideRagdollThreshold type="NULL" />
+            <firstPersonDrivebyData>
+                <Item>RANGER_CAVALCADE_FRONT_LEFT</Item>
+                <Item>RANGER_FRONT_RIGHT</Item>
+                <Item>RANGER_PRANGER_REAR_LEFT</Item>
+                <Item>RANGER_PRANGER_REAR_RIGHT</Item>
+            </firstPersonDrivebyData>
+        </Item>
+        <Item>
+            <modelName>RANGERmesa</modelName>
+            <txdName>RANGERmesa</txdName>
+            <handlingId>MESA</handlingId>
+            <gameName>RANGERmesa</gameName>
+            <vehicleMakeName />
+            <expressionDictName>null</expressionDictName>
+            <expressionName>null</expressionName>
+            <animConvRoofDictName>null</animConvRoofDictName>
+            <animConvRoofName>null</animConvRoofName>
+            <animConvRoofWindowsAffected />
+            <ptfxAssetName>null</ptfxAssetName>
+            <audioNameHash>PRANGER</audioNameHash>
+            <layout>LAYOUT_4X4</layout>
+            <coverBoundOffsets>MESA_COVER_OFFSET_INFO</coverBoundOffsets>
+            <explosionInfo>EXPLOSION_INFO_DEFAULT</explosionInfo>
+            <scenarioLayout />
+            <cameraName>FOLLOW_JEEP_CAMERA</cameraName>
+            <aimCameraName>JEEP_AIM_CAMERA</aimCameraName>
+            <bonnetCameraName>VEHICLE_BONNET_CAMERA_MID_NEAR</bonnetCameraName>
+            <povCameraName>DEFAULT_POV_CAMERA_LOOKAROUND_MID</povCameraName>
+            <FirstPersonDriveByIKOffset x="-0.018000" y="-0.043000" z="-0.020000" />
+            <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="0.000000" z="-0.020000" />
+            <FirstPersonProjectileDriveByIKOffset x="0.080000" y="0.000000" z="-0.060000" />
+            <FirstPersonProjectileDriveByPassengerIKOffset x="0.020000" y="0.060000" z="-0.090000" />
+            <FirstPersonProjectileDriveByRearLeftIKOffset x="0.000000" y="0.000000" z="-0.058000" />
+            <FirstPersonProjectileDriveByRearRightIKOffset x="0.000000" y="0.000000" z="-0.058000" />
+            <FirstPersonDriveByLeftPassengerIKOffset x="-0.030000" y="0.010000" z="-0.076000" />
+            <FirstPersonDriveByRightPassengerIKOffset x="0.000000" y="0.000000" z="-0.040000" />
+            <FirstPersonDriveByRightRearPassengerIKOffset x="0.015000" y="0.010000" z="-0.076000" />
+            <FirstPersonDriveByLeftPassengerUnarmedIKOffset x="0.000000" y="-0.150000" z="0.010000" />
+            <FirstPersonDriveByRightPassengerUnarmedIKOffset x="0.000000" y="-0.150000" z="0.010000" />
+            <FirstPersonMobilePhoneOffset x="0.150000" y="0.260000" z="0.503000" />
+            <FirstPersonPassengerMobilePhoneOffset x="0.136000" y="0.223000" z="0.445000" />
+            <FirstPersonMobilePhoneSeatIKOffset>
+                <Item>
+                    <Offset x="0.154000" y="0.076000" z="0.478000" />
+                    <SeatIndex value="2" />
+                </Item>
+                <Item>
+                    <Offset x="0.154000" y="0.076000" z="0.478000" />
+                    <SeatIndex value="3" />
+                </Item>
+            </FirstPersonMobilePhoneSeatIKOffset>
+            <PovCameraOffset x="0.000000" y="-0.120000" z="0.580000" />
+            <PovCameraVerticalAdjustmentForRollCage value="0.000000" />
+            <PovPassengerCameraOffset x="0.000000" y="0.010000" z="0.075000" />
+            <PovRearPassengerCameraOffset x="0.000000" y="-0.190000" z="0.145000" />
+            <vfxInfoName>VFXVEHICLEINFO_CAR_OFFROAD</vfxInfoName>
+            <shouldUseCinematicViewMode value="true" />
+            <shouldCameraTransitionOnClimbUpDown value="false" />
+            <shouldCameraIgnoreExiting value="false" />
+            <AllowPretendOccupants value="true" />
+            <AllowJoyriding value="true" />
+            <AllowSundayDriving value="true" />
+            <AllowBodyColorMapping value="true" />
+            <wheelScale value="0.269000" />
+            <wheelScaleRear value="0.269000" />
+            <dirtLevelMin value="0.000000" />
+            <dirtLevelMax value="0.850000" />
+            <envEffScaleMin value="0.000000" />
+            <envEffScaleMax value="1.000000" />
+            <envEffScaleMin2 value="0.000000" />
+            <envEffScaleMax2 value="1.000000" />
+            <damageMapScale value="0.600000" />
+            <damageOffsetScale value="1.000000" />
+            <diffuseTint value="0x00FFFFFF" />
+            <steerWheelMult value="1.000000" />
+            <HDTextureDist value="5.000000" />
+            <lodDistances content="float_array">15.000000
+        30.000000
+        70.000000   
+        140.000000  
+        500.000000  
+        500.000000</lodDistances>
+            <minSeatHeight value="0.846" />
+            <identicalModelSpawnDistance value="20" />
+            <maxNumOfSameColor value="10" />
+            <defaultBodyHealth value="1000.000000" />
+            <pretendOccupantsScale value="1.000000" />
+            <visibleSpawnDistScale value="1.000000" />
+            <trackerPathWidth value="2.000000" />
+            <weaponForceMult value="0.900000" />
+            <frequency value="100" />
+            <swankness>SWANKNESS_1</swankness>
+            <maxNum value="999" />
+            <flags>FLAG_EXTRAS_REQUIRE FLAG_LAW_ENFORCEMENT FLAG_EMERGENCY_SERVICE FLAG_HAS_LIVERY FLAG_EXTRAS_STRONG FLAG_AVERAGE_CAR FLAG_IS_OFFROAD_VEHICLE FLAG_IS_BULKY FLAG_HAS_INTERIOR_EXTRAS</flags>
+            <type>VEHICLE_TYPE_CAR</type>
+            <plateType>VPT_FRONT_AND_BACK_PLATES</plateType>
+            <vehicleClass>VC_EMERGENCY</vehicleClass>
+            <dashboardType>VDT_CAVALCADE</dashboardType>
+            <wheelType>VWT_OFFROAD</wheelType>
+            <trailers />
+            <additionalTrailers />
+            <drivers>
+                <Item>
+                    <driverName>S_F_Y_Ranger_01</driverName>
+                    <npcName />
+                </Item>
+                <Item>
+                    <driverName>S_M_Y_Ranger_01</driverName>
+                    <npcName />
+                </Item>
+            </drivers>
+            <extraIncludes />
+            <doorsWithCollisionWhenClosed />
+            <driveableDoors />
+            <bumpersNeedToCollideWithMap value="true" />
+            <needsRopeTexture value="false" />
+            <requiredExtras />
+            <rewards />
+            <cinematicPartCamera>
+                <Item>WHEEL_FRONT_RIGHT_CAMERA</Item>
+                <Item>WHEEL_FRONT_LEFT_CAMERA</Item>
+                <Item>WHEEL_REAR_RIGHT_CAMERA</Item>
+                <Item>WHEEL_REAR_LEFT_CAMERA</Item>
+            </cinematicPartCamera>
+            <NmBraceOverrideSet>Truck</NmBraceOverrideSet>
+            <buoyancySphereOffset x="0.000000" y="0.000000" z="0.000000" />
+            <buoyancySphereSizeScale value="1.000000" />
+            <pOverrideRagdollThreshold type="NULL" />
+            <firstPersonDrivebyData>
+                <Item>RANGER_MESA_FRONT_LEFT</Item>
+                <Item>VAN_SPEEDO_FRONT_RIGHT</Item>
+                <Item>RANGER_CRUSADER_REAR_LEFT</Item>
+                <Item>RANGER_CRUSADER_REAR_RIGHT</Item>
+            </firstPersonDrivebyData>
+        </Item>
+        <Item>
+            <modelName>RANGERalamo</modelName>
+            <txdName>RANGERalamo</txdName>
+            <handlingId>PRANGERALAMO</handlingId>
+            <gameName>RANGERalamo</gameName>
+            <vehicleMakeName />
+            <expressionDictName>null</expressionDictName>
+            <expressionName>null</expressionName>
+            <animConvRoofDictName>null</animConvRoofDictName>
+            <animConvRoofName>null</animConvRoofName>
+            <animConvRoofWindowsAffected />
+            <ptfxAssetName>null</ptfxAssetName>
+            <audioNameHash>PRANGER</audioNameHash>
+            <layout>LAYOUT_RANGER_SWAT</layout>
+            <coverBoundOffsets>SHERIFF2_COVER_OFFSET_INFO</coverBoundOffsets>
+            <explosionInfo>EXPLOSION_INFO_DEFAULT</explosionInfo>
+            <scenarioLayout />
+            <cameraName>DEFAULT_FOLLOW_VEHICLE_CAMERA</cameraName>
+            <aimCameraName>BOX_VEHICLE_AIM_CAMERA</aimCameraName>
+            <bonnetCameraName>VEHICLE_BONNET_CAMERA_STANDARD</bonnetCameraName>
+            <povCameraName>DEFAULT_POV_CAMERA_LOOKAROUND</povCameraName>
+            <FirstPersonDriveByIKOffset x="0.000000" y="-0.050000" z="-0.028000" />
+            <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
+            <FirstPersonProjectileDriveByIKOffset x="0.028000" y="-0.040000" z="0.075000" />
+            <FirstPersonProjectileDriveByPassengerIKOffset x="0.020000" y="0.060000" z="-0.090000" />
+            <FirstPersonProjectileDriveByRearLeftIKOffset x="0.000000" y="0.000000" z="-0.055000" />
+            <FirstPersonProjectileDriveByRearRightIKOffset x="0.000000" y="0.000000" z="-0.055000" />
+            <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="0.000000" z="-0.040000" />
+            <FirstPersonDriveByRightPassengerIKOffset x="-0.045000" y="-0.048000" z="-0.040000" />
+            <FirstPersonDriveByRightRearPassengerIKOffset x="0.000000" y="0.000000" z="-0.040000" />
+            <FirstPersonDriveByLeftPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
+            <FirstPersonDriveByRightPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
+            <FirstPersonMobilePhoneOffset x="0.143000" y="0.245000" z="0.521000" />
+            <FirstPersonPassengerMobilePhoneOffset x="0.136000" y="0.223000" z="0.435000" />
+            <PovCameraOffset x="0.000000" y="-0.125000" z="0.640000" />
+            <PovCameraVerticalAdjustmentForRollCage value="0.000000" />
+            <PovPassengerCameraOffset x="0.000000" y="0.000000" z="0.030000" />
+            <PovRearPassengerCameraOffset x="0.000000" y="0.000000" z="0.070000" />
+            <vfxInfoName>VFXVEHICLEINFO_CAR_GENERIC</vfxInfoName>
+            <shouldUseCinematicViewMode value="true" />
+            <shouldCameraTransitionOnClimbUpDown value="false" />
+            <shouldCameraIgnoreExiting value="false" />
+            <AllowPretendOccupants value="true" />
+            <AllowJoyriding value="false" />
+            <AllowSundayDriving value="false" />
+            <AllowBodyColorMapping value="true" />
+            <wheelScale value="0.268600" />
+            <wheelScaleRear value="0.268600" />
+            <dirtLevelMin value="0.300000" />
+            <dirtLevelMax value="0.850000" />
+            <envEffScaleMin value="0.000000" />
+            <envEffScaleMax value="1.000000" />
+            <envEffScaleMin2 value="0.000000" />
+            <envEffScaleMax2 value="1.000000" />
+            <damageMapScale value="0.600000" />
+            <damageOffsetScale value="1.000000" />
+            <diffuseTint value="0xAA0A0A0A" />
+            <steerWheelMult value="1.000000" />
+            <HDTextureDist value="5.000000" />
+            <lodDistances content="float_array">20.000000
+        40.000000
+        80.000000
+        120.000000
+        500.000000
+        500.000000</lodDistances>
+            <minSeatHeight value="0.966" />
+            <identicalModelSpawnDistance value="140" />
+            <maxNumOfSameColor value="1" />
+            <defaultBodyHealth value="1000.000000" />
+            <pretendOccupantsScale value="1.000000" />
+            <visibleSpawnDistScale value="1.000000" />
+            <trackerPathWidth value="2.000000" />
+            <weaponForceMult value="1.000000" />
+            <frequency value="75" />
+            <swankness>SWANKNESS_1</swankness>
+            <maxNum value="1" />
+            <flags>FLAG_HAS_INTERIOR_EXTRAS FLAG_EXTRAS_REQUIRE FLAG_HAS_LIVERY FLAG_LAW_ENFORCEMENT FLAG_DONT_SPAWN_IN_CARGEN FLAG_IS_OFFROAD_VEHICLE FLAG_HAS_INTERIOR_EXTRAS FLAG_REPORT_CRIME_IF_STANDING_ON</flags>
+            <type>VEHICLE_TYPE_CAR</type>
+            <plateType>VPT_FRONT_AND_BACK_PLATES</plateType>
+            <dashboardType>VDT_CAVALCADE</dashboardType>
+            <vehicleClass>VC_EMERGENCY</vehicleClass>
+            <wheelType>VWT_OFFROAD</wheelType>
+            <trailers />
+            <additionalTrailers />
+            <drivers>
+                <Item>
+                    <driverName>S_F_Y_Ranger_01</driverName>
+                    <npcName />
+                </Item>
+                <Item>
+                    <driverName>S_M_Y_Ranger_01</driverName>
+                    <npcName />
+                </Item>
+            </drivers>
+            <extraIncludes />
+            <doorsWithCollisionWhenClosed />
+            <driveableDoors />
+            <bumpersNeedToCollideWithMap value="false" />
+            <needsRopeTexture value="false" />
+            <requiredExtras />
+            <rewards>
+                <Item>REWARD_WEAPON_PISTOL</Item>
+                <Item>REWARD_AMMO_PISTOL</Item>
+                <Item>REWARD_WEAPON_STUNGUN</Item>
+                <Item>REWARD_AMMO_STUNGUN</Item>
+                <Item>REWARD_STAT_WEAPON</Item>
+            </rewards>
+            <cinematicPartCamera>
+                <Item>WHEEL_FRONT_RIGHT_CAMERA</Item>
+                <Item>WHEEL_FRONT_LEFT_CAMERA</Item>
+                <Item>WHEEL_REAR_RIGHT_CAMERA</Item>
+                <Item>WHEEL_REAR_LEFT_CAMERA</Item>
+            </cinematicPartCamera>
+            <NmBraceOverrideSet />
+            <buoyancySphereOffset x="0.000000" y="0.000000" z="0.000000" />
+            <buoyancySphereSizeScale value="1.000000" />
+            <pOverrideRagdollThreshold type="NULL" />
+            <firstPersonDrivebyData>
+                <Item>RANGER_CAVALCADE_FRONT_LEFT</Item>
+                <Item>RANGER_FRONT_RIGHT</Item>
+                <Item>RANGER_PRANGER_REAR_LEFT</Item>
+                <Item>RANGER_PRANGER_REAR_RIGHT</Item>
+            </firstPersonDrivebyData>
+        </Item>
+    </InitDatas>
+    <txdRelationships>
+        <Item>
+            <parent>vehicles_cav_interior</parent>
+            <child>RANGERalamoK9</child>
+        </Item>
+        <Item>
+            <parent>vehicles_cav_interior</parent>
+            <child>RANGERlandroamerK9</child>
+        </Item>
+        <Item>
+            <parent>vehicles_cav_interior</parent>
+            <child>RANGERyosemiteK9</child>
+        </Item>
+        <Item>
+            <parent>vehicles_cav_interior</parent>
+            <child>RANGERyosemite</child>
+        </Item>
+        <Item>
+            <parent>vehicles_cav_interior</parent>
+            <child>RANGERyosemite2</child>
+        </Item>
+        <Item>
+            <parent>vehicles_cav_interior</parent>
+            <child>RANGERlandroamer</child>
+        </Item>
+        <Item>
+            <parent>vehicles_cav_interior</parent>
+            <child>RANGERalamo</child>
+        </Item>
+        <Item>
+            <parent>vehicles_cav_interior</parent>
+            <child>RANGERmesa</child>
+        </Item>
+        <Item>
+            <parent>vehicles_cav_interior</parent>
+            <child>RANGERfreecrawler</child>
+        </Item>
+        <Item>
+            <parent>vehicles_cav_interior</parent>
+            <child>RANGERbison</child>
+        </Item>
+        <Item>
+            <parent>vehicles_poltax_interior</parent>
+            <child>RANGERstanier</child>
+        </Item>
+        <Item>
+            <parent>vehicles_poltax_interior</parent>
+            <child>RANGERtorrence</child>
+        </Item>
+        <Item>
+            <parent>vehicles_cav_interior</parent>
+            <child>RANGERriata</child>
+        </Item>
+        <Item>
+            <parent>vehicles_cav_interior</parent>
+            <child>RANGERsadler</child>
+        </Item>
+        <Item>
+            <parent>vehicles_cav_interior</parent>
+            <child>RANGERpatriot</child>
+        </Item>
+        <Item>
+            <parent>vehicles_cav_interior</parent>
+            <child>RANGERscout</child>
+        </Item>
+        <Item>
+            <parent>vehicles_cav_interior</parent>
+            <child>RANGERgranger</child>
+        </Item>
+        <Item>
+            <parent>vehicles_cav_interior</parent>
+            <child>RANGERseminole</child>
+        </Item>
+        <Item>
+            <parent>vehicles_bob_interior</parent>
+            <child>RANGERutil</child>
+        </Item>
+        <Item>
+            <parent>vehicles_race_generic</parent>
+            <child>RANGERoutlaw</child>
+        </Item>
+        <Item>
+            <parent>vehicles_boat_interior</parent>
+            <child>RANGERpredator</child>
+        </Item>
+        <Item>
+            <parent>vehicles_flyer_interior</parent>
+            <child>RANGERvolito</child>
+        </Item>
+    </txdRelationships>
+</CVehicleModelInfo__InitDataList>

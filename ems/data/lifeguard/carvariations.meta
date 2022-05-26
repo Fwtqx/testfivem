@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CVehicleModelInfoVariation>
+  <variationData>
+  <Item>
+       <modelName>Lmesa</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            28
+            124
+            156
+            0
+            28
+            0
+          </indices>
+          <liveries>
+            <Item value="true"/>
+            <Item value="true"/>
+			<Item value="true"/>
+            <Item value="true"/>
+            <Item value="false"/>
+            <Item value="false"/>
+			<Item value="false"/>
+            <Item value="false"/>
+          </liveries>
+        </Item>
+		<Item>
+          <indices content="char_array">
+            28
+            28
+            156
+            0
+            134
+            0
+          </indices>
+          <liveries>
+            <Item value="true"/>
+            <Item value="true"/>
+			<Item value="true"/>
+            <Item value="true"/>
+            <Item value="false"/>
+            <Item value="false"/>
+			<Item value="false"/>
+            <Item value="false"/>
+          </liveries>
+        </Item>
+		<Item>
+          <indices content="char_array">
+            28
+            124
+            156
+            0
+            28
+            134
+          </indices>
+          <liveries>
+            <Item value="true"/>
+            <Item value="true"/>
+			<Item value="true"/>
+            <Item value="true"/>
+            <Item value="false"/>
+            <Item value="false"/>
+			<Item value="false"/>
+            <Item value="false"/>
+          </liveries>
+        </Item>
+		<Item>
+          <indices content="char_array">
+            28
+            28
+            156
+            0
+            28
+            89
+          </indices>
+          <liveries>
+            <Item value="true"/>
+            <Item value="true"/>
+			<Item value="true"/>
+            <Item value="true"/>
+            <Item value="false"/>
+            <Item value="false"/>
+			<Item value="false"/>
+            <Item value="false"/>
+          </liveries>
+        </Item>
+		<Item>
+          <indices content="char_array">
+            28
+            28
+            156
+            0
+            134
+            0
+          </indices>
+          <liveries>
+            <Item value="true"/>
+            <Item value="true"/>
+			<Item value="true"/>
+            <Item value="true"/>
+            <Item value="false"/>
+            <Item value="false"/>
+			<Item value="false"/>
+            <Item value="false"/>
+          </liveries>
+        </Item>
+		<Item>
+          <indices content="char_array">
+            28
+            28
+            156
+            0
+            134
+            28
+          </indices>
+          <liveries>
+            <Item value="true"/>
+            <Item value="true"/>
+			<Item value="true"/>
+            <Item value="true"/>
+            <Item value="false"/>
+            <Item value="false"/>
+			<Item value="false"/>
+            <Item value="false"/>
+          </liveries>
+        </Item>
+		
+		
+		<Item>
+          <indices content="char_array">
+            89
+            89
+            156
+            0
+            89
+            0
+          </indices>
+          <liveries>
+            <Item value="false"/>
+            <Item value="false"/>
+			<Item value="false"/>
+            <Item value="false"/>
+            <Item value="true"/>
+            <Item value="true"/>
+			<Item value="true"/>
+            <Item value="true"/>
+          </liveries>
+        </Item>
+		<Item>
+          <indices content="char_array">
+            89
+            124
+            156
+            0
+            89
+            0
+          </indices>
+          <liveries>
+            <Item value="false"/>
+            <Item value="false"/>
+			<Item value="false"/>
+            <Item value="false"/>
+            <Item value="true"/>
+            <Item value="true"/>
+			<Item value="true"/>
+            <Item value="true"/>
+          </liveries>
+        </Item>
+		<Item>
+          <indices content="char_array">
+            89
+            28
+            156
+            0
+            89
+            0
+          </indices>
+          <liveries>
+            <Item value="false"/>
+            <Item value="false"/>
+			<Item value="false"/>
+            <Item value="false"/>
+            <Item value="true"/>
+            <Item value="true"/>
+			<Item value="true"/>
+            <Item value="true"/>
+          </liveries>
+        </Item>
+		<Item>
+          <indices content="char_array">
+            89
+            124
+            156
+            0
+            134
+            0
+          </indices>
+          <liveries>
+            <Item value="false"/>
+            <Item value="false"/>
+			<Item value="false"/>
+            <Item value="false"/>
+            <Item value="true"/>
+            <Item value="true"/>
+			<Item value="true"/>
+            <Item value="true"/>
+          </liveries>
+        </Item>
+		<Item>
+          <indices content="char_array">
+            89
+            124
+            156
+            0
+            28
+            89
+          </indices>
+          <liveries>
+            <Item value="false"/>
+            <Item value="false"/>
+			<Item value="false"/>
+            <Item value="false"/>
+            <Item value="true"/>
+            <Item value="true"/>
+			<Item value="true"/>
+            <Item value="true"/>
+          </liveries>
+        </Item>
+		<Item>
+          <indices content="char_array">
+            89
+            28
+            156
+            0
+            28
+            89
+          </indices>
+          <liveries>
+            <Item value="false"/>
+            <Item value="false"/>
+			<Item value="false"/>
+            <Item value="false"/>
+            <Item value="true"/>
+            <Item value="true"/>
+			<Item value="true"/>
+            <Item value="true"/>
+          </liveries>
+        </Item>
+		<Item>
+          <indices content="char_array">
+            89
+            28
+            156
+            0
+            134
+            0
+          </indices>
+          <liveries>
+            <Item value="false"/>
+            <Item value="false"/>
+			<Item value="false"/>
+            <Item value="false"/>
+            <Item value="true"/>
+            <Item value="true"/>
+			<Item value="true"/>
+            <Item value="true"/>
+          </liveries>
+        </Item>
+		<Item>
+          <indices content="char_array">
+            89
+            28
+            156
+            0
+            0
+            134
+          </indices>
+          <liveries>
+            <Item value="false"/>
+            <Item value="false"/>
+			<Item value="false"/>
+            <Item value="false"/>
+            <Item value="true"/>
+            <Item value="true"/>
+			<Item value="true"/>
+            <Item value="true"/>
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges/>
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100"/>
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="0"/>
+      <sirenSettings value="200"/>
+   </Item>   
+
+  <Item>
+      <modelName>Lverus</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            44
+            0
+            4
+            156
+			0
+			0
+          </indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="true" />
+            <Item value="true" />
+            <Item value="true" />
+            <Item value="true" />
+            <Item value="true" />
+            <Item value="true" />
+            <Item value="true" />
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Standard White</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="1" />
+      <sirenSettings value="0" />
+    </Item>  
+  <Item>
+      <modelName>Leveron</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            44
+            44
+            0
+            134
+			28
+            111
+			28
+          </indices>
+          <liveries>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="false"/>
+            <Item value="false"/>
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges/>
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100"/>
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="226"/>
+      <sirenSettings value="250"/>
+    </Item>
+     <Item>
+      <modelName>Lgranger</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            44
+            44
+            0
+            134
+			28
+            111
+			28
+          </indices>
+          <liveries>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="false"/>
+            <Item value="false"/>
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges/>
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100"/>
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="226"/>
+      <sirenSettings value="250"/>
+    </Item>
+       <Item>
+      <modelName>Lsandking</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            89
+			89
+            5 
+            112
+            28
+            111
+			28
+          </indices>
+          <liveries/>
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100"/>
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="44" />
+      <sirenSettings value="1114" />
+    </Item>
+     <Item>
+      <modelName>Lsteed</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            89
+			89
+            5 
+            112
+            28
+            111
+			28
+          </indices>
+          <liveries/>
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100"/>
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="0" />
+      <sirenSettings value="1114" />
+    </Item>
+  	<Item>
+      <modelName>Lfreecrawler</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            44
+            89
+            156 
+            156
+            111          	
+          </indices>
+          <liveries>
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+			<Name>Police guv plate</Name>
+			<Value value="100"/>
+		  </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="134" />
+      <sirenSettings value="250" />
+    </Item>
+   <Item> 
+			<modelName>Lriata</modelName> 
+			<colors> 
+				<Item> 
+					<indices content="char_array"> 
+						89
+						89
+						156 
+						156
+						28
+                        111
+			            28
+					</indices> 
+					<liveries> 
+						<Item value="true" /> 
+						<Item value="false" /> 
+						<Item value="false" /> 
+						<Item value="false" /> 
+						<Item value="false" /> 
+						<Item value="false" /> 
+						<Item value="false" /> 
+						<Item value="false" /> 
+					</liveries> 
+				</Item> 
+			</colors> 
+			<kits> 
+				<Item>0_default_modkit</Item> 
+			</kits> 
+			<windowsWithExposedEdges /> 
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>Police guv plate</Name>
+						<Value value="100"/>
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="1" /> 
+			<sirenSettings value="250" />
+		</Item>
+      <Item>
+      <modelName>Lsqualo</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            44
+            134
+            0
+            156
+          </indices>
+          <liveries />
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges/>
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100"/>
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="10"/>
+      <sirenSettings value="250"/>
+    </Item>
+          <Item>
+      <modelName>LsqualoBC</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            44
+            134
+            0
+            156
+          </indices>
+          <liveries />
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges/>
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100"/>
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="10"/>
+      <sirenSettings value="250"/>
+    </Item>
+    <Item>
+      <modelName>Lcontender</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            44
+            44
+            0
+            156
+			28
+            111
+			28
+          </indices>
+          <liveries />
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges/>
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100"/>
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="1"/>
+      <sirenSettings value="250"/>
+    </Item>
+  <Item>
+      <modelName>Lyosemite</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            44
+            44
+            0
+            156
+			28
+            111
+			28
+          </indices>
+          <liveries />
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges/>
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100"/>
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="23"/>
+      <sirenSettings value="250"/>
+    </Item>
+	<Item>
+      <modelName>Lalamo</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            89
+            89
+            0
+            156
+			28
+            111
+			28
+          </indices>
+          <liveries />
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges/>
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100"/>
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="23"/>
+      <sirenSettings value="250"/>
+    </Item>
+  		<Item>
+      <modelName>lguard</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            89
+            89
+            0
+            156
+			28
+            111
+			28
+          </indices>
+          <liveries />
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges/>
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100"/>
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="23"/>
+      <sirenSettings value="250"/>
+    </Item>
+	</variationData>
+</CVehicleModelInfoVariation>

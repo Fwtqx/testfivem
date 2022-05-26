@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<CVehicleModelInfoVariation>
+	<variationData>
+	<Item>
+      <modelName>K9stanier</modelName>
+      <colors>
+				<Item>
+          <indices>
+            <Item value="1" />
+            <Item value="1" />
+            <Item value="156" />
+            <Item value="156" />
+          </indices>
+          <liveries/>
+        </Item>
+      </colors>
+      <kits>
+				<Item>0_defaultlspd_modkit</Item>
+			</kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>police guv plate</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="1" />
+      <sirenSettings value="102" />
+    </Item>
+	<Item>
+      <modelName>K9scout</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            <Item value="0" />
+            <Item value="1" />
+            <Item value="1" />
+            <Item value="0" />
+          </indices>
+          <liveries />
+        </Item>
+      </colors>
+      <kits>
+				<Item>0_defaultlspd_modkit</Item>
+			</kits>
+      <windowsWithExposedEdges/>
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100"/>
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="72"/>
+      <sirenSettings value="101"/>
+    </Item>
+	<Item>
+      <modelName>lspdgrangerk9</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            1
+            1
+            1
+            1
+            1
+            1
+          </indices>
+        </Item>
+      </colors>
+      <kits>
+				<Item>0_defaultlspd_modkit</Item>
+			</kits>
+     <windowsWithExposedEdges/>
+      <plateProbabilities>
+        <Probabilities>
+				  <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100"/>
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="23"/>
+      <sirenSettings value="102"/>
+	  </Item>
+	  <Item>
+      <modelName>K9slick</modelName>
+      <colors>
+				<Item>
+          <indices>
+            <Item value="134" />
+            <Item value="134" />
+            <Item value="156" />
+            <Item value="156" />
+          </indices>
+          <liveries/>
+        </Item>
+      </colors>
+      <kits>
+				<Item>0_defaultlspd_modkit</Item>
+			</kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>police guv plate</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="1" />
+      <sirenSettings value="96" />
+    </Item>
+	</variationData>
+</CVehicleModelInfoVariation>

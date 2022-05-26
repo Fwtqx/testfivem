@@ -1,0 +1,17 @@
+{
+	"services": "Services",
+	"keyboard": "Clavier",
+	"recents": "Récents",
+	"all": "Tous",
+	"missed": "Manqués",
+	"clear": "Nettoyer",
+	"done": "Terminer",
+	"voicemail": "Voicemail",
+	"incoming-call": "Appel entrant",
+	"remind-me": "Remind me",
+	"deny": "Refuser",
+	"accept": "Accepter",
+	"in-call": "Appel en cours",
+	"mute": "Mute",
+	"add-number": "ajouter ce numéro"
+}

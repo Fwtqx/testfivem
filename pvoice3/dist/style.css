@@ -1,0 +1,58 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.bg {
+    width: 100vh;
+	height: 100vh;
+}
+
+.voice-settings {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 800px;
+    height: 405px;
+    background-color: white;
+    padding-top: 16px;
+}
+
+.single-option {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 16px;
+    width: 100%;
+}
+
+.option {
+    flex: 1;
+    width: 100%;
+}
+
+.left-option {
+    margin-right: 16px;
+}
+
+.option-title {}
+
+.option-checkbox {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.checkbox {
+    margin-left: auto;
+    right: 0;
+}
+
+.checkbox-container {
+    flex: 1;
+    text-align: right;
+}
